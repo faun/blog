@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+Sascha Faun Winter
+</title>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='Personal portfolio and blog of Sascha Faun Winter' name='description'>
+<meta content='Sascha Faun Winter' name='author'>
+<link href='/stylesheets/application.css' rel='stylesheet'>
+<!-- /[if lt IE 9] -->
+<script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script>
+<link href='/assets/ico/favicon.ico' rel='shortcut icon'>
+<link href='/assets/ico/apple-touch-icon-144x144-precomposed.png' rel='apple-touch-icon-precomposed' sizes='144x144'>
+<link href='/assets/ico/apple-touch-icon-114x114-precomposed.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
+<link href='/assets/ico/apple-touch-icon-72x72-precomposed.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
+<link href='/assets/ico/apple-touch-icon-precomposed.png' rel='apple-touch-icon-precomposed'>
+</head>
+<body>
+<header class='navbar navbar-fixed-top navbar-inverse'>
+<div class='navbar-header'>
+<button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+</div>
+<div class='container'>
+<div class='navbar-inner'>
+<nav class='collapse navbar-collapse'>
+<ul class='nav navbar-nav'>
+<li>
+<a href="/">Home</a>
+</li>
+<li>
+<a href="/resume.html">Resume</a>
+</li>
+<li>
+<a href="/contact.html">Contact</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+
+<div class='container'>
+<div class='row'>
+<div class='col-lg-8 col-md-8 col-sm-12'>
+<h1 class='page-title'>
+Installing RSpec, FactoryGirl and Capybara with Rails 3.2
+</h1>
+<div class='section'>
+<div class='article'>
+<h3 id="generating-a-new-rails-app-without-testunit">Generating a new Rails app without Test::Unit</h3>
+
+<p>Let's get started. Begin by starting a new Rails project in the directory of your choice.</p>
+
+<pre><code>rails new my_app -T
+</code></pre>
+
+<p>This will generate a new app without the <code>Test::Unit</code> directories as usually would accompany a new Rails project</p>
+
+<h3 id="the-gemfile">The Gemfile</h3>
+
+<p>The first step to installing Rspec with Rails is to have a look at the <a href="https://github.com/rspec/rspec-rails">documentation</a>, which states you install it in both the test and development group.</p>
+
+<p>In your Gemfile, put the following to install <a href="https://github.com/rspec/rspec-rails">rspec-rails</a>, <a href="https://github.com/jnicklas/capybara">Capybara</a>, and <a href="https://github.com/thoughtbot/factory_girl">FactoryGirl</a>.</p>
+
+<script src="https://gist.github.com/4650812.js"></script>
+
+<p>To install these gems, run:</p>
+
+<pre><code>bundle
+</code></pre>
+
+<h3 id="install-rspec">Install RSpec</h3>
+
+<p>To install <code>rspec-rails</code> and tell Rails to use RSpec as the default testing framework instead of <code>Test::Unit</code>, run:</p>
+
+<pre><code>rails generate rspec:install
+</code></pre>
+
+<h3 id="configure-the-generators">Configure the generators</h3>
+
+<p>In <code>config/application.rb</code>, add the following code between the ellipses (surrounding code provided for context)</p>
+
+<script src="https://gist.github.com/4650819.js"></script>
+
+<p>This will ensure that when you run the Rails generators, (such as <code>rails g controller home</code>) the appropriate spec files will be generated as well.</p>
+
+<h3 id="using-capybara">Using Capybara</h3>
+
+<p>To use Capybara in your feature specs, all you need to do is require it from <code>spec/spec_helper.rb</code> (see line 5):</p>
+
+<script src="https://gist.github.com/4650825.js"></script>
+
+<p>As of Capybara 2.0, there is no configuration necessary to get access to the Capybara DSL (visit/page), given they are placed in the right location. See <a href="http://rubydoc.info/gems/rspec-rails/file/Capybara.md#Upgrading_to_Capybara-2_0">this page</a> for (slightly) more information. When you generate new feature tests, place them in <code>spec/features</code> to use Capybara DSL. Simple enough.</p>
+
+<h3 id="factorygirl-definitions">FactoryGirl Definitions</h3>
+
+<p>In addition to requiring Capybara, you will want to add an additional line to <code>spec/spec_helper.rb</code>:</p>
+
+<script src="https://gist.github.com/4651845.js"></script>
+
+<p>This ensures that the factories in <code>spec/factories</code> will be detected correctly and you can begin to use them without any further configuration.</p>
+
+</div>
+</div>
+<hr>
+<div class='section'>
+<div class='article'>
+<a class='btn btn-default' href='/'>←Back</a>
+</div>
+</div>
+
+</div>
+<div class='col-lg-4 col-md-4 col-sm-12'>
+<aside>
+<nav class='posts'>
+<h3 class='post_title'>All Posts:</h3>
+<ul class='recent'>
+<li>
+<a href="/2013/01/27/installing-rspec-factorygirl-and-capybara-with-rails-32.html">Installing RSpec, FactoryGirl and Capybara with Rails 3.2</a>
+</li>
+<li>
+<a href="/2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html">Restoring Archived Files from Amazon Glacier</a>
+</li>
+</ul>
+</nav>
+<nav class='elsewhere'>
+<h3>Elsewhere on the Web</h3>
+<ul>
+<li>
+<a href="https://twitter.com/faunzy">Twitter</a>
+</li>
+<li>
+<a href="http://www.linkedin.com/in/saschawinter">LinkedIn</a>
+</li>
+<li>
+<a href="http://flickr.com/faunzy">Flickr</a>
+</li>
+<li>
+<a href="http://instagram.com/faunzy">Instagram</a>
+</li>
+<li>
+<a href="https://github.com/faun">GitHub</a>
+</li>
+</ul>
+</nav>
+</aside>
+
+</div>
+</div>
+</div>
+<script src='//code.jquery.com/jquery.min.js' type='text/javascript'></script>
+<script src='/javascripts/application.js' type='text/javascript'></script>
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11110028-1']);
+  _gaq.push(['_trackPageview']);
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>
+

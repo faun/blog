@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2013-01-26T17:00:00Z</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Installing RSpec, FactoryGirl and Capybara with Rails 3.2</title>
+    <link rel="alternate" href="http://blog.url.com/2013/01/27/installing-rspec-factorygirl-and-capybara-with-rails-32.html"/>
+    <id>http://blog.url.com/2013/01/27/installing-rspec-factorygirl-and-capybara-with-rails-32.html</id>
+    <published>2013-01-26T17:00:00Z</published>
+    <updated>2013-11-05T17:08:10+07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3 id="generating-a-new-rails-app-without-testunit"&gt;Generating a new Rails app without Test::Unit&lt;/h3&gt;
+
+&lt;p&gt;Let's get started. Begin by starting a new Rails project in the directory of your choice.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rails new my_app -T
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will generate a new app without the &lt;code&gt;Test::Unit&lt;/code&gt; directories as usually would accompany a new Rails project&lt;/p&gt;
+
+&lt;h3 id="the-gemfile"&gt;The Gemfile&lt;/h3&gt;
+
+&lt;p&gt;The first step to installing Rspec with Rails is to have a look at the &lt;a href="https://github.com/rspec/rspec-rails"&gt;documentation&lt;/a&gt;, which states you install it in both the test and development group.&lt;/p&gt;
+
+&lt;p&gt;In your Gemfile, put the following to install &lt;a href="https://github.com/rspec/rspec-rails"&gt;rspec-rails&lt;/a&gt;, &lt;a href="https://github.com/jnicklas/capybara"&gt;Capybara&lt;/a&gt;, and &lt;a href="https://github.com/thoughtbot/factory_girl"&gt;FactoryGirl&lt;/a&gt;.&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/4650812.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;To install these gems, run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bundle
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="install-rspec"&gt;Install RSpec&lt;/h3&gt;
+
+&lt;p&gt;To install &lt;code&gt;rspec-rails&lt;/code&gt; and tell Rails to use RSpec as the default testing framework instead of &lt;code&gt;Test::Unit&lt;/code&gt;, run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rails generate rspec:install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="configure-the-generators"&gt;Configure the generators&lt;/h3&gt;
+
+&lt;p&gt;In &lt;code&gt;config/application.rb&lt;/code&gt;, add the following code between the ellipses (surrounding code provided for context)&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/4650819.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;This will ensure that when you run the Rails generators, (such as &lt;code&gt;rails g controller home&lt;/code&gt;) the appropriate spec files will be generated as well.&lt;/p&gt;
+
+&lt;h3 id="using-capybara"&gt;Using Capybara&lt;/h3&gt;
+
+&lt;p&gt;To use Capybara in your feature specs, all you need to do is require it from &lt;code&gt;spec/spec_helper.rb&lt;/code&gt; (see line 5):&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/4650825.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;As of Capybara 2.0, there is no configuration necessary to get access to the Capybara DSL (visit/page), given they are placed in the right location. See &lt;a href="http://rubydoc.info/gems/rspec-rails/file/Capybara.md#Upgrading_to_Capybara-2_0"&gt;this page&lt;/a&gt; for (slightly) more information. When you generate new feature tests, place them in &lt;code&gt;spec/features&lt;/code&gt; to use Capybara DSL. Simple enough.&lt;/p&gt;
+
+&lt;h3 id="factorygirl-definitions"&gt;FactoryGirl Definitions&lt;/h3&gt;
+
+&lt;p&gt;In addition to requiring Capybara, you will want to add an additional line to &lt;code&gt;spec/spec_helper.rb&lt;/code&gt;:&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/4651845.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;This ensures that the factories in &lt;code&gt;spec/factories&lt;/code&gt; will be detected correctly and you can begin to use them without any further configuration.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Restoring Archived Files from Amazon Glacier</title>
+    <link rel="alternate" href="http://blog.url.com/2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html"/>
+    <id>http://blog.url.com/2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html</id>
+    <published>2012-12-15T17:00:00Z</published>
+    <updated>2013-11-05T17:08:07+07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3 id="the-problem"&gt;The Problem&lt;/h3&gt;
+
+&lt;p&gt;A few weeks ago I got into a situation in which I needed to restore a large number of files from Amazon's then-new service: S3 Archive (Glacier). These objects (Amazon's word for files), are not standard Glacier objects, but are S3 objects that have been &lt;a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html"&gt;transitioned&lt;/a&gt; to long-term storage. You can read more about Glacier &lt;a href="http://aws.amazon.com/glacier/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h6 id="the-other-problem"&gt;The Other Problem&lt;/h6&gt;
+
+&lt;p&gt;Normally you could restore these objects in the AWS console, but being a new service, Amazon didn't consider the use case of restoring files in bulk across the multiple directories presented in the AWS console. Yes, I know S3 doesn't have directories, they only have objects. However, the objects are presented as if they were folders in the AWS management console. Every slash is translated into a directory that can be traversed and scrolled though. You can scroll though directories using their awkward, slow web interface that the returns to the top of the listing every time you navigate in and out of a folder, making the prospect of restoring these files a multi-month proposition. This meant that the console was out of the question. So that meant writing a script using the Amazon Web Services API.&lt;/p&gt;
+
+&lt;h3 id="the-solution"&gt;The Solution&lt;/h3&gt;
+
+&lt;p&gt;I had two options for writing a script to restore these objects: &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Use the Java SDK provided by Amazon&lt;/li&gt;
+  &lt;li&gt;Write something myself since the Amazon Ruby SDKs are out of date and the existing Ruby libraries had not yet been updated to work with S3 archived object and don't offer you a way to make an arbitrary POST request (that I could tell).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So I set out to use the standard S3 API v2 (which I was using in the app I was working on) to restore these objects using a signed POST request to &lt;code&gt;object\_name?restore&lt;/code&gt; to the specified object. Below is that script I cranked out during a sleepless state of delirium.&lt;/p&gt;
+
+&lt;h3 id="usage"&gt;Usage:&lt;/h3&gt;
+
+&lt;p&gt;Make a file called &lt;code&gt;files\_to\_restore.txt&lt;/code&gt; in the same directory as the &lt;code&gt;glacier\_restore.rb&lt;/code&gt; file shown in the gist below.
+Add your files in the format (one object per line, no leading slash, no bucket name):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sub/folder/object_1.ext
+another/sub/folder/object_2.ext
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ruby glacier_restore.rb &amp;gt; out.txt 2&amp;gt;err.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or, to resume a stopped job:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ruby glacier_restore.rb &amp;gt;&amp;gt; out.txt 2&amp;gt;&amp;gt;err.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="tldr"&gt;tl;dr&lt;/h3&gt;
+
+&lt;p&gt;This script can be used to restore Amazon S3 objects that were archived using the &lt;a href="http://docs.amazonwebservices.com/AmazonS3/latest/UG/LifecycleConfiguration.html"&gt;lifecycle&lt;/a&gt; feature of Amazon S3. &lt;/p&gt;
+
+&lt;h3 id="disclaimer"&gt;Disclaimer&lt;/h3&gt;
+
+&lt;p&gt;This is an ugly piece of code that I found useful for a short period of time. Hence I do not intend to maintain this script. I share it only in the hopes that restoring files from S3 archive is less painful for you than it was for me. I used this script to restore tens of thousands of objects before Amazon was able to step in and take over with a script that they had written themselves. Best of luck!&lt;/p&gt;
+
+&lt;h3 id="license"&gt;License&lt;/h3&gt;
+
+&lt;p&gt;Copyright © 2012 Sascha Winter&lt;/p&gt;
+
+&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+
+&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+
+&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id="further-reading"&gt;Further Reading:&lt;/h3&gt;
+
+&lt;p&gt;See the &lt;a href="http://docs.amazonwebservices.com/AmazonS3/latest/API/RESTObjectPOSTrestore.html"&gt;RESTObjectPOSTrestore&lt;/a&gt; and &lt;a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/restoring-objects.html"&gt;restoring-objects&lt;/a&gt; for more info.&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/4092579.js"&gt;&lt;/script&gt;
+
+</content>
+  </entry>
+</feed>
