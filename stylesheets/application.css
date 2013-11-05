@@ -6145,7 +6145,7 @@ td.visible-print {
     display: none !important; } }
 /* line 5, /Users/faun/src/middleman/source/stylesheets/application.css.scss */
 body {
-  padding: 80px 10px 20px 10px; }
+  padding: 80px 0 20px 0; }
 
 /* line 9, /Users/faun/src/middleman/source/stylesheets/application.css.scss */
 header {
@@ -6154,3 +6154,7 @@ header {
 /* line 13, /Users/faun/src/middleman/source/stylesheets/application.css.scss */
 nav.collapse {
   margin-bottom: 0; }
+
+/* line 17, /Users/faun/src/middleman/source/stylesheets/application.css.scss */
+img {
+  max-width: 100%; }
