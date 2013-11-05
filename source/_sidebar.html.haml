@@ -1,0 +1,13 @@
+%aside
+  %nav.posts
+    %h3.post_title All Posts:
+    %ul.recent
+      - blog.articles.each do |post|
+        %li
+          = link_to post.title, post.url
+  %nav.elsewhere
+    %h3 Elsewhere on the Web
+    %ul
+      - site.external_links.each do |link|
+        %li
+          = link_to link['name'], link['url']
