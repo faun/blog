@@ -21,11 +21,11 @@ I had two options for writing a script to restore these objects:
 1. Use the Java SDK provided by Amazon
 2. Write something myself since the Amazon Ruby SDKs are out of date and the existing Ruby libraries had not yet been updated to work with S3 archived object and don't offer you a way to make an arbitrary POST request (that I could tell).
 
-So I set out to use the standard S3 API v2 (which I was using in the app I was working on) to restore these objects using a signed POST request to <code>object\_name?restore</code> to the specified object. Below is that script I cranked out during a sleepless state of delirium.
+So I set out to use the standard S3 API v2 (which I was using in the app I was working on) to restore these objects using a signed POST request to `object_name?restore` to the specified object. Below is that script I cranked out during a sleepless state of delirium.
 
 ###Usage:
 
-Make a file called <code>files\_to\_restore.txt</code> in the same directory as the <code>glacier\_restore.rb</code> file shown in the gist below.
+Make a file called `files_to_restore.txt` in the same directory as the `glacier_restore.rb` file shown in the gist below.
 Add your files in the format (one object per line, no leading slash, no bucket name):
 
     sub/folder/object_1.ext
