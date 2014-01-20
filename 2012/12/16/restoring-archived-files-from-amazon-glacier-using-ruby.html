@@ -53,6 +53,10 @@ Sascha Faun Winter
 <h1 class='page-title'>
 Restoring Archived Files from Amazon Glacier
 </h1>
+<aside class='attribion'>
+by
+<a href="https://twitter.com/faunzy">Sascha Faun Winter</a>
+</aside>
 <div class='section'>
 <div class='article'>
 <h3 id="the-problem">The Problem</h3>
@@ -72,11 +76,11 @@ Restoring Archived Files from Amazon Glacier
   <li>Write something myself since the Amazon Ruby SDKs are out of date and the existing Ruby libraries had not yet been updated to work with S3 archived object and don't offer you a way to make an arbitrary POST request (that I could tell).</li>
 </ol>
 
-<p>So I set out to use the standard S3 API v2 (which I was using in the app I was working on) to restore these objects using a signed POST request to <code>object\_name?restore</code> to the specified object. Below is that script I cranked out during a sleepless state of delirium.</p>
+<p>So I set out to use the standard S3 API v2 (which I was using in the app I was working on) to restore these objects using a signed POST request to <code>object_name?restore</code> to the specified object. Below is that script I cranked out during a sleepless state of delirium.</p>
 
 <h3 id="usage">Usage:</h3>
 
-<p>Make a file called <code>files\_to\_restore.txt</code> in the same directory as the <code>glacier\_restore.rb</code> file shown in the gist below.
+<p>Make a file called <code>files_to_restore.txt</code> in the same directory as the <code>glacier_restore.rb</code> file shown in the gist below.
 Add your files in the format (one object per line, no leading slash, no bucket name):</p>
 
 <pre><code>sub/folder/object_1.ext
