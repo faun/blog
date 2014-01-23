@@ -2,6 +2,18 @@
 
 See [gh-pages](https://github.com/faun/blog/tree/gh-pages) branch for static content.
 
+# Create a new article
+
+`middleman article TITLE`
+
+# Watch for changes and rebuild
+
+`middleman`
+
+# Publish
+
+`rake publish`
+
 # LICENSE
 
 Copyright (c) 2013 Sascha Winter
