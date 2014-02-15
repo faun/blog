@@ -12,3 +12,4 @@ gem 'bootstrap-sass'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
+gem 'rack-offline', :require => false

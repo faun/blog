@@ -131,3 +131,21 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+require 'rack/offline'
+
+ready do
+  all_pages = sitemap.resources.map{|r| r.destination_path }
+  offline = Rack::Offline.configure do
+    cache "http://code.jquery.com/jquery.min.js"
+    cache "http://html5shim.googlecode.com/svn/trunk/html5.js"
+    fallback '/' =>  '/offline.html'
+    network 'http://www.google-analytics.com/ga.js'
+    network 'http://www.google-analytics.com/__utm.gif'
+    all_pages.each {|page| cache page }
+  end
+
+  map("/offline.appcache") { run offline }
+  endpoint '/offline.appcache', :path => "/offline.appcache"
+end
+

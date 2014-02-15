@@ -1,5 +1,4 @@
 @import "compass";
-
 @import "bootstrap";
 
 body {
@@ -16,4 +15,10 @@ nav.collapse {
 
 img {
   max-width: 100%;
+}
+
+.frown {
+  float: left;
+  @include transform(rotate(90deg));
+  @include transform-origin(top left);
 }
