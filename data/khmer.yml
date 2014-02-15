@@ -1,9 +1,15 @@
 ---
 directions:
-  Turn left: bat cheueeng
+  Turn left: bat chueeng
   Turn right: bat sdam
   Go straight: toewe trɔng
 
 greetings:
   Hello: sua-sdey
   Thank you: ɔɔ-gun
+
+Basics:
+  Yes: baa (male speaker)
+  Yes: jaa (female speaker)
+  No: ɔt-dtee
+
