@@ -10,7 +10,7 @@ Seeking opportunities in team-oriented development, interaction design and large
 
 ##Skills
 
-Faun is a full-stack web programer with an emphasis on best practices and team-oriented development. He seeks to redefine "done" and embrace the beautiful impermanence of web applications through wabi-sabi, user experience cultivation through rapid prototyping, and mitigation of the "curse of knowledge" in a fast-paced and iterative environment.
+Faun is a full-stack web programmer with an emphasis on best practices and team-oriented development. He seeks to redefine "done" and embrace the beautiful impermanence of web applications through wabi-sabi, user experience cultivation through rapid prototyping, and mitigation of the "curse of knowledge" in a fast-paced and iterative environment.
 
 With a strong technical inclination and highly resourceful approach to troubleshooting and problem solving, Faun is adept in building complex, object-oriented applications with a focus on maintainability and ease of use.
 
