@@ -7,9 +7,9 @@
     %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
     %meta{content: "Personal portfolio and blog of Sascha Faun Winter", name: "description"}/
     %meta{content: "Sascha Faun Winter", name: "author"}/
-    %link{href: "/stylesheets/application.css", rel: "stylesheet"}
+    = stylesheet_link_tag "application"
     //[if lt IE 9]
-    %script{src: "http://html5shim.googlecode.com/svn/trunk/html5.js"}
+    =javascript_include_tag "http://html5shim.googlecode.com/svn/trunk/html5.js"
     %link{href: "/assets/ico/favicon.ico", rel: "shortcut icon"}/
     %link{href: "/assets/ico/apple-touch-icon-144x144-precomposed.png", rel: "apple-touch-icon-precomposed", sizes: "144x144"}/
     %link{href: "/assets/ico/apple-touch-icon-114x114-precomposed.png", rel: "apple-touch-icon-precomposed", sizes: "114x114"}/
