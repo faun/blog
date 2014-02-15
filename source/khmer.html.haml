@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Conversational Khmer"
+description: "Phonetic pronunciation of common words in Khmer in order to communicate functionally while in Cambodia"
+
+---
+.table-responsive
+  %table.table.table-striped.table-bordered.col-lg-12
+    - data.khmer.each do |section|
+      %tr
+        %th{colspan: 2}
+          %h3
+            = section.shift.capitalize
+      - section[0].each_pair do |key, value|
+        %tr
+          %td
+            = key
+          %td
+            = value
+
