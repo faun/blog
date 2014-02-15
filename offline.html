@@ -50,75 +50,9 @@ Sascha Faun Winter
 <div class='container'>
 <div class='row'>
 <div class='col-lg-8 col-md-8 col-sm-12'>
-<h1 class='page-title'>
-Installing RSpec, FactoryGirl and Capybara with Rails 3.2
-</h1>
-<aside class='attribion'>
-by
-<a href="https://twitter.com/faunzy">Sascha Winter</a>
-</aside>
-<div class='section'>
-<div class='article'>
-<h3 id="generating-a-new-rails-app-without-testunit">Generating a new Rails app without Test::Unit</h3>
-
-<p>Let's get started. Begin by starting a new Rails project in the directory of your choice.</p>
-
-<pre><code>rails new my_app -T
-</code></pre>
-
-<p>This will generate a new app without the <code>Test::Unit</code> directories as usually would accompany a new Rails project</p>
-
-<h3 id="the-gemfile">The Gemfile</h3>
-
-<p>The first step to installing Rspec with Rails is to have a look at the <a href="https://github.com/rspec/rspec-rails">documentation</a>, which states you install it in both the test and development group.</p>
-
-<p>In your Gemfile, put the following to install <a href="https://github.com/rspec/rspec-rails">rspec-rails</a>, <a href="https://github.com/jnicklas/capybara">Capybara</a>, and <a href="https://github.com/thoughtbot/factory_girl">FactoryGirl</a>.</p>
-
-<script src="https://gist.github.com/4650812.js"></script>
-
-<p>To install these gems, run:</p>
-
-<pre><code>bundle
-</code></pre>
-
-<h3 id="install-rspec">Install RSpec</h3>
-
-<p>To install <code>rspec-rails</code> and tell Rails to use RSpec as the default testing framework instead of <code>Test::Unit</code>, run:</p>
-
-<pre><code>rails generate rspec:install
-</code></pre>
-
-<h3 id="configure-the-generators">Configure the generators</h3>
-
-<p>In <code>config/application.rb</code>, add the following code between the ellipses (surrounding code provided for context)</p>
-
-<script src="https://gist.github.com/4650819.js"></script>
-
-<p>This will ensure that when you run the Rails generators, (such as <code>rails g controller home</code>) the appropriate spec files will be generated as well.</p>
-
-<h3 id="using-capybara">Using Capybara</h3>
-
-<p>To use Capybara in your feature specs, all you need to do is require it from <code>spec/spec_helper.rb</code> (see line 5):</p>
-
-<script src="https://gist.github.com/4650825.js"></script>
-
-<p>As of Capybara 2.0, there is no configuration necessary to get access to the Capybara DSL (visit/page), given they are placed in the right location. See <a href="http://rubydoc.info/gems/rspec-rails/file/Capybara.md#Upgrading_to_Capybara-2_0">this page</a> for (slightly) more information. When you generate new feature tests, place them in <code>spec/features</code> to use Capybara DSL. Simple enough.</p>
-
-<h3 id="factorygirl-definitions">FactoryGirl Definitions</h3>
-
-<p>In addition to requiring Capybara, you will want to add an additional line to <code>spec/spec_helper.rb</code>:</p>
-
-<script src="https://gist.github.com/4651845.js"></script>
-
-<p>This ensures that the factories in <code>spec/factories</code> will be detected correctly and you can begin to use them without any further configuration.</p>
-
-</div>
-</div>
-<hr>
-<div class='section'>
-<div class='article'>
-<a class='btn btn-default' href='/'>←Back</a>
-</div>
+<div class='h1'>
+<div class='frown'>:-(</div>
+Currently offline
 </div>
 
 </div>
@@ -178,4 +112,3 @@ by
 </script>
 </body>
 </html>
-
