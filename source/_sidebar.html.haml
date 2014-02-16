@@ -10,4 +10,4 @@
     %ul
       - site.external_links.each do |link|
         %li
-          = link_to link['name'], link['url']
+          = link_to link['name'], link['url'], rel: 'me'
