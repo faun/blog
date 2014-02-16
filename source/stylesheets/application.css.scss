@@ -22,3 +22,8 @@ img {
   @include transform(rotate(90deg));
   @include transform-origin(top left);
 }
+.even_split {
+  td {
+    width: 50%;
+  }
+}

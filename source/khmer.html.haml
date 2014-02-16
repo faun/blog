@@ -4,15 +4,15 @@ title: "Conversational Khmer"
 description: "Phonetic pronunciation of common words in Khmer in order to communicate functionally while in Cambodia"
 
 ---
-.table-responsive
-  %table.table.table-striped.table-bordered.col-lg-12
-    - data.khmer.each do |section|
+- data.khmer.each do |section|
+  .table-responsive
+    %table.table.table-striped.table-bordered.col-lg-12
       %tr
         %th{colspan: 2}
           %h3
             = section.shift
       - section[0].each do |row|
-        %tr
+        %tr.even_split
           - row.each_pair do |key, value|
             %td
               = key
