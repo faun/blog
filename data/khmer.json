@@ -1,16 +1,45 @@
 {
+  "Basics": [
+    { "Yes": "baa (male speaker)" },
+    { "Yes": "jaa (female speaker)" },
+    { "No": "ɔt-dtee" },
+    { "No thank you": "ɔt-dtee ɔɔ-gun" },
+    { "I don't understand": "knom ɔt yul dtee" },
+    { "I don't speak Khmer": "knom ɔt jey nijay khmae dtee" },
+    { "a little bit": "tick-teach" }
+  ],
   "Directions": [
     { "Turn left": "bat chueeng" },
     { "Turn right": "bat sdam" },
-    { "Go straight": "toewe trɔng" }
+    { "Go straight": "toewe trɔng" },
+    {"Stop": "som choep" }
   ],
   "Greetings": [
     { "Hello": "sua-sdey" },
     { "Thank you": "ɔɔ-gun" }
   ],
-  "Basics": [
-    { "Yes": "baa (male speaker)" },
-    { "Yes": "jaa (female speaker)" },
-    { "No": "ɔt-dtee" }
+  "Nouns": [
+    { "house": "pdtɛah" },
+    { "phone": "to-ro-sab" },
+    { "phone": "leck" },
+    { "name": "chmuah" },
+    { "free": "dtum-nee"},
+    { "food (eaten with rice)": "ma-hoob"},
+    { "food (in general)": "aa-haaa"}
+  ],
+  "Adverbs": [
+    { "together" : "jia muay knia" },
+    { "at home" : "nəu pdtɛah" }
+  ],
+  "Adverbs of Frequency" :[
+    {"always":"dtaeng (dtae)"},
+    {"often":"nək ñoab"},
+    {"Occasionally":"mdɔɔng mkaal"},
+    {"never":"mən dial (…dtee)"},
+    {"usually":"tam toam-a-daa"},
+    {"sometimes":"juan gaal"},
+    {"sometimes":"bpeel klah"},
+    {"rarely":"kɔm-rɔɔ"},
+    {"ever":"tloab"}
   ]
 }
