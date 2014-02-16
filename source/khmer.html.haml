@@ -10,11 +10,11 @@ description: "Phonetic pronunciation of common words in Khmer in order to commun
       %tr
         %th{colspan: 2}
           %h3
-            = section.shift.capitalize
-      - section[0].each_pair do |key, value|
+            = section.shift
+      - section[0].each do |row|
         %tr
-          %td
-            = key
-          %td
-            = value
-
+          - row.each_pair do |key, value|
+            %td
+              = key
+            %td
+              = value

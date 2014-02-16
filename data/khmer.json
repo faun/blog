@@ -1,0 +1,16 @@
+{
+  "Directions": [
+    { "Turn left": "bat chueeng" },
+    { "Turn right": "bat sdam" },
+    { "Go straight": "toewe trɔng" }
+  ],
+  "Greetings": [
+    { "Hello": "sua-sdey" },
+    { "Thank you": "ɔɔ-gun" }
+  ],
+  "Basics": [
+    { "Yes": "baa (male speaker)" },
+    { "Yes": "jaa (female speaker)" },
+    { "No": "ɔt-dtee" }
+  ]
+}
