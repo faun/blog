@@ -76,6 +76,22 @@
     { "small" : "dtooch" },
     { "tall" : "kpuah" }
   ],
+  "Question Words": [
+    { "how many" : "bpon-maan" },
+    { "how much (quantity)" : "bpon-maan" },
+    { "how much (price)" : "tlai bpon-maan" },
+    { "how old" : "ayu bpon-maan" },
+    { "how (do)" : "yaang-meij" },
+    { "what" : "ey" },
+    { "what time" : "maong bpon-maan" },
+    { "when" : "bpeel-naa" },
+    { "where" : "nəu̶-naa/naa" },
+    { "which (one)" : "muay-naa" },
+    { "whom" : "nek-naa" },
+    { "whose" : "roo-bɔh-nek-naa" },
+    { "who" : "nek-naa" },
+    { "why" : "haey-ey" }
+  ],
   "Adverbs": [
     { "together" : "jia muay knia" },
     { "already" : "hau̶ey" }
