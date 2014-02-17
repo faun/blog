@@ -64,7 +64,17 @@
     { "write" : "sɔɔ-see" }
   ],
   "Adjectives": [
-    { "big" : "tum" }
+    { "bad" : "aa-grɔk" },
+    { "big" : "tum" },
+    { "difficult" : "bpi-baak" },
+    { "easy" : "srual" },
+    { "fast/early" : "lu̶an" },
+    { "good" : "la-ɔɔ" },
+    { "short (distance)" : "kley" },
+    { "short (height)" : "dtiab" },
+    { "slow/late" : "yu̶u̶t" },
+    { "small" : "dtooch" },
+    { "tall" : "kpuah" }
   ],
   "Adverbs": [
     { "together" : "jia muay knia" },
