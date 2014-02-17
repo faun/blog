@@ -92,6 +92,18 @@
     { "who" : "nek-naa" },
     { "why" : "haey-ey" }
   ],
+  "Subject Pronouns": [
+    { "I" : "kñom" },
+    { "you (written only)" : "nek" },
+    { "you (older or similar age as speaker)" : "bɔng" },
+    { "you (younger than speaker, written)" : "pa-own" },
+    { "you (younger than speaker, spoken)" : "own" },
+    { "we" : "yəəng" },
+    { "he/she" : "goat" },
+    { "it" : "wia" },
+    { "they (people)" : "bpuak-goat" },
+    { "they (non-human things)" : "bpuak-wia" }
+  ],
   "Adverbs": [
     { "together" : "jia muay knia" },
     { "already" : "hau̶ey" }
