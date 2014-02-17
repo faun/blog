@@ -19,14 +19,22 @@
     { "Thank you" : "ɔɔ-gun" }
   ],
   "Nouns": [
-    { "house" : "pdtɛah" },
-    { "phone" : "to-ro-sab" },
-    { "name" : "chmuah" },
-    { "free" : "dtum-nee" },
+    { "bag" : "gaa-baob" },
+    { "bank" : "to-nia-gia" },
+    { "book" : "siaw-bpəu̶" },
     { "food (eaten with rice)" : "ma-hoob" },
     { "food (in general)" : "aa-haaa" },
+    { "free" : "dtum-nee" },
+    { "hotel" : "sɔn-taa-gia/o-dtel" },
+    { "house" : "pdtɛah" },
+    { "language" : "pia-saa" },
+    { "market" : "psaa" },
+    { "name" : "chmuah" },
     { "number" : "leck" },
-    { "phone" : "to-ro-sab" }
+    { "pen" : "bicsh" },
+    { "phone" : "to-ro-sab" },
+    { "restaurant" : "po-ji-nii-taan" },
+    { "school" : "saa-la(-rian)" }
   ],
   "Measurements of Time": [
     { "week" : "aat-dtit" }
