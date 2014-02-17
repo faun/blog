@@ -8,9 +8,8 @@ description: "Phonetic pronunciation of common words in Khmer in order to commun
   .table-responsive
     %table.table.table-striped.table-bordered.col-lg-12
       %tr
-        %th{colspan: 2}
-          %h3
-            = section.shift
+        %th.section_header{colspan: 2}
+          = section.shift
       - section[0].each do |row|
         %tr.even_split
           - row.each_pair do |key, value|

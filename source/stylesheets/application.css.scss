@@ -22,6 +22,11 @@ img {
   @include transform(rotate(90deg));
   @include transform-origin(top left);
 }
+
+.section_header {
+  @extend h3;
+}
+
 .even_split {
   td {
     width: 50%;
