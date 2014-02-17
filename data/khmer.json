@@ -96,6 +96,16 @@
     { "together" : "jia muay knia" },
     { "already" : "hau̶ey" }
   ],
+  "Adverbs of Time": [
+    { "afternoon" : "bpeel ro-sial" },
+    { "evening" : "bpeel la-ngaik" },
+    { "morning" : "bpeel-bprək" },
+    { "night" : "bpeel yub" },
+    { "today" : "tngai-nih" },
+    { "tomorrow" : "sa-aek" },
+    { "tonight" : "yub nih" },
+    { "yesterday" : "ma-sel-minh" }
+  ],
   "Adverbs of Frequency" :[
     { "always" : "dtaeng (dtae)" },
     { "often" : "nək ñoab" },
