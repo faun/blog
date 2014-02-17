@@ -9,7 +9,7 @@
     { "a little bit" : "tick-teach" }
   ],
   "Directions": [
-    { "Turn left" : "bat chueeng" },
+    { "Turn left" : "bat chweeng" },
     { "Turn right" : "bat sdam" },
     { "Go straight" : "toewe trɔng" },
     { "Stop" : "som choep" }
@@ -114,7 +114,7 @@
     { "out/outside" : "nəu̶-grau" },
     { "under/below" : "nəu̶-graom" },
     { "left" : "chweeng" },
-    { "right" : "chweeng" },
+    { "right" : "sdam" },
     { "straight" : "trɔng" },
     { "this" : "nih" },
     { "that" : "nuh" },
