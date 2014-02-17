@@ -5,46 +5,46 @@
     { "No" : "ɔt-dtee" },
     { "No thank you" : "ɔt-dtee ɔɔ-gun" },
     { "I don't understand" : "knom ɔt yul dtee" },
-    { "I don't speak Khmer" : "knom ɔt jey nijay khmae dtee" },
-    { "a little bit" : "tick-teach" }
+    { "I don't speak Khmer" : "knom ɔt jeh ni-yiay khmae dtee" },
+    { "a little bit" : "dtic-dtiich (or dtic-dtic)" }
   ],
   "Directions": [
-    { "Turn left" : "bat chweeng" },
-    { "Turn right" : "bat sdam" },
-    { "Go straight" : "toewe trɔng" },
-    { "Stop" : "som choep" }
+    { "Turn left" : "bɔt chweeng" },
+    { "Turn right" : "bɔt sdam" },
+    { "Go straight" : "dtoewe dtrɔng" },
+    { "Stop" : "som chope" }
   ],
   "Greetings": [
     { "Hello" : "sua-sdey" },
     { "Thank you" : "ɔɔ-gun" }
   ],
   "Nouns": [
-    { "bag" : "gaa-baob" },
+    { "bag" : "gaa-bobe" },
     { "bank" : "to-nia-gia" },
     { "book" : "siaw-bpəu̶" },
-    { "food (eaten with rice)" : "ma-hoob" },
-    { "food (in general)" : "aa-haaa" },
+    { "food (eaten with rice)" : "ma-hobe" },
+    { "food (in general)" : "aa-haa" },
     { "free" : "dtum-nee" },
     { "hotel" : "sɔn-taa-gia/o-dtel" },
     { "house" : "pdtɛah" },
     { "language" : "pia-saa" },
     { "market" : "psaa" },
     { "name" : "chmuah" },
-    { "number" : "leck" },
-    { "pen" : "bicsh" },
+    { "number" : "leeck" },
+    { "pen" : "bich" },
     { "phone" : "to-ro-sab" },
     { "restaurant" : "po-ji-nii-taan" },
-    { "school" : "saa-la(-rian)" }
+    { "school" : "saa-laa(-rian)" }
   ],
   "Measurements of Time": [
-    { "week" : "aat-dtit" }
+    { "week" : "aa-dtət" }
   ],
   "Verbs": [
     { "buy" : "dtiñ" },
     { "come from" : "mook-bpii" },
     { "do" : "twəə" },
     { "eat" : "ñam" },
-    { "get up" : "graol-bpii-geeng" },
+    { "get up" : "graok-bpii-geeng" },
     { "go" : "dtəu̶" },
     { "learn" : "rian" },
     { "learn/to study" : "rian" },
@@ -54,7 +54,7 @@
     { "read" : "aan" },
     { "reply/answer" : "chlauy" },
     { "sleep (go to)" : "geeng (jool geeng)" },
-    { "speak" : "nijáy" },
+    { "speak" : "ni-yiay" },
     { "understand" : "yul" },
     { "walk (to)" : "dau (dtəu̶)" },
     { "want (something)" : "jɔng-baan" },
@@ -142,7 +142,7 @@
     { "often" : "nək ñoab" },
     { "Occasionally" : "mdɔɔng mkaal" },
     { "never" : "mən dael (…dtee)" },
-    { "usually" : "tam toam-a-daa" },
+    { "usually" : "taam toama-daa" },
     { "sometimes" : "juan gaal" },
     { "sometimes" : "bpeel klah" },
     { "rarely" : "kɔm-rɔɔ" },
