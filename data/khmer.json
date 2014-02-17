@@ -1,45 +1,77 @@
 {
   "Basics": [
-    { "Yes": "baa (male speaker)" },
-    { "Yes": "jaa (female speaker)" },
-    { "No": "ɔt-dtee" },
-    { "No thank you": "ɔt-dtee ɔɔ-gun" },
-    { "I don't understand": "knom ɔt yul dtee" },
-    { "I don't speak Khmer": "knom ɔt jey nijay khmae dtee" },
-    { "a little bit": "tick-teach" }
+    { "Yes" : "baa (male speaker)" },
+    { "Yes" : "jaa (female speaker)" },
+    { "No" : "ɔt-dtee" },
+    { "No thank you" : "ɔt-dtee ɔɔ-gun" },
+    { "I don't understand" : "knom ɔt yul dtee" },
+    { "I don't speak Khmer" : "knom ɔt jey nijay khmae dtee" },
+    { "a little bit" : "tick-teach" }
   ],
   "Directions": [
-    { "Turn left": "bat chueeng" },
-    { "Turn right": "bat sdam" },
-    { "Go straight": "toewe trɔng" },
-    {"Stop": "som choep" }
+    { "Turn left" : "bat chueeng" },
+    { "Turn right" : "bat sdam" },
+    { "Go straight" : "toewe trɔng" },
+    { "Stop" : "som choep" }
   ],
   "Greetings": [
-    { "Hello": "sua-sdey" },
-    { "Thank you": "ɔɔ-gun" }
+    { "Hello" : "sua-sdey" },
+    { "Thank you" : "ɔɔ-gun" }
   ],
   "Nouns": [
-    { "house": "pdtɛah" },
-    { "phone": "to-ro-sab" },
-    { "phone": "leck" },
-    { "name": "chmuah" },
-    { "free": "dtum-nee"},
-    { "food (eaten with rice)": "ma-hoob"},
-    { "food (in general)": "aa-haaa"}
+    { "house" : "pdtɛah" },
+    { "phone" : "to-ro-sab" },
+    { "phone" : "leck" },
+    { "name" : "chmuah" },
+    { "free" : "dtum-nee" },
+    { "food (eaten with rice)" : "ma-hoob" },
+    { "food (in general)" : "aa-haaa" },
+    { "number" : "leck" },
+    { "phone" : "to-ro-sab" }
+  ],
+  "Measurements of Time": [
+    { "week" : "aat-dtit" }
+  ],
+  "Verbs": [
+    { "buy" : "dtiñ" },
+    { "come from" : "mook-bpii" },
+    { "do" : "twəə" },
+    { "eat" : "ñam" },
+    { "get up" : "graol-bpii-geeng" },
+    { "go" : "dtəu̶" },
+    { "learn" : "rian" },
+    { "learn/to study" : "rian" },
+    { "like" : "jool-jet" },
+    { "listen" : "sdab" },
+    { "live (in)" : "ruah-nəu̶̶" },
+    { "read" : "aan" },
+    { "reply/answer" : "chlauy" },
+    { "sleep (go to)" : "geeng (jool geeng)" },
+    { "speak" : "nijáy" },
+    { "understand" : "yul" },
+    { "walk (to)" : "dau (dtəu̶)" },
+    { "want (something)" : "jɔng-baan" },
+    { "want (to do something)" : "jɔng" },
+    { "watch/look" : "məəl" },
+    { "work" : "twəə-gaa" },
+    { "write" : "sɔɔ-see" }
+  ],
+  "Adjectives": [
+    { "big" : "tum" }
   ],
   "Adverbs": [
     { "together" : "jia muay knia" },
-    { "at home" : "nəu pdtɛah" }
+    { "already" : "hau̶ey" }
   ],
   "Adverbs of Frequency" :[
-    {"always":"dtaeng (dtae)"},
-    {"often":"nək ñoab"},
-    {"Occasionally":"mdɔɔng mkaal"},
-    {"never":"mən dial (…dtee)"},
-    {"usually":"tam toam-a-daa"},
-    {"sometimes":"juan gaal"},
-    {"sometimes":"bpeel klah"},
-    {"rarely":"kɔm-rɔɔ"},
-    {"ever":"tloab"}
+    { "always" : "dtaeng (dtae)" },
+    { "often" : "nək ñoab" },
+    { "Occasionally" : "mdɔɔng mkaal" },
+    { "never" : "mən dial (…dtee)" },
+    { "usually" : "tam toam-a-daa" },
+    { "sometimes" : "juan gaal" },
+    { "sometimes" : "bpeel klah" },
+    { "rarely" : "kɔm-rɔɔ" },
+    { "ever" : "tloab" }
   ]
 }
