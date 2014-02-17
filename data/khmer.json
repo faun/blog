@@ -6,7 +6,11 @@
     { "No thank you" : "ɔt-dtee ɔɔ-gun" },
     { "I don't understand" : "knom ɔt yul dtee" },
     { "I don't speak Khmer" : "knom ɔt jeh ni-yiay khmae dtee" },
-    { "a little bit" : "dtic-dtiich (or dtic-dtic)" }
+    { "a little bit" : "dtech-dtuach, dtic-dtiich or dtic-dtic" },
+    { "Hello (formal)": "Juum reap sua" },
+    { "Goodbye (informal)": "Lia Hau̶y" },
+    { "Goodbye (formal)": "Juum reap lia" },
+    { "See you later (literally: next day, to meet)" : "Tngai-graoy juab knia" }
   ],
   "Directions": [
     { "Turn left" : "bɔt chweeng" },
@@ -19,11 +23,17 @@
     { "Thank you" : "ɔɔ-gun" }
   ],
   "Nouns": [
+    { "alphabet" : "ak-sɔɔ"},
+    { "breakfast (literally: food time morning)" : "aa-haa bpeel prək" },
     { "bag" : "gaa-bobe" },
     { "bank" : "to-nia-gia" },
     { "book" : "siaw-pəu̶" },
-    { "food (eaten with rice)" : "ma-hobe" },
+    { "lunch" : "ñam baay tngai or ñam aa-haa bpeel tngai" },
+    { "noon" : "bpeel tngai" },
+    { "food (eaten with rice)" : "ma-ho̅o̅b" },
     { "food (in general)" : "aa-haa" },
+    { "food (rice)" : "baay" },
+    { "football (soccer)" : "bal-dtoat" },
     { "free" : "dtum-nee" },
     { "hotel" : "sɔn-taa-gia/o-dtel" },
     { "house" : "pdtɛah" },
@@ -34,7 +44,11 @@
     { "pen" : "bich" },
     { "phone" : "to-ro-sab" },
     { "restaurant" : "po-ji-nii-taan" },
-    { "school" : "saa-laa(-rian)" }
+    { "school" : "saa-laa(-rian)" },
+    { "workplace" : "gɔn-laeng twəə-gaa" },
+    { "dinner" : "baay la-ngiaj or aa-haa bpeel la-ngiaj" },
+    { "TV" : "tii-vii" },
+    { "song" : "jam-riang" }
   ],
   "Measurements of Time": [
     { "week" : "aa-dtət" }
@@ -42,24 +56,35 @@
   "Verbs": [
     { "buy" : "dtiñ" },
     { "come from" : "mook-bpii" },
+    { "come back" : "mook wiñ" },
     { "do" : "twəə" },
     { "eat" : "ñam" },
-    { "get up" : "graok-bpii-geeng" },
+    { "get up (from sleep)" : "graok-bpii-geeng" },
+    { "take a bath/shower" : "muj dtək" },
     { "go" : "dtəu̶" },
+    { "happy" : "sab-baay-jet" },
     { "learn" : "rian" },
     { "learn/to study" : "rian" },
     { "like" : "jool-jet" },
     { "listen" : "sdab" },
     { "live (in)" : "ruah-nəu̶̶" },
+    { "leave from": "(jaak) jeeñ bpii" },
+    { "meet" : "juab knia" },
+    { "play" : "leeng" },
     { "read" : "aan" },
     { "reply/answer" : "chlauy" },
+    { "run" : "rut" },
+    { "sit" : "ɔng-gii" },
     { "sleep (go to)" : "geeng (jool geeng)" },
     { "speak" : "ni-yiay" },
+    { "stand" : "ch`oh" },
+    { "swim" : "hael-dtək" },
     { "understand" : "yul" },
     { "walk (to)" : "dau (dtəu̶)" },
     { "want (something)" : "jɔng-baan" },
     { "want (to do something)" : "jɔng" },
     { "watch/look" : "məəl" },
+    { "start" : "jab-pdau̶m" },
     { "work" : "twəə-gaa" },
     { "write" : "sɔɔ-see" }
   ],
@@ -187,7 +212,7 @@
   ],
   "Adverbs": [
     { "together" : "jia muay knia" },
-    { "already" : "hau̶ey" }
+    { "already" : "hau̶y" }
   ],
   "Adverbs of Time": [
     { "afternoon" : "bpeel ro-sial" },
