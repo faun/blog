@@ -158,6 +158,33 @@
     { "1,000,000" : "muay lian" },
     { "1,000,000,000" : "muay bpoan lian" }
   ],
+  "Days of the Week": [
+    { "Monday" : "tngai jan" },
+    { "Tuesday" : "tngai ɔng-gia" },
+    { "Wednesday" : "tngai bput" },
+    { "Thursday" : "tngai pro-hoah" },
+    { "Friday" : "tngai sok" },
+    { "Saturday" : "tngai sau" },
+    { "Sunday" : "tngai aa-dtət" },
+    { "next Saturday" : "tngai sau graoy" },
+    { "last Saturday" : "tngai sau mun" },
+    { "week" : "aa-dtət" },
+    { "weekend" : "jong aa-dtət" }
+  ],
+  "Months": [
+    { "January": "kae muay" },
+    { "February": "kae bpii" },
+    { "March": "kae bey" },
+    { "April": "kae buan" },
+    { "May": "kae bpram" },
+    { "June": "kae bpram muay" },
+    { "July": "kae bpram bpii" },
+    { "August": "kae bpram bey" },
+    { "September": "kae bpram buan" },
+    { "October": "kae dop" },
+    { "November": "kae dop muay" },
+    { "December": "kae dop bpii" }
+  ],
   "Adverbs": [
     { "together" : "jia muay knia" },
     { "already" : "hau̶ey" }
