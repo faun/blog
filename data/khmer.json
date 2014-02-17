@@ -104,6 +104,25 @@
     { "they (people)" : "bpuak-goat" },
     { "they (non-human things)" : "bpuak-wia" }
   ],
+  "Prepositions": [
+    { "in" : "nəu̶" },
+    { "at" : "nəu̶ (ae)" },
+    { "behind" : "nəu̶-kraoy" },
+    { "in front of" : "nəu̶-muk" },
+    { "in/inside" : "nəu̶-knong" },
+    { "on/up/above" : "nəu̶-ləə" },
+    { "out/outside" : "nəu̶-grau" },
+    { "under/below" : "nəu̶-graom" },
+    { "left" : "chweeng" },
+    { "right" : "chweeng" },
+    { "straight" : "trɔng" },
+    { "this" : "nih" },
+    { "that" : "nuh" },
+    { "if" : "bau̶" },
+    { "because" : "bpii-pruah" },
+    { "but" : "bpon-dtae" },
+    { "with" : "jia-muay" }
+  ],
   "Adverbs": [
     { "together" : "jia muay knia" },
     { "already" : "hau̶ey" }
