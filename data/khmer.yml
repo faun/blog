@@ -1,0 +1,426 @@
+---
+  Basics:
+    -
+      Yes: "baa (male speaker)"
+    -
+      Yes: "jaa (female speaker)"
+    -
+      No: "ɔt-dtee"
+    -
+      No thank you: "ɔt-dtee ɔɔ-gun"
+    -
+      I don't understand: "knom ɔt yul dtee"
+    -
+      I don't speak Khmer: "knom ɔt jeh ni-yiay khmae dtee"
+    -
+      a little bit: "dtech-dtuach, dtic-dtiich or dtic-dtic"
+    -
+      Hello (formal): "Juum reap sua"
+    -
+      Goodbye (informal): "Lia Hau̶y"
+    -
+      Goodbye (formal): "Juum reap lia"
+    -
+      'See you later (literally: next day, to meet)': "Tngai-graoy juab knia"
+
+  Directions:
+    -
+      Turn left: "bɔt chweeng"
+    -
+      Turn right: "bɔt sdam"
+    -
+      Go straight: "dtoewe dtrɔng"
+    -
+      Stop: "som chope"
+  Greetings:
+    -
+      Hello: "sua-sdey"
+    -
+      Thank you: "ɔɔ-gun"
+  Nouns:
+    -
+      alphabet: "ak-sɔɔ"
+    -
+      'breakfast (literally: food time morning)': "aa-haa bpeel prək"
+    -
+      bag: "gaa-bobe"
+    -
+      bank: "to-nia-gia"
+    -
+      book: "siaw-pəu̶"
+    -
+      lunch: "ñam baay tngai or ñam aa-haa bpeel tngai"
+    -
+      noon: "bpeel tngai"
+    -
+      food (eaten with rice): "ma-ho̅o̅b"
+    -
+      food (in general): "aa-haa"
+    -
+      food (rice): "baay"
+    -
+      football (soccer): "bal-dtoat"
+    -
+      free: "dtum-nee"
+    -
+      hotel: "sɔn-taa-gia/o-dtel"
+    -
+      house: "pdtɛah"
+    -
+      language: "pia-saa"
+    -
+      market: "psaa"
+    -
+      name: "chmuah"
+    -
+      number: "leeck"
+    -
+      pen: "bich"
+    -
+      phone: "to-ro-sab"
+    -
+      restaurant: "po-ji-nii-taan"
+    -
+      school: "saa-laa(-rian)"
+    -
+      workplace: "gɔn-laeng twəə-gaa"
+    -
+      dinner: "baay la-ngiaj or aa-haa bpeel la-ngiaj"
+    -
+      TV: "tii-vii"
+    -
+      song: "jam-riang"
+  Measurements of Time:
+    -
+      week: "aa-dtət"
+  Verbs:
+    -
+      buy: "dtiñ"
+    -
+      come from: "mook-bpii"
+    -
+      come back: "mook wiñ"
+    -
+      do: "twəə"
+    -
+      eat: "ñam"
+    -
+      get up (from sleep): "graok-bpii-geeng"
+    -
+      take a bath/shower: "muj dtək"
+    -
+      go: "dtəu̶"
+    -
+      happy: "sab-baay-jet"
+    -
+      learn: "rian"
+    -
+      learn/to study: "rian"
+    -
+      like: "jool-jet"
+    -
+      listen: "sdab"
+    -
+      live (in): "ruah-nəu̶̶"
+    -
+      leave from: "(jaak) jeeñ bpii"
+    -
+      meet: "juab knia"
+    -
+      play: "leeng"
+    -
+      read: "aan"
+    -
+      reply/answer: "chlauy"
+    -
+      run: "rut"
+    -
+      sit: "ɔng-gii"
+    -
+      sleep (go to): "geeng (jool geeng)"
+    -
+      speak: "ni-yiay"
+    -
+      stand: "ch`oh"
+    -
+      swim: "hael-dtək"
+    -
+      understand: "yul"
+    -
+      walk (to): "dau (dtəu̶)"
+    -
+      want (something): "jɔng-baan"
+    -
+      want (to do something): "jɔng"
+    -
+      watch/look: "məəl"
+    -
+      start: "jab-pdau̶m"
+    -
+      work: "twəə-gaa"
+    -
+      write: "sɔɔ-see"
+  Adjectives:
+    -
+      bad: "aa-grɔk"
+    -
+      big: "tum"
+    -
+      difficult: "bpi-baak"
+    -
+      easy: "srual"
+    -
+      fast/early: "lu̶an"
+    -
+      good: "la-ɔɔ"
+    -
+      short (distance): "kley"
+    -
+      short (height): "dtiab"
+    -
+      slow/late: "yu̶u̶t"
+    -
+      small: "dtooch"
+    -
+      tall: "kpuah"
+  Question Words:
+    -
+      how many: "bpon-maan"
+    -
+      how much (quantity): "bpon-maan"
+    -
+      how much (price): "tlai bpon-maan"
+    -
+      how old: "ayu bpon-maan"
+    -
+      how (do): "yaang-meij"
+    -
+      what: "ey"
+    -
+      what time: "maong bpon-maan"
+    -
+      when: "bpeel-naa"
+    -
+      where: "nəu̶-naa/naa"
+    -
+      which (one): "muay-naa"
+    -
+      whom: "nek-naa"
+    -
+      whose: "roo-bɔh-nek-naa"
+    -
+      who: "nek-naa"
+    -
+      why: "haey-ey"
+  Subject Pronouns:
+    -
+      I: "kñom"
+    -
+      you (written only): "nek"
+    -
+      you (older or similar age as speaker): "bɔng"
+    -
+      you (younger than speaker, written): "pa-own"
+    -
+      you (younger than speaker, spoken): "own"
+    -
+      we: "yəəng"
+    -
+      he/she: "goat"
+    -
+      it: "wia"
+    -
+      they (people): "bpuak-goat"
+    -
+      they (non-human things): "bpuak-wia"
+  Prepositions:
+    -
+      at: "nəu̶ (ae)"
+    -
+      because: "bpii-pruah"
+    -
+      before: "mun bpeel"
+    -
+      behind: "nəu̶-kraoy"
+    -
+      but: "bpon-dtae"
+    -
+      if: "bau̶"
+    -
+      in front of: "nəu̶-muk"
+    -
+      in: "nəu̶"
+    -
+      in/inside: "nəu̶-knong"
+    -
+      left: "chweeng"
+    -
+      on/up/above: "nəu̶-ləə"
+    -
+      out/outside: "nəu̶-grau"
+    -
+      right: "sdam"
+    -
+      straight: "trɔng"
+    -
+      that: "nuh"
+    -
+      this: "nih"
+    -
+      under/below: "nəu̶-graom"
+    -
+      with: "jia-muay"
+  Numbers:
+    -
+      0: "soon"
+    -
+      1: "muay"
+    -
+      2: "bpii"
+    -
+      3: "bey"
+    -
+      4: "buan"
+    -
+      5: "bpram"
+    -
+      6: "bram muay"
+    -
+      7: "bram bpii"
+    -
+      8: "bram bey"
+    -
+      9: "bram buan"
+    -
+      10: "dop"
+    -
+      11: "dop muay"
+    -
+      12: "dop bpii"
+    -
+      13: "dop bey"
+    -
+      14: "dop buan"
+    -
+      15: "dop bram"
+    -
+      16: "dop bram muay"
+    -
+      20: "ma-pei"
+    -
+      20: "ma-pei muay"
+    -
+      30: "sam seb"
+    -
+      40: "sae-seb"
+    -
+      50: "haa-seb"
+    -
+      60: "hok-seb"
+    -
+      70: "jet-seb"
+    -
+      80: "bpaet-seb"
+    -
+      90: "gau-seb"
+    -
+      100: "muay-rooy"
+    -
+      1,000: "muay bpoan"
+    -
+      10,000: "muay mu̶u̶n"
+    -
+      100,000: "muay saen"
+    -
+      1,000,000: "muay lian"
+    -
+      1,000,000,000: "muay bpoan lian"
+  Days of the Week:
+    -
+      Monday: "tngai jan"
+    -
+      Tuesday: "tngai ɔng-gia"
+    -
+      Wednesday: "tngai bput"
+    -
+      Thursday: "tngai pro-hoah"
+    -
+      Friday: "tngai sok"
+    -
+      Saturday: "tngai sau"
+    -
+      Sunday: "tngai aa-dtət"
+    -
+      next Saturday: "tngai sau graoy"
+    -
+      last Saturday: "tngai sau mun"
+    -
+      week: "aa-dtət"
+    -
+      weekend: "jong aa-dtət"
+  Months:
+    -
+      January: "kae muay"
+    -
+      February: "kae bpii"
+    -
+      March: "kae bey"
+    -
+      April: "kae buan"
+    -
+      May: "kae bpram"
+    -
+      June: "kae bpram muay"
+    -
+      July: "kae bpram bpii"
+    -
+      August: "kae bpram bey"
+    -
+      September: "kae bpram buan"
+    -
+      October: "kae dop"
+    -
+      November: "kae dop muay"
+    -
+      December: "kae dop bpii"
+  Adverbs:
+    -
+      together: "jia muay knia"
+    -
+      already: "hau̶y"
+  Adverbs of Time:
+    -
+      afternoon: "bpeel ro-sial"
+    -
+      evening: "bpeel la-ngaik"
+    -
+      morning: "bpeel-bprək"
+    -
+      night: "bpeel yub"
+    -
+      today: "tngai-nih"
+    -
+      tomorrow: "sa-aek"
+    -
+      tonight: "yub nih"
+    -
+      yesterday: "ma-sel-minh"
+  Adverbs of Frequency:
+    -
+      always: "dtaeng (dtae)"
+    -
+      often: "nək ñoab"
+    -
+      occasionally: "mdɔɔng mkaal"
+    -
+      never: "mən dael (…dtee)"
+    -
+      usually: "taam toama-daa"
+    -
+      sometimes: "juan gaal"
+    -
+      sometimes: "bpeel klah"
+    -
+      rarely: "kɔm-rɔɔ"
+    -
+      ever: "tloab"
