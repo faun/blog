@@ -6,12 +6,12 @@ description: "Phonetic pronunciation of common words in Khmer in order to commun
 ---
 - data.khmer.each do |section|
   .table-responsive
-    %table.table.table-striped.table-bordered.col-lg-12
+    %table.table.table-striped.table-bordered.col-lg-12.even_split
       %tr
         %th.section_header{colspan: 2}
           = section.shift
       - section[0].each do |row|
-        %tr.even_split
+        %tr
           - row.each_pair do |key, value|
             %td
               = key

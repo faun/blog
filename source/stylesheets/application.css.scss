@@ -27,8 +27,16 @@ img {
   @extend h3;
 }
 
-.even_split {
-  td {
-    width: 50%;
+.table-responsive {
+  .table.even_split {
+    max-width: 100%;
+    width: 100%;
+    tr {
+      th, td {
+        width: 50%;
+        word-wrap: break-word;
+        white-space: normal;
+      }
+    }
   }
 }
