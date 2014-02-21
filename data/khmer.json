@@ -25,6 +25,10 @@
     { "Thank you" : "ɔɔ-gun" }
   ],
 
+  "Determiners" : [
+    { "every": "roal" }
+  ],
+
   "Nouns": [
     { "alphabet" : "ak-sɔɔ"},
     { "breakfast (literally: food time morning)" : "aa-haa bpeel prək" },
