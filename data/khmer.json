@@ -50,9 +50,6 @@
     { "TV" : "tii-vii" },
     { "song" : "jam-riang" }
   ],
-  "Measurements of Time": [
-    { "week" : "aa-dtət" }
-  ],
   "Verbs": [
     { "buy" : "dtiñ" },
     { "come from" : "mook-bpii" },
@@ -213,6 +210,12 @@
   "Adverbs": [
     { "together" : "jia muay knia" },
     { "already" : "hau̶y" }
+  ],
+  "Conjunctions": [
+    { "also" : "gɔɔ ... dae" }
+  ],
+  "Measurements of Time": [
+    { "week" : "aa-dtət" }
   ],
   "Adverbs of Time": [
     { "afternoon" : "bpeel ro-sial" },
