@@ -12,16 +12,19 @@
     { "Goodbye (formal)": "Juum reap lia" },
     { "See you later (literally: next day, to meet)" : "Tngai-graoy juab knia" }
   ],
+
   "Directions": [
     { "Turn left" : "bɔt chweeng" },
     { "Turn right" : "bɔt sdam" },
     { "Go straight" : "dtoewe dtrɔng" },
     { "Stop" : "som chope" }
   ],
+
   "Greetings": [
     { "Hello" : "sua-sdey" },
     { "Thank you" : "ɔɔ-gun" }
   ],
+
   "Nouns": [
     { "alphabet" : "ak-sɔɔ"},
     { "breakfast (literally: food time morning)" : "aa-haa bpeel prək" },
@@ -50,6 +53,7 @@
     { "TV" : "tii-vii" },
     { "song" : "jam-riang" }
   ],
+
   "Verbs": [
     { "buy" : "dtiñ" },
     { "come from" : "mook-bpii" },
@@ -85,6 +89,7 @@
     { "work" : "twəə-gaa" },
     { "write" : "sɔɔ-see" }
   ],
+
   "Adjectives": [
     { "bad" : "aa-grɔk" },
     { "big" : "tum" },
@@ -98,6 +103,7 @@
     { "small" : "dtooch" },
     { "tall" : "kpuah" }
   ],
+
   "Question Words": [
     { "how many" : "bpon-maan" },
     { "how much (quantity)" : "bpon-maan" },
@@ -114,6 +120,7 @@
     { "who" : "nek-naa" },
     { "why" : "haey-ey" }
   ],
+
   "Subject Pronouns": [
     { "I" : "kñom" },
     { "you (written only)" : "nek" },
@@ -126,6 +133,7 @@
     { "they (people)" : "bpuak-goat" },
     { "they (non-human things)" : "bpuak-wia" }
   ],
+
   "Prepositions": [
     { "at" : "nəu̶ (ae)" },
     { "because" : "bpii-pruah" },
@@ -146,6 +154,7 @@
     { "under/below" : "nəu̶-graom" },
     { "with" : "jia-muay" }
   ],
+
   "Numbers" : [
     { "0" : "soon" },
     { "1" : "muay" },
@@ -180,6 +189,7 @@
     { "1,000,000" : "muay lian" },
     { "1,000,000,000" : "muay bpoan lian" }
   ],
+
   "Days of the Week": [
     { "Monday" : "tngai jan" },
     { "Tuesday" : "tngai ɔng-gia" },
@@ -193,6 +203,7 @@
     { "week" : "aa-dtət" },
     { "weekend" : "jong aa-dtət" }
   ],
+
   "Months": [
     { "January": "kae muay" },
     { "February": "kae bpii" },
@@ -207,16 +218,20 @@
     { "November": "kae dop muay" },
     { "December": "kae dop bpii" }
   ],
+
   "Adverbs": [
     { "together" : "jia muay knia" },
     { "already" : "hau̶y" }
   ],
+
   "Conjunctions": [
     { "also" : "gɔɔ ... dae" }
   ],
+
   "Measurements of Time": [
     { "week" : "aa-dtət" }
   ],
+
   "Adverbs of Time": [
     { "afternoon" : "bpeel ro-sial" },
     { "evening" : "bpeel la-ngaik" },
@@ -227,6 +242,7 @@
     { "tonight" : "yub nih" },
     { "yesterday" : "ma-sel-minh" }
   ],
+
   "Adverbs of Frequency" :[
     { "always" : "dtaeng (dtae)" },
     { "often" : "nək ñoab" },
