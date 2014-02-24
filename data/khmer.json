@@ -251,5 +251,9 @@
     { "sometimes" : "bpeel klah" },
     { "rarely" : "kɔm-rɔɔ" },
     { "ever" : "tloab" }
+  ],
+
+  "Phrases" : [
+    { "at home" : "nəu̶ pdteah" }
   ]
 }
