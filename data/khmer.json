@@ -104,6 +104,7 @@
     { "easy" : "srual" },
     { "fast/early" : "lu̶an" },
     { "good" : "la-ɔɔ" },
+    { "only" : "gkut" },
     { "short (distance)" : "kley" },
     { "short (height)" : "dtiab" },
     { "slow/late" : "yu̶u̶t" },
@@ -227,9 +228,9 @@
   ],
 
   "Adverbs": [
-    { "together" : "jia muay knia" },
     { "already" : "hau̶y" },
-    { "also" : "gɔɔ ... dae" }
+    { "also" : "gɔɔ ... dae" },
+    { "together" : "jia muay knia" }
   ],
 
   "Adverbs of Time": [
@@ -257,6 +258,8 @@
   ],
 
   "Phrases" : [
-    { "at home" : "nəu̶ pdteah" }
+    { "at home" : "nəu̶ pdteah" },
+    { "how about you" : "joh [nek] win" },
+    { "I'm from San Francisco" : "Kñom mook bpii San Francisco" }
   ]
 }
