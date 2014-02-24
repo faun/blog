@@ -25,10 +25,6 @@
     { "Thank you" : "ɔɔ-gun" }
   ],
 
-  "Determiners" : [
-    { "every": "roal" }
-  ],
-
   "Nouns": [
     { "alphabet" : "ak-sɔɔ"},
     { "bag" : "gaa-bobe" },
@@ -249,14 +245,15 @@
 
   "Adverbs of Frequency" :[
     { "always" : "dtaeng (dtae)" },
-    { "often" : "nək ñoab" },
-    { "occasionally" : "mdɔɔng mkaal" },
+    { "ever" : "tloab" },
+    { "every": "roal" },
     { "never" : "mən dael (…dtee)" },
-    { "usually" : "taam toama-daa" },
-    { "sometimes" : "juan gaal" },
-    { "sometimes" : "bpeel klah" },
+    { "occasionally" : "mdɔɔng mkaal" },
+    { "often" : "nək ñoab" },
     { "rarely" : "kɔm-rɔɔ" },
-    { "ever" : "tloab" }
+    { "sometimes" : "bpeel klah" },
+    { "sometimes" : "juan gaal" },
+    { "usually" : "taam toama-daa" }
   ],
 
   "Phrases" : [
