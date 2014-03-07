@@ -17,6 +17,8 @@
     { "Turn left" : "bɔt chweeng" },
     { "Turn right" : "bɔt sdam" },
     { "Go straight" : "dtoewe dtrɔng" },
+    { "Turn around (turn and go back)" : "bɔt dtəu̶ wiñ" },
+    { "One more street, turn right" : "muay pləu̶ dtiet, bɔt sdam" },
     { "Stop" : "som chope" }
   ],
 
@@ -261,7 +263,6 @@
   "Phrases" : [
     { "at home" : "nəu̶ pdteah" },
     { "how about you" : "joh [nek] win (where nek is 'you' pronoun or name)" },
-    { "One more street, turn right" : "muay pləu̶ dtiet, bɔt sdam" },
     { "I'm from San Francisco" : "Kñom mook bpii San Francisco" }
   ]
 }
