@@ -269,8 +269,10 @@
     { "Independance Monument" : "vimean aek-ka-reach (or eegreiak" }
   ],
   "Phrases" : [
+    { "How do you say _____ in Khmer?" : "_____ pia-saa khmai taa-mech?" },
+    { "I'm from San Francisco" : "Kñom mook bpii San Francisco" },
     { "at home" : "nəu̶ pdteah" },
     { "how about you" : "joh [nek] win (where nek is 'you' pronoun or name)" },
-    { "I'm from San Francisco" : "Kñom mook bpii San Francisco" }
+    { "that is all" : "ɔh-həuy" }
   ]
 }
