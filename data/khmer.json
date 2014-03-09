@@ -253,6 +253,7 @@
 
   "Adverbs": [
     { "already" : "hau̶y" },
+    { "at home" : "nəu̶ pdteah" },
     { "also" : "gɔɔ ... dae" },
     { "slowly" : "yu̶u̶t yu̶u̶t" },
     { "together" : "jia muay knia" }
@@ -289,7 +290,6 @@
   "Phrases" : [
     { "How do you say _____ in Khmer?" : "_____ pia-saa khmai taa-mech?" },
     { "I'm from San Francisco" : "Kñom mook bpii San Francisco" },
-    { "at home" : "nəu̶ pdteah" },
     { "how about you" : "joh [nek]* win " },
     { "that is all" : "ɔh-həuy" }
   ],
