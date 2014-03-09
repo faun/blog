@@ -1,16 +1,27 @@
 {
   "Basics": [
+    { "Good luck" : "sɔm-naang la-ɔɔ" },
+    { "Goodbye (formal)" : "jum-riab-lia" },
+    { "Goodbye (formal)": "Juum reap lia" },
+    { "Goodbye (informal)" : "lia-hau̶y" },
+    { "Goodbye (informal)": "Lia Hau̶y" },
+    { "Hello (formal)" : "jum-riab-sua" },
+    { "Hello (formal)": "Juum reap sua" },
+    { "Hello (informal)" : "sua-sdey" },
+    { "How are you doing?" : "sok-sab-baay dtee?" },
+    { "I don't speak Khmer" : "knom ɔt jeh ni-yiay khmae dtee" },
+    { "I don't understand" : "knom ɔt yul dtee" },
+    { "I'm fine, thanks" : "sok-sab-baay, ɔɔ-gun" },
+    { "I'm sorry" : "sɔm-dtooh" },
+    { "No thank you" : "ɔt-dtee ɔɔ-gun" },
+    { "No" : "ɔt-dtee" },
+    { "See you later" : "Tngai-graoy juab knia" },
+    { "Thank you" : "ɔɔ-gun" },
     { "Yes" : "baa (male speaker)" },
     { "Yes" : "jaa (female speaker)" },
-    { "No" : "ɔt-dtee" },
-    { "No thank you" : "ɔt-dtee ɔɔ-gun" },
-    { "I don't understand" : "knom ɔt yul dtee" },
-    { "I don't speak Khmer" : "knom ɔt jeh ni-yiay khmae dtee" },
     { "a little bit" : "dtech-dtuach, dtic-dtiich or dtic-dtic" },
-    { "Hello (formal)": "Juum reap sua" },
-    { "Goodbye (informal)": "Lia Hau̶y" },
-    { "Goodbye (formal)": "Juum reap lia" },
-    { "See you later" : "Tngai-graoy juab knia" }
+    { "it doesn't matter/it's alright/you're welcome" : "mən-ey-dtee" },
+    { "thank you (very much)" : "ɔɔ-gun (jrau̶n)" }
   ],
 
   "Directions": [
@@ -20,11 +31,6 @@
     { "Turn around (turn and go back)" : "bɔt dtəu̶ wiñ" },
     { "One more street, turn right" : "muay pləu̶ dtiet, bɔt sdam" },
     { "Stop" : "som chope" }
-  ],
-
-  "Greetings": [
-    { "Hello" : "sua-sdey" },
-    { "Thank you" : "ɔɔ-gun" }
   ],
 
   "Nouns": [
