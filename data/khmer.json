@@ -19,6 +19,7 @@
     { "Thank you" : "ɔɔ-gun" },
     { "Yes" : "baa (male speaker)" },
     { "Yes" : "jaa (female speaker)" },
+    { "What's your name" : "[nek]* chmuah ey?" },
     { "a little bit" : "dtech-dtuach, dtic-dtiich or dtic-dtic" },
     { "it doesn't matter/it's alright/you're welcome" : "mən-ey-dtee" },
     { "thank you (very much)" : "ɔɔ-gun (jrau̶n)" }
@@ -156,7 +157,7 @@
 
   "Subject Pronouns": [
     { "I" : "kñom" },
-    { "you (written only)" : "nek" },
+    { "you (written only)" : "[nek]*" },
     { "you (older or similar age as speaker)" : "bɔng" },
     { "you (younger than speaker, written)" : "pa-own" },
     { "you (younger than speaker, spoken)" : "own" },
@@ -287,11 +288,16 @@
   "Proper Nouns" : [
     { "Independance Monument" : "vimean aek-ka-reach (or eegreiak" }
   ],
+
   "Phrases" : [
     { "How do you say _____ in Khmer?" : "_____ pia-saa khmai taa-mech?" },
     { "I'm from San Francisco" : "Kñom mook bpii San Francisco" },
     { "at home" : "nəu̶ pdteah" },
-    { "how about you" : "joh [nek] win (where nek is 'you' pronoun or name)" },
+    { "how about you" : "joh [nek]* win " },
     { "that is all" : "ɔh-həuy" }
+  ],
+
+  "Footnotes" : [
+    { "*[nek]" : "Nek is a written representation of the word 'you' without regard for age or status. Wherever you see [nek], it should be replaced with one of the following: bɔɔng, own, or the person's name (see subject pronouns section for more information)" }
   ]
 }
