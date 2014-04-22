@@ -52,10 +52,13 @@
     { "free" : "dtum-nee" },
     { "glasses" : "waen-dtaa" },
     { "hotel" : "sɔn-taa-gia/o-dtel" },
+    { "hour" : "maung" },
     { "house" : "pdtɛah" },
     { "language" : "pia-saa" },
     { "lunch" : "baay tngai or aa-haa bpeel tngai" },
     { "market" : "psaa" },
+    { "minute" : "nia dtii" },
+    { "month" : "kae" },
     { "name" : "chmuah" },
     { "noon" : "bpeel tngai" },
     { "number" : "leeck" },
@@ -72,7 +75,8 @@
     { "state" : "roat" },
     { "table" : "tok" },
     { "television" : "tii-vii" },
-    { "workplace" : "gɔn-laeng twəə-gaa" }
+    { "workplace" : "gɔn-laeng twəə-gaa" },
+    { "year" : "chnam" }
   ],
 
   "Verbs": [
