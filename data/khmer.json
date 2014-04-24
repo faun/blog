@@ -78,8 +78,9 @@
     { "state" : "roat" },
     { "table" : "tok" },
     { "television" : "tii-vii" },
+    { "week" : "aa-dtət" },
+    { "weekend" : "jung aa-dtət" },
     { "workplace" : "gɔn-laeng twəə-gaa" },
-    { "weekend" : "jung at-dtit" },
     { "year" : "chnam" }
   ],
 
@@ -242,11 +243,7 @@
     { "Thursday" : "tngai pro-hoah" },
     { "Friday" : "tngai sok" },
     { "Saturday" : "tngai sau" },
-    { "Sunday" : "tngai aa-dtət" },
-    { "next Saturday" : "tngai sau graoy" },
-    { "last Saturday" : "tngai sau mun" },
-    { "week" : "aa-dtət" },
-    { "weekend" : "jong aa-dtət" }
+    { "Sunday" : "tngai aa-dtət" }
   ],
 
   "Months": [
@@ -287,8 +284,10 @@
   "Phrases of Time": [
     { "at a time" : "maung + number" },
     { "in one hour" : "muay maung dtiet" },
-    { "last week" : "at-dtit mun" },
-    { "next week" : "at-dtit grəu̶y" }
+    { "last week" : "aa-dtət mun" },
+    { "next week" : "aa-dtət grəu̶y" },
+    { "next Saturday" : "tngai sau graoy" },
+    { "last Saturday" : "tngai sau mun" }
   ],
 
   "Adverbs of Frequency": [
