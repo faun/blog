@@ -247,18 +247,18 @@
   ],
 
   "Months": [
-    { "January": "kae muay" },
-    { "February": "kae bpii" },
-    { "March": "kae bey" },
-    { "April": "kae buan" },
-    { "May": "kae bpram" },
-    { "June": "kae bpram muay" },
-    { "July": "kae bpram bpii" },
-    { "August": "kae bpram bey" },
-    { "September": "kae bpram buan" },
-    { "October": "kae dop" },
-    { "November": "kae dop muay" },
-    { "December": "kae dop bpii" }
+    { "January" : "kae muay" },
+    { "February" : "kae bpii" },
+    { "March" : "kae bey" },
+    { "April" : "kae buan" },
+    { "May" : "kae bpram" },
+    { "June" : "kae bpram muay" },
+    { "July" : "kae bpram bpii" },
+    { "August" : "kae bpram bey" },
+    { "September" : "kae bpram buan" },
+    { "October" : "kae dop" },
+    { "November" : "kae dop muay" },
+    { "December" : "kae dop bpii" }
   ],
 
   "Adverbs": [
