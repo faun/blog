@@ -147,10 +147,10 @@
     { "how much (price)" : "tlai bpon-maan" },
     { "how old" : "ayu bpon-maan" },
     { "how (do)" : "yaang-meij" },
-    { "what" : "ey" },
+    { "what <sup>1</sup>" : "ey" },
     { "what time" : "maong bpon-maan" },
     { "when" : "bpeel-naa" },
-    { "where" : "nəu̶-naa/naa" },
+    { "where <sup>2</sup>" : "nəu̶-naa/naa" },
     { "which (one)" : "muay-naa" },
     { "whom" : "nek-naa" },
     { "whose" : "roo-bɔh-nek-naa" },
@@ -301,6 +301,8 @@
   ],
 
   "Footnotes" : [
-    { "*[nek]" : "Nek is a written representation of the word 'you' without regard for age or status. Wherever you see [nek], it should be replaced with one of the following: bɔɔng, own, or the person's name (see subject pronouns section for more information)" }
+    { "*[nek]" : "Nek is a written representation of the word 'you' without regard for age or status. Wherever you see [nek], it should be replaced with one of the following: bɔɔng, own, or the person's name (see subject pronouns section for more information)" },
+    { "<sup>1</sup>" : "Goes at the end of a sentence" },
+    { "<sup>2</sup>" : "When used with go or come: naa. When used with a word that already has the sound 'nəu̶': naa. Any other time: nəu̶-naa. Goes at the end of a sentence" }
   ]
 }
