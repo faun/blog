@@ -79,6 +79,7 @@
     { "table" : "tok" },
     { "television" : "tii-vii" },
     { "workplace" : "gɔn-laeng twəə-gaa" },
+    { "weekend" : "jung at-dtit" },
     { "year" : "chnam" }
   ],
 
@@ -131,6 +132,8 @@
   ],
 
   "Adjectives": [
+    { "last (previous)" : "mun" },
+    { "next" : "grəu̶y" },
     { "bad" : "aa-grɔk" },
     { "big" : "tum" },
     { "difficult" : "bpi-baak" },
@@ -279,6 +282,13 @@
     { "tomorrow" : "sa-aek" },
     { "tonight" : "yub nih" },
     { "yesterday" : "ma-sel-minh" }
+  ],
+
+  "Phrases of Time": [
+    { "at a time" : "maung + number" },
+    { "in one hour" : "muay maung dtiet" },
+    { "last week" : "at-dtit mun" },
+    { "next week" : "at-dtit grəu̶y" }
   ],
 
   "Adverbs of Frequency": [
