@@ -97,11 +97,25 @@
     { "week" : "aa-dtət" },
     { "weekend" : "jung aa-dtət" },
     { "workplace" : "gɔn-laeng twəə-gaa" },
+    { "clothes" : "kao-aaw" },
+    { "skirt" : "sɔm-bput" },
+    { "shoes" : "sbaek-jeeng" },
+    { "socks" : "sraom-jəəng" },
+    { "pants" : "kao" },
+    { "dollar" : "dollaa" },
+    { "gloves" : "sraom dae" },
+    { "shirt" : "aaw" },
+    { "dress" : "robe" },
+    { "a pair of shoes" : "sbaek-jəəng muay guu" },
+    { "price" : "dom-lai" },
+    { "t-shirt" : "aaw-ju̶u̶t" },
     { "year" : "chnam" }
   ],
 
   "Verbs": [
     { "buy" : "dtiñ" },
+    { "bargain" : "dto tlai" },
+    { "discount" : "joh tlai" },
     { "come back" : "mook wiñ" },
     { "come from" : "mook-bpii" },
     { "cut" : "gat" },
@@ -193,6 +207,12 @@
     { "it" : "wia" },
     { "they (people)" : "bpuak-goat" },
     { "they (non-human things)" : "bpuak-wia" }
+  ],
+
+  "Determiners": [
+    { "both" : "dtang bpii" },
+    { "that one" : "ah-muay nuh" },
+    { "this one" : "ah-muay nih" }
   ],
 
   "Prepositions": [
