@@ -6,6 +6,8 @@ gem "middleman", "~> 3.2.0"
 gem "middleman-blog", "~> 3.4.1"
 gem "middleman-livereload", "~> 3.1.0"
 gem 'middleman-gh-pages'
+gem "redcarpet"
+gem "middleman-syntax"
 
 gem 'haml'
 gem 'bootstrap-sass'
