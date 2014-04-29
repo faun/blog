@@ -38,6 +38,10 @@ activate :blog do |blog|
   # blog.page_link = 'page/:num'
 end
 
+###
+# RSS Feed
+###
+
 page '/feed.xml', :layout => false
 
 ###
