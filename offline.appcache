@@ -1,9 +1,10 @@
 CACHE MANIFEST
-# ed7aa7077769d40cd9b9da545bfac2ec2e7a39ec1589c8e5641d7f2edd7a91c8
+# d4bf681672181fab03a0929abc54236eff53972def033497ff9469c5fa5d553e
 http://code.jquery.com/jquery.min.js
 http://html5shim.googlecode.com/svn/trunk/html5.js
 2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html
 2013/01/27/installing-rspec-factorygirl-and-capybara-with-rails-32.html
+2014/04/29/decrypting-pdfs-as-a-service.html
 assets/ico/apple-touch-icon-114x114-precomposed.png
 assets/ico/apple-touch-icon-144x144-precomposed.png
 assets/ico/apple-touch-icon-57x57-precomposed.png
@@ -22,6 +23,7 @@ khmer.html
 offline.html
 resume.html
 stylesheets/application.css
+stylesheets/highlight.css
 fonts/bootstrap/glyphicons-halflings-regular.eot
 fonts/bootstrap/glyphicons-halflings-regular.svg
 fonts/bootstrap/glyphicons-halflings-regular.ttf
