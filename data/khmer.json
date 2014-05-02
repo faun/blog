@@ -355,7 +355,8 @@
     { "how about you" : "joh [nek]* win " },
     { "One more" : "muay dtiet" },
     { "Is this/that ok?" : "Aa-nih/Aa-nuh baan ɔt?" },
-    { "that is all" : "ɔh-həuy" }
+    { "that is all" : "ɔh-həuy" },
+    { "What is your name" : "[nek]* chmuah ey?" }
   ],
 
   "Footnotes" : [
