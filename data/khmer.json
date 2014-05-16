@@ -371,6 +371,7 @@
 
   "Grammar Rules" : [
     { "Afirmative" : "Subject + verb + object + …" },
+    { "To be + noun" : "Subject + jia + noun" },
     { "Negative sentence" : "Subject + ɔt/mən + verb + … + dtee" },
     { "Noun + adjective" : "If you need to use an adjective, make sure the noun goes before the adjective" },
     { "Verb + adjective" : "The verb 'to be' is dropped when used with an adjective" },
