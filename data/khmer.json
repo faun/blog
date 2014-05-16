@@ -191,6 +191,12 @@
     { "tired" : "ɔh-gom laang" }
   ],
 
+  "Conjunctions": [
+    { "and" : "nung" },
+    { "but" : "bpon-dtae" },
+    { "if" : "bau̶" }
+  ],
+
   "Question Words": [
     { "how many" : "bpon-maan" },
     { "how much (quantity)" : "bpon-maan" },
@@ -233,9 +239,7 @@
     { "before" : "mun bpeel" },
     { "behind" : "nəu̶-kraoy" },
     { "between" : "jɔn-loh" },
-    { "but" : "bpon-dtae" },
     { "from" : "bpii" },
-    { "if" : "bau̶" },
     { "in front of" : "nəu̶-muk" },
     { "in" : "nəu̶" },
     { "in/inside" : "nəu̶-knong" },
