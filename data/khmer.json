@@ -117,12 +117,12 @@
   ],
 
   "Verbs": [
-    { "buy" : "dtiñ" },
     { "bargain" : "dto tlai" },
-    { "discount" : "joh tlai" },
+    { "buy" : "dtiñ" },
     { "come back" : "mook wiñ" },
     { "come from" : "mook-bpii" },
     { "cut" : "gat" },
+    { "discount" : "joh tlai" },
     { "do" : "twəə" },
     { "drive" : "bau̶k" },
     { "eat" : "ñam" },
@@ -143,6 +143,7 @@
     { "meet (transitive)" : "juab" },
     { "play sports" : "leeng key-lay" },
     { "play" : "leeng" },
+    { "rain" : "pleang" },
     { "read" : "aan" },
     { "reply/answer" : "chlauy" },
     { "ride" : "jih" },
