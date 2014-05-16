@@ -365,6 +365,7 @@
     { "One more" : "muay dtiet" },
     { "What is your name?" : "[nek]* chmuah ey?" },
     { "How about you?" : "Joh [nek]* win?" },
+    { "From … to …" : "bpii … dol …" },
     { "That is all" : "Ɔh-həuy" },
     { "… right?" : "… mɛɛn-dtee?" }
   ],
