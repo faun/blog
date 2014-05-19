@@ -27,6 +27,8 @@ header_navigation:
       url:  /contact.html
 
 external_links:
+    - name: Personal Photography
+      url: http://photos.faun.me
     - name: Twitter
       url:  https://twitter.com/faunzy
     - name: GitHub
