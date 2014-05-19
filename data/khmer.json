@@ -130,6 +130,7 @@
     { "eat" : "ñam" },
     { "end" : "jung" },
     { "excercise" : "hat-braan" },
+    { "final price" : "dach hau̶y" },
     { "get up (from sleep)" : "graok-bpii-geeng" },
     { "go shopping" : "dtəu̶ psaa" },
     { "go" : "dtəu̶" },
@@ -229,6 +230,7 @@
 
   "Determiners": [
     { "both" : "dtang bpii" },
+    { "some" : "klah" },
     { "that one" : "ah-muay nuh" },
     { "this one" : "ah-muay nih" }
   ],
@@ -367,8 +369,8 @@
 
   "Phrases" : [
     { "How do you say _____ in Khmer?" : "_____ pia-saa khmai taa-mech?" },
-    { "Let me see first": "Sɔm məəl sen" },
     { "I'm from San Francisco" : "Kñom mook bpii San Francisco" },
+    { "Let me see first": "Sɔm məəl sen" },
     { "Is this/that ok?" : "Aa-nih/Aa-nuh baan ɔt?" },
     { "No problem" : "ɔt paña-haa" },
     { "One more" : "muay dtiet" },
