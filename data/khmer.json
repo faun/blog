@@ -367,6 +367,7 @@
 
   "Phrases" : [
     { "How do you say _____ in Khmer?" : "_____ pia-saa khmai taa-mech?" },
+    { "Let me see first": "Sɔm məəl sen" },
     { "I'm from San Francisco" : "Kñom mook bpii San Francisco" },
     { "Is this/that ok?" : "Aa-nih/Aa-nuh baan ɔt?" },
     { "No problem" : "ɔt paña-haa" },
