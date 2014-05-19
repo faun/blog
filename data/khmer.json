@@ -295,6 +295,19 @@
     { "1,000,000,000" : "muay bpoan lian" }
   ],
 
+  "Colors": [
+   { "black" : "kməu̶" },
+   { "blue" : "kiew" },
+   { "brown" : "tnaut" },
+   { "green" : "bai-dtɔɔng" },
+   { "grey" : "brɔɔ-peh" },
+   { "orange" : "bpoah dtək krooch" },
+   { "purple" : "svaay" },
+   { "red" : "krɔɔ-hɔɔm" },
+   { "white" : "sɔɔ" },
+   { "yellow" : "luang" }
+  ],
+
   "Days of the Week": [
     { "Monday" : "tngai jan" },
     { "Tuesday" : "tngai ɔng-gia" },
