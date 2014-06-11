@@ -8,7 +8,7 @@ See [gh-pages](https://github.com/faun/blog/tree/gh-pages) branch for static con
 
 # Watch for changes and rebuild
 
-`middleman`
+`middleman` or `guard` (for use without a server)
 
 # Publish
 
