@@ -235,6 +235,8 @@
   ],
 
   "Determiners": [
+    { "not much" : "man siaw" },
+    { "not many" : "mun-so" },
     { "both" : "dtang bpii" },
     { "some" : "klah" },
     { "that one" : "ah-muay nuh" },
