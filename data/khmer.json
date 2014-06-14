@@ -251,9 +251,10 @@
   ],
 
   "Determiners": [
-    { "not much" : "man siaw" },
-    { "not many" : "mun-so" },
     { "both" : "dtang bpii" },
+    { "half" : "ga-lah" },
+    { "not many" : "mun-so" },
+    { "not much" : "man siaw" },
     { "some" : "klah" },
     { "that one" : "ah-muay nuh" },
     { "this one" : "ah-muay nih" }
