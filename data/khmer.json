@@ -386,11 +386,13 @@
 
   "Phrases of Time": [
     { "at a time (one o'clock)" : "maung + number (maung muay)" },
+    { "how many hours?" : "bpon-maan maan?" },
     { "in one hour" : "muay maung dtiet" },
+    { "last Saturday" : "tngai sau mun" },
     { "last week" : "aa-dtət mun" },
-    { "next week" : "aa-dtət grəu̶y" },
     { "next Saturday" : "tngai sau graoy" },
-    { "last Saturday" : "tngai sau mun" }
+    { "next week" : "aa-dtət grəu̶y" },
+    { "what time?" : "maung bpon-maan?" }
   ],
 
   "Adverbs of Frequency": [
