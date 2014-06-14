@@ -23,14 +23,14 @@
   ],
 
   "Directions": [
-    { "Turn left" : "bɔt chweeng" },
-    { "On the left" : "nəu̶ kaang chweeng" },
-    { "Turn right" : "bɔt sdam" },
-    { "On the right" : "nəu̶ kaang sdam" },
     { "Go straight" : "dtoewe dtrɔng" },
-    { "Turn around (turn and go back)" : "bɔt dtəu̶ wiñ" },
+    { "On the left" : "nəu̶ kaang chweeng" },
+    { "On the right" : "nəu̶ kaang sdam" },
     { "One more street, turn right" : "muay pləu̶ dtiet, bɔt sdam" },
-    { "Stop" : "sɔm chope" }
+    { "Stop" : "sɔm chope" },
+    { "Turn around (turn and go back)" : "bɔt dtəu̶ wiñ" },
+    { "Turn left" : "bɔt chweeng" },
+    { "Turn right" : "bɔt sdam" }
   ],
 
   "Nouns": [
