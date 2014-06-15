@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/faun
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.faun.me
+  * I am faun (https://keybase.io/faun) on keybase.
+  * I have a public key with fingerprint D4C9 FFB9 F1DC EF35 9E0A  3D0D 92D9 A892 2212 44C4
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.7"
+        },
+        "key": {
+            "fingerprint": "d4c9ffb9f1dcef359e0a3d0d92d9a892221244c4",
+            "host": "keybase.io",
+            "key_id": "92D9A892221244C4",
+            "uid": "4e260beb6880ffd4f59f95c78f832f00",
+            "username": "faun"
+        },
+        "merkle_root": {
+            "ctime": 1402810997,
+            "hash": "ed32bb5969697e06eee51a7028da4d41dab3da2fc60c15a927a0aee4810696ff6fd71dd9bf68b3d96346aa17227c02c15703b88c4b1202a9e4a49a1e42a11328",
+            "seqno": 18253
+        },
+        "service": {
+            "hostname": "www.faun.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1402811089,
+    "expire_in": 157680000,
+    "prev": "1ffaa08629dd3d7e5867aa23ea3c40af9217fd1e7929dba23ac40db4102ae851",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owG1k/1TFVUcxi8IJRITVpajKHdWVIjLdc/Z9ys4yvvEjDNik+WM0tnds9xV2L3s
+3qsR4QsWllRqmBmKwWiaNUmpo9HID+YIYiOBr5NQggyV2rUAzQbLOkv24h/Q2V/2
+nO/n+5znOWd3U9wY17iII1Wf3AzFRLdHfHlVdi2sh10VlGyq5ZSvglJKdGwEnTcD
+lWLKRy3H5TKysVc33YapYu8y232P8VArsGXrpkEo2st6BarS4+BOs6YbxdgKWLqj
+RamsImmaLGlAVbDGcBKmEaPSqgRVCYkShBBAllVYIuk37eB9u1KjmkW6SlYlmC3N
++4fPcvjQaIHFkKdlLPOiSGuaymqcpEmcIoiayECNph3Qxta9SBoKGY7XUmwtL8FF
+lmmOBlaCulMGLA1FQEuSQNwg208asMpAWeYknjwCpnmMMQeQQDgVsSoLVCQzKoKa
+wtMK4JAEBUQjjFkiQ1o0jddUAaiqJGu8SEiJZ1geISBAKCg0JC0CzciiqLAygDRE
+EmYRKyGAWYgAYKBI7Nu4zDCJORFyTKUztVboCnZsOyd2L9jKlSu9TjgvmXmogGUG
+TcUsIQV/MBjwOZGD5YFREMtFf0nsxUWybqjkuv57n4Cg9x0HoEXJQ+EXArqFi3SH
+4ARepMlw9sEriCbQNIRokYeSqjKqgDmRFxCCDEaMwtJIkyAQNBVgQSKETAqILKsy
+C0hiLHLg35A88YmKiaStFxsoGLIwVflaZE+UK2KcqzU60vlgix5b4yLD60rWbTuE
+rTQtYM01zCAKEv+21wxgI1Ac8Gq6FvT7TcvGpcjwGjjIgKxsgc8GOSIgqRggsExW
+Ni/kZgoizKRzWYGjJZrLkv5vfde4mPi//8JJ++Jd1a8mgYN7F4XXU/ti3a2T83t6
+o9oivMdbo3+b4Wm+0drDvdW5O4yb/kiPTH83ZUvL0bbOk3xHOntq5rqD6S9VpzXW
+zb998/O6hs762LiLQzFT6575YGv/7Kaci4VpO3s3yw/j0MRLv4tLTi0cuLyk81rb
+8ZtXKlUleX7f9h1z/IFN+yfX9ZUdmRAe+ekhflduYM4DaW8fmFFQmLVh6YnHc44m
+7Hb1HJvWeCYj+XRf7ac/xrJ29ODpC77ukWH8xpzrXeO/2lBcn//KsvaPmK0PnlvQ
+MJA9u2Btl+toQ3JEywQ5H1w7k/fEDzua8uYXj3zWneo+/fTd1ddS3/xl1/bC8sRW
+95VA5onLVllv1SMHhi5lPvXijb5pdxcxwylff+edsPlSx9xZ61JeT/lm27NT6vL2
+bfw2I8Lz/sznPOHB/Mg1y+N6+xfWnl3VUN2Qs8fTVG7n7qk93FOzOMlaVTWm4uS8
+psNxx9Wy58dnJIpDrdTPt0tqoq5sS0irKrSSVke5OwbfWbAz/vrYjUlPxu9I6dif
+MfPsx+2buxM2pp6f0jJ4Z6lv7qYPb13dM+wfipk+5tz3Lf5DF7oKGuMUl+BJmHqq
+u6/6mFtsUsKd3aGlKaE6X2r41/Ntze23GiuGmqdPS+zXv6gp2aC4Dg1MnDW8f9Le
+O/3RAzP0tbHw0dj1a32mjt4bSSytX7xlbPOi0rzw7ZMvR/8J
+=zxgk
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/faun
+
+==================================================================

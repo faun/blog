@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 0287884ad8b7c69cf19be2aa9e7486c8395cacdb9b0c7e0915a5848f3a1523db
+# 08585724b2b7113de77bbb902b492387cc3b6563db9ad58ec2fb97d58fb85316
 http://code.jquery.com/jquery.min.js
 http://html5shim.googlecode.com/svn/trunk/html5.js
 2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html
@@ -19,6 +19,7 @@ gpg/221244C4.asc
 images/headshot_370.jpg
 index.html
 javascripts/application.js
+keybase.txt
 khmer.html
 offline.html
 resume.html
