@@ -418,7 +418,10 @@
   ],
 
   "Proper Nouns" : [
-    { "Independance Monument" : "vimean aek-ka-reach (or eegreiak)" }
+    { "Independance Monument" : "vimean aek-ka-reach (or eegreiak)" },
+    { "Central Market" : "psaa tmey" },
+    { "Kandal market" : "psaa jah" },
+    { "Russian market" : "toul tom pong" }
   ],
 
   "Phrases" : [
