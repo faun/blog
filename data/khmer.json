@@ -422,11 +422,13 @@
 
   "Phrases" : [
     { "Can [subject] … ?" : "[subject] (aach) … baan dtee?" },
+    { "Come in" : "Jool-mook" },
     { "Do not put milk": "ɔt dak dtək-doh-goo" },
     { "From … to …" : "bpii … dol …" },
     { "Have you _____ already?" : "[Nek]* _____ hauy (ru̶u̶) nəu̶?" },
     { "How about you?" : "Joh [nek]* win?" },
     { "How do you say _____ in Khmer?" : "_____ pia-saa khmai taa-mech?" },
+    { "How old are you?" : "[Nek]* mien aju bpon-maan?" },
     { "I do not want a tuk tuk": "Kñom ɔt jɔng-baan tuk tuk muay" },
     { "I'm from San Francisco" : "Kñom mook bpii San Francisco" },
     { "Is this/that ok?" : "Aa-nih/Aa-nuh baan ɔt?" },
@@ -436,9 +438,8 @@
     { "One more" : "muay dtiet" },
     { "Please wait a moment" : "Som jam muay pleat" },
     { "That is all" : "Ɔh-həuy" },
-    { "What is your name?" : "[nek]* chmuah ey?" },
-    { "How old are you?" : "[Nek]* mien aju bpon-maan?" },
     { "What are you doing?" : "[Nek]* kompong twəə-ey?" },
+    { "What is your name?" : "[nek]* chmuah ey?" },
     { "Where do you live": "[Nek]* ruah-nəu̶ naa" },
     { "Would you like anything else?" : "[Nek]* jong baan ay dtiet ɔt?" },
     { "… right?" : "… mɛɛn-dtee?" }
