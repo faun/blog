@@ -452,7 +452,6 @@
 
   "Phrases" : [
     { "Can [subject] … ?" : "[subject] (aach) … baan dtee?" },
-    { "May I  … ?" : "Kñom som … baan dtee?" },
     { "Come in" : "Jool-mook" },
     { "Do not put milk": "ɔt dak dtək-doh-goo" },
     { "From … to …" : "bpii … dol …" },
@@ -464,7 +463,7 @@
     { "I'm from San Francisco" : "Kñom mook bpii San Francisco" },
     { "Is this/that ok?" : "Aa-nih/Aa-nuh baan ɔt?" },
     { "Let me see first": "Sɔm məəl sen" },
-    { "What is the wifi password": "leek koot [nek]* ey klah?" },
+    { "May I  … ?" : "Kñom som … baan dtee?" },
     { "May I take your photograph?" : "Kñom som tɔɔt [nek]* baan dtee?" },
     { "No problem" : "ɔt paña-haa" },
     { "One more" : "muay dtiet" },
@@ -472,6 +471,7 @@
     { "See you later" : "Dtich dtiet juab knia" },
     { "That is all" : "Ɔh-həuy" },
     { "What are you doing?" : "[Nek]* kompong twəə-ey?" },
+    { "What is the wifi password": "leek koot [nek]* ey klah?" },
     { "What is your name?" : "[nek]* chmuah ey?" },
     { "Where do you live": "[Nek]* ruah-nəu̶ naa" },
     { "Would you like anything else?" : "[Nek]* jong baan ay dtiet ɔt?" },
