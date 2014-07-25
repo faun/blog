@@ -79,7 +79,7 @@
     { "grape" : "dtum-bpang baay juu" },
     { "here" : "dtii-nih" },
     { "hotel" : "sɔn-taa-gia/o-dtel" },
-    { "hour" : "maung" },
+    { "hour" : "maong" },
     { "house" : "pdtɛah" },
     { "husband" : "bdey" },
     { "ice" : "dtək kɔɔk" },
@@ -418,14 +418,14 @@
   ],
 
   "Phrases of Time": [
-    { "at a time (one o'clock)" : "maung + number (maung muay)" },
+    { "at a time (one o'clock)" : "maong + number (maong muay)" },
     { "how many hours?" : "bpon-maan maan?" },
-    { "in one hour" : "muay maung dtiet" },
+    { "in one hour" : "muay maong dtiet" },
     { "last Saturday" : "tngai sau mun" },
     { "last week" : "aa-dtət mun" },
     { "next Saturday" : "tngai sau graoy" },
     { "next week" : "aa-dtət grəu̶y" },
-    { "what time?" : "maung bpon-maan?" }
+    { "what time?" : "maong bpon-maan?" }
   ],
 
   "Adverbs of Frequency": [
