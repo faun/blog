@@ -1,9 +1,8 @@
 $gutter_background: #fafafa;
-$code_background: whitesmoke;
+$code_background: $pre-bg;
 
 .highlight {
   font-size: 80%;
-  margin-bottom: 1em;
   background-color: $code_background;
 
   .c { color: #999988; font-style: italic } /* Comment */
@@ -104,7 +103,7 @@ $code_background: whitesmoke;
 
       &.code {
         padding-left: 1em;
-        background-color: whitesmoke;
+        background-color: $code_background;
 
         pre {
           white-space: pre;
