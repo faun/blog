@@ -159,6 +159,7 @@ ready do
     fallback '/' =>  '/offline.html'
     network 'http://www.google-analytics.com/ga.js'
     network 'http://www.google-analytics.com/__utm.gif'
+    network 'http://code.jquery.com/jquery-2.1.1.min.map'
     all_pages.each {|page| cache page }
   end
 
