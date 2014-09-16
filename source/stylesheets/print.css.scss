@@ -1,7 +1,5 @@
 @media print {
-  nav {
-    display: none;
-  }
+  nav, td.gutter { display: none }
 
   h1 { font-size: 1.4em }
 
