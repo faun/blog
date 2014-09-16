@@ -7,7 +7,8 @@
     %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
     %meta{content: "Personal portfolio and blog of Sascha Faun Winter", name: "description"}/
     %meta{content: "Sascha Faun Winter", name: "author"}/
-    = stylesheet_link_tag "application"
+    = stylesheet_link_tag "application", media: :all
+    = stylesheet_link_tag "print", media: :all
     //[if lt IE 9]
     =javascript_include_tag "http://html5shim.googlecode.com/svn/trunk/html5.js"
     = favicon_tag '/assets/ico/favicon.ico'
