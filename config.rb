@@ -156,6 +156,7 @@ ready do
   offline = Rack::Offline.configure do
     cache 'http://code.jquery.com/jquery.min.js'
     cache 'http://html5shim.googlecode.com/svn/trunk/html5.js'
+    network 'http://fonts.googleapis.com/*'
     fallback '/' =>  '/offline.html'
     network 'http://www.google-analytics.com/ga.js'
     network 'http://www.google-analytics.com/__utm.gif'
