@@ -9,6 +9,7 @@
     %meta{content: "Sascha Faun Winter", name: "author"}/
     = stylesheet_link_tag "application", media: :all
     = stylesheet_link_tag "print", media: :all
+    = stylesheet_link_tag "//fonts.googleapis.com/css?family=Roboto:400,900", media: :all
     //[if lt IE 9]
     =javascript_include_tag "http://html5shim.googlecode.com/svn/trunk/html5.js"
     = favicon_tag '/assets/ico/favicon.ico'
@@ -22,18 +23,21 @@
     = partial :header
 
     .container
-      .row
-        .col-lg-8.col-md-8.col-sm-12
-          - if is_blog_article?
-            %h1.page-title
-              = current_article.title
-            %aside.attribution
-              by
-              = link_to "Sascha Faun Winter", 'https://twitter.com/faunzy', rel: 'me'
-          = yield
-
-        .col-lg-4.col-md-4.col-sm-12
-          = partial :sidebar
+      - if request.path == "index.html"
+        = yield
+      - else
+        .row
+          .col-lg-12.col-md-12.col-sm-12
+            - if is_blog_article?
+              %h1.page-title
+                = current_article.title
+              %aside.attribution
+                by
+                = link_to "Sascha Faun Winter", 'https://twitter.com/faunzy', rel: 'me'
+            = yield
+        .row
+          .col-lg-12.col-md-12.col-sm-12
+            = partial :sidebar
 
     %script{src: "//code.jquery.com/jquery-2.1.1.min.js", type: "text/javascript"}
     = javascript_include_tag 'application'

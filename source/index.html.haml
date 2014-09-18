@@ -2,13 +2,20 @@
 layout: default
 
 ---
+.background-poster
 .row
-  .col-lg-12.col-md-12.col-sm-8.col-xs-12
-    %img{alt: "This is me, in case there was any doubt.", src: "/images/headshot_370.jpg"}/
-  .col-lg-8.col-md-8.col-sm-4.col-xs-10
+  .intro
     %h2 Sculptor of Awesome
     %p Faun is a full-stack software engineer located in San Francisco, California with a strong background in automated testing and modern web technologies. Utilizing behavior-driven development methodologies, Faun is adept at building non-trivial cloud-milked synthetic algorithms utilizing location-aware synergistic collaboration and magical unicorns.
     %p
       See
       %a{href: "resume.html"} resume
       for more information.
+    %nav.elsewhere
+      %h3 Elsewhere on the Web
+      %ul
+        - site.external_links.each do |link|
+          %li
+            = link_to link['name'], link['url'], rel: 'me'
+    = partial :sidebar
+

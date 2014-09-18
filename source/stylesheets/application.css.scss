@@ -1,5 +1,4 @@
-$pre-bg: whitesmoke;
-@import "compass";
+@import "variables";
 
 // Core variables and mixins
 @import "bootstrap/variables";
@@ -49,20 +48,46 @@ $pre-bg: whitesmoke;
 // @import "bootstrap/carousel";
 
 // Utility classes
-// @import "bootstrap/utilities";
-// @import "bootstrap/responsive-utilities";
+@import "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";
 
+@import "compass";
 @import "highlight";
 
 body {
-  padding: 80px 0 20px 0;
+  padding: 73px 0 0 0;
+  background-color: #f2f2f2;
+  @media (max-width: $screen-sm-min) {
+    padding-top: 50px;
+  }
+}
+
+.navbar-nav > li > a {
+  @extend h4;
+  font-size: 20px;
+  text-transform: uppercase;
+  &:first-of-type {
+    padding-left: 0;
+  }
 }
 
 header {
   min-height: 50px;
 }
 
-h6 { font-size: 1.5em }
+$header-accent: darken($brand-primary, 20%);
+.page-masthead {
+  @include background-image(linear-gradient(135deg, $brand-primary 0, darken($brand-primary, 20%) 80%, darken($brand-primary, 25%) 100%));
+  border-top: 1px solid $header-accent;
+  border-bottom: 1px solid $header-accent;
+  .container {
+    padding-bottom: ($line-height-computed);
+  }
+}
+
+.bio {
+  margin-top: $grid-gutter-width;
+}
 
 nav.collapse {
   margin-bottom: 0;
