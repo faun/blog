@@ -63,4 +63,98 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 See the [RESTObjectPOSTrestore](http://docs.amazonwebservices.com/AmazonS3/latest/API/RESTObjectPOSTrestore.html) and [restoring-objects](http://docs.amazonwebservices.com/AmazonS3/latest/dev/restoring-objects.html) for more info.
 
-<script src="https://gist.github.com/4092579.js"></script>
+```ruby
+#!/usr/bin/env ruby
+require 'base64'
+require 'openssl'
+require 'digest/sha1'
+require 'net/http'
+require "uri"
+require 'time'
+
+DEBUG = false
+
+class GlacierRestore
+  def initialize
+    @request_params ='?restore'
+    @bucket = '[[bucket name]]'
+    @host = "#{@bucket}.s3.amazonaws.com"
+    @access_key_id = '[[access key id]]'
+    @secret_access_key = '[[your secret access key]]'
+    @post_body = "<RestoreRequest>\n  <Days>[[num_days]]</Days>\n</RestoreRequest>"
+    @md5 = Digest::MD5.base64digest(@post_body)
+    @content_type = "text/xml"
+  end
+
+  def restore files
+    files.each do |file|
+      restore_file file.chomp
+    end
+  end
+
+  def restore_file file_name
+    @date = Time.now.httpdate
+    @canonicalized_resource = "/#{file_name}#{@request_params}"
+    string_to_sign = "POST\n#{@md5}\n#{@content_type}\n#{@date}\n/#{@bucket}#{@canonicalized_resource}"
+    @signature = signature string_to_sign
+
+    uri = URI.parse("http://#{@host}")
+    http = Net::HTTP.new(uri.host, uri.port)
+    request = Net::HTTP::Post.new("http://#{@host}#{@canonicalized_resource}")
+    request.add_field('Host', @host)
+    request.add_field('Authorization', "AWS #{@access_key_id}:#{@signature}")
+    request.add_field('Content-Type', @content_type)
+    request.add_field('Content-Length', @post_body.length)
+    request.add_field('Date', @date)
+    request.add_field('Content-MD5', @md5)
+    request.body = @post_body
+    response = http.request(request)
+
+    divider = "\n===========\n"
+    if DEBUG
+      $stderr.puts "Headers:\n "
+      $stderr.puts "#{request.to_hash}"
+      $stderr.puts divider
+      $stderr.puts "Date:\n'#{@date}'"
+      $stderr.puts divider
+      $stderr.puts "Object name:\n'#{file_name}'"
+      $stderr.puts divider
+      $stderr.puts "Canonicalized Resource:\n'#{@canonicalized_resource}'"
+      $stderr.puts divider
+      $stderr.puts "String to sign:\n'#{string_to_sign}'"
+      $stderr.puts divider
+      $stderr.puts "POST body:\n'#{@post_body}'"
+      $stderr.puts divider
+      $stderr.puts "Response body:\n'#{response.body}'"
+      $stderr.puts divider
+      $stderr.puts "Response message:\n'#{response.message}'"
+      $stderr.puts divider
+      $stderr.puts "Response code:\n'#{response.code}'"
+      $stderr.puts divider
+      $stderr.puts "Signature:\n'#{@signature}'"
+    else
+      $stderr.puts "#{response.code} #{response.message} #{response.body.gsub(/<.*?>/, ' ').gsub(/ +/, ' ')}"
+    end
+    if [200, 202, 409].include?(response.code.to_i)
+      $stdout.puts file_name
+    end
+  end
+
+  def signature string_to_sign
+    Base64.encode64(
+      OpenSSL::HMAC.digest(
+        OpenSSL::Digest::Digest.new('sha1'),
+        @secret_access_key, string_to_sign)
+    ).chomp
+  end
+end
+
+if __FILE__ == $0
+  glacier = GlacierRestore.new
+  files = File.read('files_to_restore.txt').each_line.to_a
+  $stderr.puts "Restoring #{files.count} files"
+  #if you only want to parse some of the lines
+  #files = files[1..10]
+  glacier.restore(files)
+end
+```
