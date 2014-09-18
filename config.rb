@@ -162,6 +162,8 @@ ready do
     network 'http://www.google-analytics.com/__utm.gif'
     network 'http://code.jquery.com/jquery-2.1.1.min.map'
     all_pages.each {|page| cache page }
+    network 'http://*'
+    network 'https://*'
     network '*'
   end
 
