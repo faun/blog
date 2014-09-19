@@ -21,6 +21,11 @@
 
   %body
     = partial :header
+    - if request.path == "index.html"
+      .page-masthead
+        .container
+          %h1 Sascha Faun Winter
+          %h4 Experienced Web Engineer located in San Francisco
 
     .container
       - if request.path == "index.html"
