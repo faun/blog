@@ -8,7 +8,9 @@ Sascha Faun Winter
 <meta content='width=device-width, initial-scale=1.0' name='viewport'>
 <meta content='Personal portfolio and blog of Sascha Faun Winter' name='description'>
 <meta content='Sascha Faun Winter' name='author'>
-<link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/application.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/print.css" media="all" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Roboto:400,900" media="all" rel="stylesheet" type="text/css" />
 <!-- /[if lt IE 9] -->
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
 <link href="/assets/ico/favicon.ico" rel="icon" type="image/ico" />
@@ -49,16 +51,16 @@ Sascha Faun Winter
 
 <div class='container'>
 <div class='row'>
-<div class='col-lg-8 col-md-8 col-sm-12'>
+<div class='col-lg-12 col-md-12 col-sm-12'>
 <h1 class='page-title'>
 Restoring Archived Files from Amazon Glacier
 </h1>
-<aside class='attribion'>
+<aside class='attribution'>
 by
 <a rel="me" href="https://twitter.com/faunzy">Sascha Faun Winter</a>
 </aside>
 <div class='section'>
-<div class='article'>
+<article>
 <h3>The Problem</h3>
 
 <p>A few weeks ago I got into a situation in which I needed to restore a large number of files from Amazon&rsquo;s then-new service: S3 Archive (Glacier). These objects (Amazon&rsquo;s word for files), are not standard Glacier objects, but are S3 objects that have been <a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html">transitioned</a> to long-term storage. You can read more about Glacier <a href="http://aws.amazon.com/glacier/">here</a>.</p>
@@ -120,22 +122,118 @@ another/sub/folder/object_2.ext
 <h3>Further Reading:</h3>
 
 <p>See the <a href="http://docs.amazonwebservices.com/AmazonS3/latest/API/RESTObjectPOSTrestore.html">RESTObjectPOSTrestore</a> and <a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/restoring-objects.html">restoring-objects</a> for more info.</p>
+<div class="highlight ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre><pre class="lineno">2</pre><pre class="lineno">3</pre><pre class="lineno">4</pre><pre class="lineno">5</pre><pre class="lineno">6</pre><pre class="lineno">7</pre><pre class="lineno">8</pre><pre class="lineno">9</pre><pre class="lineno">10</pre><pre class="lineno">11</pre><pre class="lineno">12</pre><pre class="lineno">13</pre><pre class="lineno">14</pre><pre class="lineno">15</pre><pre class="lineno">16</pre><pre class="lineno">17</pre><pre class="lineno">18</pre><pre class="lineno">19</pre><pre class="lineno">20</pre><pre class="lineno">21</pre><pre class="lineno">22</pre><pre class="lineno">23</pre><pre class="lineno">24</pre><pre class="lineno">25</pre><pre class="lineno">26</pre><pre class="lineno">27</pre><pre class="lineno">28</pre><pre class="lineno">29</pre><pre class="lineno">30</pre><pre class="lineno">31</pre><pre class="lineno">32</pre><pre class="lineno">33</pre><pre class="lineno">34</pre><pre class="lineno">35</pre><pre class="lineno">36</pre><pre class="lineno">37</pre><pre class="lineno">38</pre><pre class="lineno">39</pre><pre class="lineno">40</pre><pre class="lineno">41</pre><pre class="lineno">42</pre><pre class="lineno">43</pre><pre class="lineno">44</pre><pre class="lineno">45</pre><pre class="lineno">46</pre><pre class="lineno">47</pre><pre class="lineno">48</pre><pre class="lineno">49</pre><pre class="lineno">50</pre><pre class="lineno">51</pre><pre class="lineno">52</pre><pre class="lineno">53</pre><pre class="lineno">54</pre><pre class="lineno">55</pre><pre class="lineno">56</pre><pre class="lineno">57</pre><pre class="lineno">58</pre><pre class="lineno">59</pre><pre class="lineno">60</pre><pre class="lineno">61</pre><pre class="lineno">62</pre><pre class="lineno">63</pre><pre class="lineno">64</pre><pre class="lineno">65</pre><pre class="lineno">66</pre><pre class="lineno">67</pre><pre class="lineno">68</pre><pre class="lineno">69</pre><pre class="lineno">70</pre><pre class="lineno">71</pre><pre class="lineno">72</pre><pre class="lineno">73</pre><pre class="lineno">74</pre><pre class="lineno">75</pre><pre class="lineno">76</pre><pre class="lineno">77</pre><pre class="lineno">78</pre><pre class="lineno">79</pre><pre class="lineno">80</pre><pre class="lineno">81</pre><pre class="lineno">82</pre><pre class="lineno">83</pre><pre class="lineno">84</pre><pre class="lineno">85</pre><pre class="lineno">86</pre><pre class="lineno">87</pre><pre class="lineno">88</pre><pre class="lineno">89</pre><pre class="lineno">90</pre><pre class="lineno">91</pre><pre class="lineno">92</pre><pre class="lineno">93</pre></td><td class="code"><pre><span class="c1">#!/usr/bin/env ruby</span>
+<span class="nb">require</span> <span class="s1">'base64'</span>
+<span class="nb">require</span> <span class="s1">'openssl'</span>
+<span class="nb">require</span> <span class="s1">'digest/sha1'</span>
+<span class="nb">require</span> <span class="s1">'net/http'</span>
+<span class="nb">require</span> <span class="s2">"uri"</span>
+<span class="nb">require</span> <span class="s1">'time'</span>
 
-<script src="https://gist.github.com/4092579.js"></script>
+<span class="no">DEBUG</span> <span class="o">=</span> <span class="kp">false</span>
 
+<span class="k">class</span> <span class="nc">GlacierRestore</span>
+  <span class="k">def</span> <span class="nf">initialize</span>
+    <span class="vi">@request_params</span> <span class="o">=</span><span class="s1">'?restore'</span>
+    <span class="vi">@bucket</span> <span class="o">=</span> <span class="s1">'[[bucket name]]'</span>
+    <span class="vi">@host</span> <span class="o">=</span> <span class="s2">"</span><span class="si">#{</span><span class="vi">@bucket</span><span class="si">}</span><span class="s2">.s3.amazonaws.com"</span>
+    <span class="vi">@access_key_id</span> <span class="o">=</span> <span class="s1">'[[access key id]]'</span>
+    <span class="vi">@secret_access_key</span> <span class="o">=</span> <span class="s1">'[[your secret access key]]'</span>
+    <span class="vi">@post_body</span> <span class="o">=</span> <span class="s2">"&lt;RestoreRequest&gt;</span><span class="se">\n</span><span class="s2">  &lt;Days&gt;[[num_days]]&lt;/Days&gt;</span><span class="se">\n</span><span class="s2">&lt;/RestoreRequest&gt;"</span>
+    <span class="vi">@md5</span> <span class="o">=</span> <span class="no">Digest</span><span class="o">::</span><span class="no">MD5</span><span class="p">.</span><span class="nf">base64digest</span><span class="p">(</span><span class="vi">@post_body</span><span class="p">)</span>
+    <span class="vi">@content_type</span> <span class="o">=</span> <span class="s2">"text/xml"</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">restore</span> <span class="n">files</span>
+    <span class="n">files</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">file</span><span class="o">|</span>
+      <span class="n">restore_file</span> <span class="n">file</span><span class="p">.</span><span class="nf">chomp</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">restore_file</span> <span class="n">file_name</span>
+    <span class="vi">@date</span> <span class="o">=</span> <span class="no">Time</span><span class="p">.</span><span class="nf">now</span><span class="p">.</span><span class="nf">httpdate</span>
+    <span class="vi">@canonicalized_resource</span> <span class="o">=</span> <span class="s2">"/</span><span class="si">#{</span><span class="n">file_name</span><span class="si">}#{</span><span class="vi">@request_params</span><span class="si">}</span><span class="s2">"</span>
+    <span class="n">string_to_sign</span> <span class="o">=</span> <span class="s2">"POST</span><span class="se">\n</span><span class="si">#{</span><span class="vi">@md5</span><span class="si">}</span><span class="se">\n</span><span class="si">#{</span><span class="vi">@content_type</span><span class="si">}</span><span class="se">\n</span><span class="si">#{</span><span class="vi">@date</span><span class="si">}</span><span class="se">\n</span><span class="s2">/</span><span class="si">#{</span><span class="vi">@bucket</span><span class="si">}#{</span><span class="vi">@canonicalized_resource</span><span class="si">}</span><span class="s2">"</span>
+    <span class="vi">@signature</span> <span class="o">=</span> <span class="n">signature</span> <span class="n">string_to_sign</span>
+
+    <span class="n">uri</span> <span class="o">=</span> <span class="no">URI</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="s2">"http://</span><span class="si">#{</span><span class="vi">@host</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">http</span> <span class="o">=</span> <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">uri</span><span class="p">.</span><span class="nf">host</span><span class="p">,</span> <span class="n">uri</span><span class="p">.</span><span class="nf">port</span><span class="p">)</span>
+    <span class="n">request</span> <span class="o">=</span> <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="o">::</span><span class="no">Post</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="s2">"http://</span><span class="si">#{</span><span class="vi">@host</span><span class="si">}#{</span><span class="vi">@canonicalized_resource</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">request</span><span class="p">.</span><span class="nf">add_field</span><span class="p">(</span><span class="s1">'Host'</span><span class="p">,</span> <span class="vi">@host</span><span class="p">)</span>
+    <span class="n">request</span><span class="p">.</span><span class="nf">add_field</span><span class="p">(</span><span class="s1">'Authorization'</span><span class="p">,</span> <span class="s2">"AWS </span><span class="si">#{</span><span class="vi">@access_key_id</span><span class="si">}</span><span class="s2">:</span><span class="si">#{</span><span class="vi">@signature</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">request</span><span class="p">.</span><span class="nf">add_field</span><span class="p">(</span><span class="s1">'Content-Type'</span><span class="p">,</span> <span class="vi">@content_type</span><span class="p">)</span>
+    <span class="n">request</span><span class="p">.</span><span class="nf">add_field</span><span class="p">(</span><span class="s1">'Content-Length'</span><span class="p">,</span> <span class="vi">@post_body</span><span class="p">.</span><span class="nf">length</span><span class="p">)</span>
+    <span class="n">request</span><span class="p">.</span><span class="nf">add_field</span><span class="p">(</span><span class="s1">'Date'</span><span class="p">,</span> <span class="vi">@date</span><span class="p">)</span>
+    <span class="n">request</span><span class="p">.</span><span class="nf">add_field</span><span class="p">(</span><span class="s1">'Content-MD5'</span><span class="p">,</span> <span class="vi">@md5</span><span class="p">)</span>
+    <span class="n">request</span><span class="p">.</span><span class="nf">body</span> <span class="o">=</span> <span class="vi">@post_body</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">http</span><span class="p">.</span><span class="nf">request</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
+
+    <span class="n">divider</span> <span class="o">=</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">===========</span><span class="se">\n</span><span class="s2">"</span>
+    <span class="k">if</span> <span class="no">DEBUG</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"Headers:</span><span class="se">\n</span><span class="s2"> "</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"</span><span class="si">#{</span><span class="n">request</span><span class="p">.</span><span class="nf">to_hash</span><span class="si">}</span><span class="s2">"</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="n">divider</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"Date:</span><span class="se">\n</span><span class="s2">'</span><span class="si">#{</span><span class="vi">@date</span><span class="si">}</span><span class="s2">'"</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="n">divider</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"Object name:</span><span class="se">\n</span><span class="s2">'</span><span class="si">#{</span><span class="n">file_name</span><span class="si">}</span><span class="s2">'"</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="n">divider</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"Canonicalized Resource:</span><span class="se">\n</span><span class="s2">'</span><span class="si">#{</span><span class="vi">@canonicalized_resource</span><span class="si">}</span><span class="s2">'"</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="n">divider</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"String to sign:</span><span class="se">\n</span><span class="s2">'</span><span class="si">#{</span><span class="n">string_to_sign</span><span class="si">}</span><span class="s2">'"</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="n">divider</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"POST body:</span><span class="se">\n</span><span class="s2">'</span><span class="si">#{</span><span class="vi">@post_body</span><span class="si">}</span><span class="s2">'"</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="n">divider</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"Response body:</span><span class="se">\n</span><span class="s2">'</span><span class="si">#{</span><span class="n">response</span><span class="p">.</span><span class="nf">body</span><span class="si">}</span><span class="s2">'"</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="n">divider</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"Response message:</span><span class="se">\n</span><span class="s2">'</span><span class="si">#{</span><span class="n">response</span><span class="p">.</span><span class="nf">message</span><span class="si">}</span><span class="s2">'"</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="n">divider</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"Response code:</span><span class="se">\n</span><span class="s2">'</span><span class="si">#{</span><span class="n">response</span><span class="p">.</span><span class="nf">code</span><span class="si">}</span><span class="s2">'"</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="n">divider</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"Signature:</span><span class="se">\n</span><span class="s2">'</span><span class="si">#{</span><span class="vi">@signature</span><span class="si">}</span><span class="s2">'"</span>
+    <span class="k">else</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"</span><span class="si">#{</span><span class="n">response</span><span class="p">.</span><span class="nf">code</span><span class="si">}</span><span class="s2"> </span><span class="si">#{</span><span class="n">response</span><span class="p">.</span><span class="nf">message</span><span class="si">}</span><span class="s2"> </span><span class="si">#{</span><span class="n">response</span><span class="p">.</span><span class="nf">body</span><span class="p">.</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/&lt;.*?&gt;/</span><span class="p">,</span> <span class="s1">' '</span><span class="p">).</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/ +/</span><span class="p">,</span> <span class="s1">' '</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span>
+    <span class="k">end</span>
+    <span class="k">if</span> <span class="o">[</span><span class="mi">200</span><span class="p">,</span> <span class="mi">202</span><span class="p">,</span> <span class="mi">409</span><span class="o">]</span><span class="p">.</span><span class="nf">include?</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="nf">code</span><span class="p">.</span><span class="nf">to_i</span><span class="p">)</span>
+      <span class="vg">$stdout</span><span class="p">.</span><span class="nf">puts</span> <span class="n">file_name</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">signature</span> <span class="n">string_to_sign</span>
+    <span class="no">Base64</span><span class="p">.</span><span class="nf">encode64</span><span class="p">(</span>
+      <span class="no">OpenSSL</span><span class="o">::</span><span class="no">HMAC</span><span class="p">.</span><span class="nf">digest</span><span class="p">(</span>
+        <span class="no">OpenSSL</span><span class="o">::</span><span class="no">Digest</span><span class="o">::</span><span class="no">Digest</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="s1">'sha1'</span><span class="p">),</span>
+        <span class="vi">@secret_access_key</span><span class="p">,</span> <span class="n">string_to_sign</span><span class="p">)</span>
+    <span class="p">).</span><span class="nf">chomp</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="k">if</span> <span class="kp">__FILE__</span> <span class="o">==</span> <span class="vg">$0</span>
+  <span class="n">glacier</span> <span class="o">=</span> <span class="no">GlacierRestore</span><span class="p">.</span><span class="nf">new</span>
+  <span class="n">files</span> <span class="o">=</span> <span class="no">File</span><span class="p">.</span><span class="nf">read</span><span class="p">(</span><span class="s1">'files_to_restore.txt'</span><span class="p">).</span><span class="nf">each_line</span><span class="p">.</span><span class="nf">to_a</span>
+  <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"Restoring </span><span class="si">#{</span><span class="n">files</span><span class="p">.</span><span class="nf">count</span><span class="si">}</span><span class="s2"> files"</span>
+  <span class="c1">#if you only want to parse some of the lines</span>
+  <span class="c1">#files = files[1..10]</span>
+  <span class="n">glacier</span><span class="p">.</span><span class="nf">restore</span><span class="p">(</span><span class="n">files</span><span class="p">)</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table>
 </div>
+
+</article>
 </div>
 <hr>
-<div class='section'>
-<div class='article'>
+<aside>
+<nav>
 <a class='btn btn-default' href='/'>←Back</a>
-</div>
-</div>
+</nav>
+</aside>
 
 </div>
-<div class='col-lg-4 col-md-4 col-sm-12'>
+</div>
+<div class='row'>
+<div class='col-lg-12 col-md-12 col-sm-12'>
 <aside>
 <nav class='posts'>
+<hr>
 <h3 class='post_title'>All Posts:</h3>
 <ul class='recent'>
 <li>
@@ -149,38 +247,12 @@ another/sub/folder/object_2.ext
 </li>
 </ul>
 </nav>
-<nav class='elsewhere'>
-<h3>Elsewhere on the Web</h3>
-<ul>
-<li>
-<a rel="me" href="http://photos.faun.me">Personal Photography</a>
-</li>
-<li>
-<a rel="me" href="https://twitter.com/faunzy">Twitter</a>
-</li>
-<li>
-<a rel="me" href="https://github.com/faun">GitHub</a>
-</li>
-<li>
-<a rel="me" href="http://www.linkedin.com/in/saschawinter">LinkedIn</a>
-</li>
-<li>
-<a rel="me" href="http://flickr.com/faunzy">Flickr</a>
-</li>
-<li>
-<a rel="me" href="http://instagram.com/faunzy">Instagram</a>
-</li>
-<li>
-<a rel="me" href="http://plus.google.com/112681783906373636049">Google+</a>
-</li>
-</ul>
-</nav>
 </aside>
 
 </div>
 </div>
 </div>
-<script src='//code.jquery.com/jquery.min.js' type='text/javascript'></script>
+<script src='//code.jquery.com/jquery-2.1.1.min.js' type='text/javascript'></script>
 <script src="/javascripts/application.js" type="text/javascript"></script>
 <script>
   // Google analytics
@@ -196,10 +268,8 @@ another/sub/folder/object_2.ext
   // Appcache brute-force refresh
   if (window.applicationCache) {
     applicationCache.addEventListener('updateready', function() {
-      if (confirm('An update is available. Reload now?')) {
-        window.location.reload();
-          }
-      });
+      window.location.reload();
+    });
   }
 </script>
 </body>

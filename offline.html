@@ -8,7 +8,9 @@ Sascha Faun Winter
 <meta content='width=device-width, initial-scale=1.0' name='viewport'>
 <meta content='Personal portfolio and blog of Sascha Faun Winter' name='description'>
 <meta content='Sascha Faun Winter' name='author'>
-<link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/application.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/print.css" media="all" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Roboto:400,900" media="all" rel="stylesheet" type="text/css" />
 <!-- /[if lt IE 9] -->
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
 <link href="/assets/ico/favicon.ico" rel="icon" type="image/ico" />
@@ -49,16 +51,19 @@ Sascha Faun Winter
 
 <div class='container'>
 <div class='row'>
-<div class='col-lg-8 col-md-8 col-sm-12'>
+<div class='col-lg-12 col-md-12 col-sm-12'>
 <div class='h1'>
 <div class='frown'>:-(</div>
 Currently offline
 </div>
 
 </div>
-<div class='col-lg-4 col-md-4 col-sm-12'>
+</div>
+<div class='row'>
+<div class='col-lg-12 col-md-12 col-sm-12'>
 <aside>
 <nav class='posts'>
+<hr>
 <h3 class='post_title'>All Posts:</h3>
 <ul class='recent'>
 <li>
@@ -72,38 +77,12 @@ Currently offline
 </li>
 </ul>
 </nav>
-<nav class='elsewhere'>
-<h3>Elsewhere on the Web</h3>
-<ul>
-<li>
-<a rel="me" href="http://photos.faun.me">Personal Photography</a>
-</li>
-<li>
-<a rel="me" href="https://twitter.com/faunzy">Twitter</a>
-</li>
-<li>
-<a rel="me" href="https://github.com/faun">GitHub</a>
-</li>
-<li>
-<a rel="me" href="http://www.linkedin.com/in/saschawinter">LinkedIn</a>
-</li>
-<li>
-<a rel="me" href="http://flickr.com/faunzy">Flickr</a>
-</li>
-<li>
-<a rel="me" href="http://instagram.com/faunzy">Instagram</a>
-</li>
-<li>
-<a rel="me" href="http://plus.google.com/112681783906373636049">Google+</a>
-</li>
-</ul>
-</nav>
 </aside>
 
 </div>
 </div>
 </div>
-<script src='//code.jquery.com/jquery.min.js' type='text/javascript'></script>
+<script src='//code.jquery.com/jquery-2.1.1.min.js' type='text/javascript'></script>
 <script src="/javascripts/application.js" type="text/javascript"></script>
 <script>
   // Google analytics
@@ -119,10 +98,8 @@ Currently offline
   // Appcache brute-force refresh
   if (window.applicationCache) {
     applicationCache.addEventListener('updateready', function() {
-      if (confirm('An update is available. Reload now?')) {
-        window.location.reload();
-          }
-      });
+      window.location.reload();
+    });
   }
 </script>
 </body>

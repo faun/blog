@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 195ffa205c44718994a946b28ec72167e249c68dc323adfe77fd1c763f1c7355
+# 15510d260e87f0babd692d855ac62d399a598846872fba2f0d4af66c9bc37b49
 http://code.jquery.com/jquery.min.js
 http://html5shim.googlecode.com/svn/trunk/html5.js
 2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html
@@ -25,14 +25,20 @@ offline.html
 resume.html
 stylesheets/application.css
 stylesheets/highlight.css
+stylesheets/print.css
 fonts/bootstrap/glyphicons-halflings-regular.eot
 fonts/bootstrap/glyphicons-halflings-regular.svg
 fonts/bootstrap/glyphicons-halflings-regular.ttf
 fonts/bootstrap/glyphicons-halflings-regular.woff
 
 NETWORK:
+http://fonts.googleapis.com/*
 http://www.google-analytics.com/ga.js
 http://www.google-analytics.com/__utm.gif
+http://code.jquery.com/jquery-2.1.1.min.map
+http://*
+https://*
+*
 
 FALLBACK:
 / /offline.html
