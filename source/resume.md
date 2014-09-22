@@ -13,7 +13,7 @@ Seeking to build relationships with teams that have a strong vision, and work to
 
 ## Skills
 
-Faun is an experienced engineer with an emphasis on best practices and team-oriented development. With a strong technical inclination and highly resourceful approach to troubleshooting and problem solving, he is adept in building complex, object-oriented applications with a focus on maintainability and ease of use. Using design patterns, versioned APIs, and constant refactoring, he is experienced in growing applications that add value over time.
+Faun is an experienced engineer with an emphasis on best practices and team-oriented development. With a strong technical inclination and highly resourceful approach to troubleshooting and problem solving, he is adept in building complex, object-oriented applications with a focus on maintainability and ease of use. Using design patterns, versioned APIs, and constant refactoring, he is experienced at growing applications that add value over time.
 
 He is a craftsman of product, not just of features in a queue. He engages with requirements and asks hard questions about the needs and wants of the customers using the software he builds. He has excellent skills in communication and collaborative teamwork with a dedication to improving process where prudent. In short, he builds software that people love to use.
 
