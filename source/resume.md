@@ -5,7 +5,9 @@ title: Resume
 ---
 # Sascha Faun Winter
 
-[email](mailto:resume@faun.me)&nbsp;|&nbsp;[phone](tel:8313320905)
+<span class="hidden-print">
+  [email](mailto:resume@faun.me)&nbsp;|&nbsp;[phone](tel:8313320905)
+</span>
 
 ## Goals
 
