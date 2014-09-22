@@ -89,9 +89,7 @@ Responsible for development of email campaigns, web applications, micro-sites an
 
 - Interviewed and evaluated new candidates for the development team, and helped to train new hires.
 
-Lead developer for client relationship with Apple. Responsible for delivering exacting work under tight timelines and demanding expectations.
-
-##### Select Projects
+Acted as lead developer for client relationship with Apple. Responsible for delivering exacting work under tight timelines and demanding expectations. Select projects for Apple Marcom:
 
 - Developed HTML5 & CSS for marketing campaigns on apple.com.
 
