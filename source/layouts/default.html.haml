@@ -27,7 +27,7 @@
           %h1 Sascha Faun Winter
           %h4 Experienced Web Engineer located in San Francisco
 
-    .container
+    .container{ class: request.path.sub(/\.html$/, '') }
       - if request.path == "index.html"
         = yield
       - else
