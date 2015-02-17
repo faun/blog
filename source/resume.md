@@ -42,13 +42,19 @@ Founder and primary developer at a software consulting company focused on buildi
 
 Helping to build minimum viable products for startups and helping established businesses augment their applications to reach the scale of success. Improved the reliability of applications and services for a number of technology startups in San Francisco by increasing test coverage by up to 30% and reducing error rates by an order of magnitude.
 
-#### Select Projects
+##### Select Projects
 
-- Contributed to next-generation publishing platform for scientific journals. Built on Rails 4 with a JSON API, Ember.js, Server-sent events and service-oriented architecture. Created an external service to convert ePub documents to PDF and deliver them to application users after conversion. Generated Ansible playbook for deploying application to Amazon EC2. Select technologies used: `Ruby on Rails`, `Ember.js`, `Ember Data`, `qUnit`, `Sinon.js`, `RSpec`, `Sidekiq`, `PostgreSQL`, `Bootstrap`
+###### Neo
 
-- Worked on photo sharing application rescue project with low test coverage and slow uploads. Improved test coverage and re-routed file uploads from direct application pass-through to a cloud server via direct upload with push notifications and background job processing. Increased file upload capacity and reliability meanwhile significantly decreasing file upload time. Select technologies used: `Ruby on Rails`, `RSpec`/`RSpec Mocks`, `Cross-origin Resource Sharing`/`jQuery File Upload`, `Pusher`.
+  - Contributed to next-generation publishing platform for scientific journals. Built on Rails 4 with a JSON API, Ember.js, Server-sent events and service-oriented architecture. Created an external service to convert ePub documents to PDF and deliver them to application users after conversion. Generated Ansible playbook for deploying application to Amazon EC2. Select technologies used: `Ruby on Rails`, `Ember.js`, `Ember Data`, `qUnit`, `Sinon.js`, `RSpec`, `Sidekiq`, `PostgreSQL`, `Bootstrap`
 
-- Contracted with social media sentiment analysis startup (see below for more information) while living abroad in Southeast Asia to prepare for successful hand-off to a team of direct-hire, in-house developers. 
+###### Timeline Labs
+
+- Contracted with social media sentiment analysis startup to build a world-class sentiment analysis tool to help brands news organization and celebrities understand the sentiment and level of user engagement throughout the world. Select technologies used: `Ruby on Rails`, `PostgreSQL`, `Redis`, `Active Admin`, `Angular.js`, `Pusher`, `D3.js`, `Rickshaw`
+
+###### Afolio
+
+  - Worked on photo sharing application rescue project with low test coverage and slow uploads. Improved test coverage and re-routed file uploads from direct application pass-through to a cloud server via direct upload with push notifications and background job processing. Increased file upload capacity and reliability meanwhile significantly decreasing file upload time. Select technologies used: `Ruby on Rails`, `RSpec`/`RSpec Mocks`, `Cross-origin Resource Sharing`/`jQuery File Upload`, `Pusher`.
 
 #### Senior Developer; Cloud City Development, San Francisco, Ca - February 2013 to April 2014
 
@@ -88,6 +94,8 @@ Created sophisticated mobile application for a major health insurance company.
 
 Responsible for development of email campaigns, web applications, micro-sites and e-commerce solutions for corporate clients on a strict timeframe and with exacting specifications and requirements. 
 
+##### Select responsibilities
+
 - Built a Rails application for company blog and portfolio showcase using custom blogging framework and content management system written from scratch. Built custom user interface for website administration by pairing with designers and defining requirements from the ground up.
 
 - Performed development work for clients including: Apple, Adobe, Futures Without Violence, Message Systems, Alibaba.com, Bank of America, Camelbak, Walmart.com & more.
@@ -95,6 +103,8 @@ Responsible for development of email campaigns, web applications, micro-sites an
 - Interviewed and evaluated new candidates for the development team, and helped to train new hires.
 
 Acted as lead developer for client relationship with Apple. Responsible for delivering exacting work under tight timelines and demanding expectations. Select projects for Apple Marcom:
+
+##### Select projects
 
 - Developed HTML5 & CSS for marketing campaigns on apple.com.
 
