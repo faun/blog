@@ -58,7 +58,7 @@ Helping to build minimum viable products for startups and helping established bu
 
 #### Senior Developer; Cloud City Development, San Francisco, Ca - February 2013 to April 2014
 
-Engineered web applications for startups in the Bay Area. Cloud City offers top-notch consultation using mixed-experience engineers pairing continuously to build minimum viable products while providing on-the-job training for new members of the programming community. 
+Engineered web applications for startups in the Bay Area. Cloud City offers top-notch consultation using mixed-experience engineers pairing continuously to build minimum viable products while providing on-the-job training for new members of the programming community.
 
 - Wrote robust applications for clients utilizing pair programming, behavior-driven development, continuous integration, and code reviews.
 
@@ -92,7 +92,7 @@ Created sophisticated mobile application for a major health insurance company.
 
 #### Web/Applications Developer; Traction Corporation, San Francisco, CA - Mar 2008 to April 2012
 
-Responsible for development of email campaigns, web applications, micro-sites and e-commerce solutions for corporate clients on a strict timeframe and with exacting specifications and requirements. 
+Responsible for development of email campaigns, web applications, micro-sites and e-commerce solutions for corporate clients on a strict timeframe and with exacting specifications and requirements.
 
 ##### Select responsibilities
 
@@ -123,7 +123,6 @@ Acted as a long-range wireless network technician for an Internet service provid
 - Performed professional website development for administrative website including the creation of a custom geographic profiling application.
 
 ## Technical Blog Posts
-
 
 - Wrote a [blog post](http://blog.cloudcity.io/2013/05/07/testing-paperclip-extensions-in-isolation/) for Cloud City about testing a file upload cropper built for a legacy application. [May 2013]
 
