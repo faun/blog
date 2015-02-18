@@ -3,7 +3,7 @@
 # Blog settings
 ###
 
-Time.zone = 'Bangkok'
+Time.zone = 'Pacific Time (US & Canada)'
 
 ###
 # Markdown
