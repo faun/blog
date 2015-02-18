@@ -49,13 +49,41 @@ Sascha Faun Winter
 </div>
 </header>
 
-<div class='container offline'>
+<div class='2015/02/17/cross-compiling-golang-applications-for-synology-1513 container'>
 <div class='row'>
 <div class='col-lg-12 col-md-12 col-sm-12'>
-<div class='h1'>
-<div class='frown'>:-(</div>
-Currently offline
+<h1 class='page-title'>
+Cross-compiling Golang Applications for Synology 1513+
+</h1>
+<aside class='attribution'>
+by
+<a rel="me" href="https://twitter.com/faunzy">Sascha Faun Winter</a>
+</aside>
+<div class='section'>
+<article>
+<p>To compile a Golang application project for Synology NAS architecture, first let&rsquo;s take a look at the list of Synology boxes by <a href="http://forum.synology.com/wiki/index.php/What_kind_of_CPU_does_my_NAS_have">architecture</a>. Looking at that chart, we can determine that the Synology 1513+ is running on a <code>x86 cedarview</code> processor and has a listed architecture of <code>x86_64</code>. Ok, so let&rsquo;s tell Go to compile for <code>x86_64</code> on Mac OS with Go installed via Homebrew:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre><pre class="lineno">2</pre></td><td class="code"><pre>cd $(brew --prefix go)/libexec/src
+GOOS=linux GOARCH=amd64 CGO_ENABLED=0 ./make.bash --no-clean
+</pre></td></tr></tbody></table>
 </div>
+
+<p>Now <code>cd</code> in to your project directory and run:</p>
+<div class="highlight plaintext"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>GOOS=linux GOARCH=amd64 go build
+</pre></td></tr></tbody></table>
+</div>
+
+<p>That&rsquo;s it. You should have a linux x86_64 compiled binary in your current working directory.</p>
+
+<p>HFGL!</p>
+
+</article>
+</div>
+<hr>
+<aside>
+<nav>
+<a class='btn btn-default' href='/'>←Back</a>
+</nav>
+</aside>
 
 </div>
 </div>
@@ -107,3 +135,4 @@ Currently offline
 </script>
 </body>
 </html>
+

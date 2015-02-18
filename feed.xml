@@ -5,15 +5,40 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-04-29T09:08:00Z</updated>
+  <updated>2015-02-18T00:10:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
+    <title>Cross-compiling Golang Applications for Synology 1513+</title>
+    <link rel="alternate" href="http://blog.url.com/2015/02/17/cross-compiling-golang-applications-for-synology-1513.html"/>
+    <id>http://blog.url.com/2015/02/17/cross-compiling-golang-applications-for-synology-1513.html</id>
+    <published>2015-02-18T00:10:00Z</published>
+    <updated>2015-02-17T17:06:49-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;To compile a Golang application project for Synology NAS architecture, first let&amp;rsquo;s take a look at the list of Synology boxes by &lt;a href="http://forum.synology.com/wiki/index.php/What_kind_of_CPU_does_my_NAS_have"&gt;architecture&lt;/a&gt;. Looking at that chart, we can determine that the Synology 1513+ is running on a &lt;code&gt;x86 cedarview&lt;/code&gt; processor and has a listed architecture of &lt;code&gt;x86_64&lt;/code&gt;. Ok, so let&amp;rsquo;s tell Go to compile for &lt;code&gt;x86_64&lt;/code&gt; on Mac OS with Go installed via Homebrew:&lt;/p&gt;
+&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;pre class="lineno"&gt;2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;cd $(brew --prefix go)/libexec/src
+GOOS=linux GOARCH=amd64 CGO_ENABLED=0 ./make.bash --no-clean
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now &lt;code&gt;cd&lt;/code&gt; in to your project directory and run:&lt;/p&gt;
+&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;GOOS=linux GOARCH=amd64 go build
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;That&amp;rsquo;s it. You should have a linux x86_64 compiled binary in your current working directory.&lt;/p&gt;
+
+&lt;p&gt;HFGL!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Decrypting PDFs as a Service</title>
     <link rel="alternate" href="http://blog.url.com/2014/04/29/decrypting-pdfs-as-a-service.html"/>
     <id>http://blog.url.com/2014/04/29/decrypting-pdfs-as-a-service.html</id>
-    <published>2014-04-29T09:08:00Z</published>
+    <published>2014-04-29T23:08:00Z</published>
     <updated>2014-07-24T20:20:02-07:00</updated>
     <author>
       <name>Article Author</name>
@@ -103,7 +128,7 @@ done&lt;/span&gt;
     <title>Installing RSpec, FactoryGirl and Capybara with Rails 3.2</title>
     <link rel="alternate" href="http://blog.url.com/2013/01/27/installing-rspec-factorygirl-and-capybara-with-rails-32.html"/>
     <id>http://blog.url.com/2013/01/27/installing-rspec-factorygirl-and-capybara-with-rails-32.html</id>
-    <published>2013-01-26T17:00:00Z</published>
+    <published>2013-01-27T08:00:00Z</published>
     <updated>2014-09-17T23:08:54-07:00</updated>
     <author>
       <name>Article Author</name>
@@ -207,7 +232,7 @@ done&lt;/span&gt;
     <title>Restoring Archived Files from Amazon Glacier</title>
     <link rel="alternate" href="http://blog.url.com/2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html"/>
     <id>http://blog.url.com/2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html</id>
-    <published>2012-12-15T17:00:00Z</published>
+    <published>2012-12-16T08:00:00Z</published>
     <updated>2014-09-17T23:07:45-07:00</updated>
     <author>
       <name>Article Author</name>
