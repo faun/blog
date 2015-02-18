@@ -129,6 +129,11 @@ img {
   margin-top: 20px;
 }
 
+.container {
+  max-width: 60em;
+  @include center-block;
+}
+
  // Gist styles
 .gist {
   .gist-meta {
