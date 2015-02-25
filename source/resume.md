@@ -132,6 +132,15 @@ Acted as a long-range wireless network technician for an Internet service provid
 - Performed professional website development for administrative website including the creation of a custom geographic profiling application.
 
 ---
+## Recent Projects
+
+#### Zinedistro
+[Zinedistro](https://github.com/zinedistro/zinedistro) is a ready-made content management tool for creators of zines to distribute their work. Deployment to Heroku is a just a button push away.
+
+#### Bitrot
+An experiment in learning Go, [bitrot](https://github.com/ggilder/bitrot) aims to fight silent data corruption by generating file checksums and later verifying the checksum value. This tool is meant to be run on a regular basis on a network attached storage device.
+
+---
 ## Technical Blog Posts
 
 - Wrote a [blog post](http://blog.cloudcity.io/2013/05/07/testing-paperclip-extensions-in-isolation/) for Cloud City about testing a file upload cropper built for a legacy application. [May 2013]
