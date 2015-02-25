@@ -53,15 +53,15 @@ Helping to build minimum viable products for startups and helping established bu
 
 ###### Neo
 
-  - Contributed to next-generation publishing platform for scientific journals. Built on Rails 4 with a JSON API, Ember.js, Server-sent events and service-oriented architecture. Created an external service to convert ePub documents to PDF and deliver them to application users after conversion. Generated Ansible playbook for deploying application to Amazon EC2. Select technologies used: `Ruby on Rails`, `Ember.js`, `Ember Data`, `qUnit`, `Sinon.js`, `RSpec`, `Sidekiq`, `PostgreSQL`, `Bootstrap`
+Contributed to next-generation publishing platform for scientific journals. Built on Rails 4 with a JSON API, Ember.js, Server-sent events and service-oriented architecture. Created an external service to convert ePub documents to PDF and deliver them to application users after conversion. Generated Ansible playbook for deploying application to Amazon EC2. Select technologies used: `Ruby on Rails`, `Ember.js`, `Ember Data`, `qUnit`, `Sinon.js`, `RSpec`, `Sidekiq`, `PostgreSQL`, `Bootstrap`
 
 ###### Timeline Labs
 
-- Contracted with social media sentiment analysis startup to build a world-class sentiment analysis tool to help brands news organization and celebrities understand the sentiment and level of user engagement throughout the world. Select technologies used: `Ruby on Rails`, `PostgreSQL`, `Redis`, `Active Admin`, `Angular.js`, `Pusher`, `D3.js`, `Rickshaw`
+Contracted with social media sentiment analysis startup to build a world-class sentiment analysis tool to help brands news organization and celebrities understand the sentiment and level of user engagement throughout the world. Select technologies used: `Ruby on Rails`, `PostgreSQL`, `Redis`, `Active Admin`, `Angular.js`, `Pusher`, `D3.js`, `Rickshaw`
 
 ###### Afolio
 
-  - Worked on photo sharing application rescue project with low test coverage and slow uploads. Improved test coverage and re-routed file uploads from direct application pass-through to a cloud server via direct upload with push notifications and background job processing. Increased file upload capacity and reliability meanwhile significantly decreasing file upload time. Select technologies used: `Ruby on Rails`, `RSpec`/`RSpec Mocks`, `Cross-origin Resource Sharing`/`jQuery File Upload`, `Pusher`.
+Worked on photo sharing application rescue project with low test coverage and slow uploads. Improved test coverage and re-routed file uploads from direct application pass-through to a cloud server via direct upload with push notifications and background job processing. Increased file upload capacity and reliability meanwhile significantly decreasing file upload time. Select technologies used: `Ruby on Rails`, `RSpec`/`RSpec Mocks`, `Cross-origin Resource Sharing`/`jQuery File Upload`, `Pusher`.
 
 ---
 ### Senior Developer
