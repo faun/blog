@@ -60,6 +60,10 @@ body {
   @media (min-width: $grid-float-breakpoint) {
     padding-top: 73px;
   }
+  ::selection {
+    background-color: #0071A0;
+    color: #ffffff;
+  }
 }
 
 .navbar-nav > li > a {
