@@ -42,7 +42,7 @@ He is a craftsman of product, not just of features in a queue. He engages with r
 ## Selected Employment
 
 ### Owner & CEO
-#### Hydra Development, Inc., San Francisco, Ca
+#### Hydra Development, Inc., San Francisco, California
 ##### August 2012 to Present
 
 Founder and primary developer at a software consulting company focused on building high-quality, scalable and reliable web applications for companies in the technology industry.
@@ -65,7 +65,7 @@ Helping to build minimum viable products for startups and helping established bu
 
 ---
 ### Senior Developer
-#### Cloud City Development, San Francisco, Ca
+#### Cloud City Development, San Francisco, California
 ##### February 2013 to April 2014
 
 Engineered web applications for startups in the Bay Area. Cloud City offers top-notch consultation using mixed-experience engineers pairing continuously to build minimum viable products while providing on-the-job training for new members of the programming community.
@@ -86,7 +86,7 @@ Engineered web applications for startups in the Bay Area. Cloud City offers top-
 
 ---
 ### Application Developer
-#### John McNeil Studio, Berkeley, CA
+#### John McNeil Studio, Berkeley, California
 ##### April 2012 to July 2012
 
 Created sophisticated mobile application for a major health insurance company.
@@ -105,7 +105,7 @@ Created sophisticated mobile application for a major health insurance company.
 
 ---
 ### Web/Applications Developer
-#### Traction Corporation, San Francisco, CA
+#### Traction Corporation, San Francisco, California
 ##### Mar 2008 to April 2012
 
 Responsible for development of email campaigns, web applications, micro-sites and e-commerce solutions for corporate clients on a strict timeframe and with exacting specifications and requirements.
@@ -132,7 +132,7 @@ Acted as lead developer for client relationship with Apple. Responsible for deli
 
 ---
 ### Wireless Network Technician
-#### Surfnet Communications, Los Gatos, CA
+#### Surfnet Communications, Los Gatos, California
 ##### Jan 2007 to Feb 2008
 
 Acted as a long-range wireless network technician for an Internet service provider serving the Santa Cruz Mountains.
@@ -162,11 +162,11 @@ Wrote a [blog post](http://www.tractionco.com/blog/95-deploying-wordpress-with-c
 ---
 ## Education
 
-Cabrillo College, Aptos, CA - 2004-2007 - Skills Certificate, Web Programming
+Cabrillo College, Aptos, California - 2004-2007 - Skills Certificate, Web Programming
 
-University of California, Santa Cruz, CA - 2001-2004 - Studied Community Studies
+University of California, Santa Cruz, California - 2001-2004 - Studied Community Studies
 
-El Molino High School, Forestville, CA - Graduated 2001
+El Molino High School, Forestville, California - Graduated 2001
 
 ---
 ## References
