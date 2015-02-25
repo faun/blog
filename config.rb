@@ -154,13 +154,13 @@ require 'rack/offline'
 ready do
   all_pages = sitemap.resources.map{|r| r.destination_path }
   offline = Rack::Offline.configure do
-    cache 'http://code.jquery.com/jquery.min.js'
-    cache 'http://html5shim.googlecode.com/svn/trunk/html5.js'
-    network 'http://fonts.googleapis.com/*'
+    cache 'https://code.jquery.com/jquery.min.js'
+    cache 'https://html5shim.googlecode.com/svn/trunk/html5.js'
+    network 'https://fonts.googleapis.com/*'
     fallback '/' =>  '/offline.html'
-    network 'http://www.google-analytics.com/ga.js'
-    network 'http://www.google-analytics.com/__utm.gif'
-    network 'http://code.jquery.com/jquery-2.1.1.min.map'
+    network 'https://www.google-analytics.com/ga.js'
+    network 'https://www.google-analytics.com/__utm.gif'
+    network 'https://code.jquery.com/jquery-2.1.1.min.map'
     all_pages.each {|page| cache page }
     network 'http://*'
     network 'https://*'
