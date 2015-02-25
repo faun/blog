@@ -152,11 +152,11 @@ Wrote a [blog post](http://www.tractionco.com/blog/95-deploying-wordpress-with-c
 ---
 ## Education
 
-Cabrillo College, Aptos, CA - 2004-2007 -  Skills Certificate, Web Programming
+Cabrillo College, Aptos, CA - 2004-2007 - Skills Certificate, Web Programming
 
-University of California, Santa Cruz, CA -  2001-2004  -  Studied Community Studies
+University of California, Santa Cruz, CA - 2001-2004 - Studied Community Studies
 
-El Molino High School, Forestville, CA  -   Graduated 2001
+El Molino High School, Forestville, CA - Graduated 2001
 
 ---
 ## References
