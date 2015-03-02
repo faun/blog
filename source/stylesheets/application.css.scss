@@ -155,4 +155,12 @@ img {
   code {
     white-space: normal;
   }
+
+  .web-info {
+    @extend .hidden-print
+  }
+
+  .print-info {
+    @extend .visible-print-block;
+  }
 }
