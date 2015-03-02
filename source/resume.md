@@ -7,8 +7,19 @@ title: Resume
 
 ## Experienced Application Engineer
 
-<span class="hidden-print">
-  [email](mailto:resume@faun.me)&nbsp;|&nbsp;[phone](tel:8313320905)
+<span class="web-info">
+  [email](mailto:resume@faun.me)
+  &nbsp;|&nbsp;
+  [phone](tel:+1-425-524-3449)
+</span>
+<span class="print-info">
+  Printed from http://resume.faun.me. See website for updated version.
+<span>
+<span class="print-info email">
+  Email: resume@faun.me
+<span>
+<span class="print-info phone">
+  Phone: (415) 524-3449
 </span>
 
 ---
