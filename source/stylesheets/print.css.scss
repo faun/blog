@@ -1,4 +1,8 @@
 @media print {
+  body {
+    font-size: 12px;
+  }
+
   nav, td.gutter { display: none }
 
   h1 { font-size: 1.4em }
