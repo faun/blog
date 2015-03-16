@@ -5,7 +5,7 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-02-17T16:10:00-08:00</updated>
+  <updated>2015-02-18T00:10:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
@@ -13,14 +13,13 @@
     <title>Cross-compiling Golang Applications for Synology 1513+</title>
     <link rel="alternate" href="http://blog.url.com/2015/02/17/cross-compiling-golang-applications-for-synology-1513.html"/>
     <id>http://blog.url.com/2015/02/17/cross-compiling-golang-applications-for-synology-1513.html</id>
-    <published>2015-02-17T16:10:00-08:00</published>
+    <published>2015-02-18T00:10:00Z</published>
     <updated>2015-02-17T17:06:49-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;To compile a Golang application project for Synology NAS architecture, first let&amp;rsquo;s take a look at the list of Synology boxes by &lt;a href="http://forum.synology.com/wiki/index.php/What_kind_of_CPU_does_my_NAS_have"&gt;architecture&lt;/a&gt;. Looking at that chart, we can determine that the Synology 1513+ is running on a &lt;code&gt;x86 cedarview&lt;/code&gt; processor and has a listed architecture of &lt;code&gt;x86_64&lt;/code&gt;. Ok, so let&amp;rsquo;s tell Go to compile for &lt;code&gt;x86_64&lt;/code&gt; on Mac OS with Go installed via Homebrew:&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;cd $(brew --prefix go)/libexec/src
+&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;pre class="lineno"&gt;2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;cd $(brew --prefix go)/libexec/src
 GOOS=linux GOARCH=amd64 CGO_ENABLED=0 ./make.bash --no-clean
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -39,7 +38,7 @@ GOOS=linux GOARCH=amd64 CGO_ENABLED=0 ./make.bash --no-clean
     <title>Decrypting PDFs as a Service</title>
     <link rel="alternate" href="http://blog.url.com/2014/04/29/decrypting-pdfs-as-a-service.html"/>
     <id>http://blog.url.com/2014/04/29/decrypting-pdfs-as-a-service.html</id>
-    <published>2014-04-29T16:08:00-07:00</published>
+    <published>2014-04-29T23:08:00Z</published>
     <updated>2014-07-24T20:20:02-07:00</updated>
     <author>
       <name>Article Author</name>
@@ -47,46 +46,7 @@ GOOS=linux GOARCH=amd64 CGO_ENABLED=0 ./make.bash --no-clean
     <content type="html">&lt;p&gt;Sometimes, you just need to decrypt encrypted PDFs. A lot of them.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s a &lt;a href="https://gist.github.com/faun/11390337"&gt;shell script&lt;/a&gt; to decrypt all encrypted PDFs in a folder. It uses the &lt;code&gt;security&lt;/code&gt; command line tool for Mac OS, which stores the password for future use in the keychain.&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="c"&gt;#! /bin/sh&lt;/span&gt;
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;pre class="lineno"&gt;2&lt;/pre&gt;&lt;pre class="lineno"&gt;3&lt;/pre&gt;&lt;pre class="lineno"&gt;4&lt;/pre&gt;&lt;pre class="lineno"&gt;5&lt;/pre&gt;&lt;pre class="lineno"&gt;6&lt;/pre&gt;&lt;pre class="lineno"&gt;7&lt;/pre&gt;&lt;pre class="lineno"&gt;8&lt;/pre&gt;&lt;pre class="lineno"&gt;9&lt;/pre&gt;&lt;pre class="lineno"&gt;10&lt;/pre&gt;&lt;pre class="lineno"&gt;11&lt;/pre&gt;&lt;pre class="lineno"&gt;12&lt;/pre&gt;&lt;pre class="lineno"&gt;13&lt;/pre&gt;&lt;pre class="lineno"&gt;14&lt;/pre&gt;&lt;pre class="lineno"&gt;15&lt;/pre&gt;&lt;pre class="lineno"&gt;16&lt;/pre&gt;&lt;pre class="lineno"&gt;17&lt;/pre&gt;&lt;pre class="lineno"&gt;18&lt;/pre&gt;&lt;pre class="lineno"&gt;19&lt;/pre&gt;&lt;pre class="lineno"&gt;20&lt;/pre&gt;&lt;pre class="lineno"&gt;21&lt;/pre&gt;&lt;pre class="lineno"&gt;22&lt;/pre&gt;&lt;pre class="lineno"&gt;23&lt;/pre&gt;&lt;pre class="lineno"&gt;24&lt;/pre&gt;&lt;pre class="lineno"&gt;25&lt;/pre&gt;&lt;pre class="lineno"&gt;26&lt;/pre&gt;&lt;pre class="lineno"&gt;27&lt;/pre&gt;&lt;pre class="lineno"&gt;28&lt;/pre&gt;&lt;pre class="lineno"&gt;29&lt;/pre&gt;&lt;pre class="lineno"&gt;30&lt;/pre&gt;&lt;pre class="lineno"&gt;31&lt;/pre&gt;&lt;pre class="lineno"&gt;32&lt;/pre&gt;&lt;pre class="lineno"&gt;33&lt;/pre&gt;&lt;pre class="lineno"&gt;34&lt;/pre&gt;&lt;pre class="lineno"&gt;35&lt;/pre&gt;&lt;pre class="lineno"&gt;36&lt;/pre&gt;&lt;pre class="lineno"&gt;37&lt;/pre&gt;&lt;pre class="lineno"&gt;38&lt;/pre&gt;&lt;pre class="lineno"&gt;39&lt;/pre&gt;&lt;pre class="lineno"&gt;40&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="c"&gt;#! /bin/sh&lt;/span&gt;
 
 &lt;span class="c"&gt;# Check if qpdf is installed&lt;/span&gt;
 &lt;span class="nv"&gt;installed&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;which qpdf &amp;amp;&amp;gt; /dev/null&lt;span class="k"&gt;)&lt;/span&gt;
@@ -130,34 +90,7 @@ mkdir -p decrypted
 &lt;/div&gt;
 
 &lt;p&gt;Below is a similar &lt;a href="https://gist.github.com/faun/11394915"&gt;service&lt;/a&gt; for Automator that decrypts PDFs from a selection of either files or folders or both.&lt;/p&gt;
-&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="c"&gt;#! /bin/sh&lt;/span&gt;
+&lt;div class="highlight shell"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;pre class="lineno"&gt;2&lt;/pre&gt;&lt;pre class="lineno"&gt;3&lt;/pre&gt;&lt;pre class="lineno"&gt;4&lt;/pre&gt;&lt;pre class="lineno"&gt;5&lt;/pre&gt;&lt;pre class="lineno"&gt;6&lt;/pre&gt;&lt;pre class="lineno"&gt;7&lt;/pre&gt;&lt;pre class="lineno"&gt;8&lt;/pre&gt;&lt;pre class="lineno"&gt;9&lt;/pre&gt;&lt;pre class="lineno"&gt;10&lt;/pre&gt;&lt;pre class="lineno"&gt;11&lt;/pre&gt;&lt;pre class="lineno"&gt;12&lt;/pre&gt;&lt;pre class="lineno"&gt;13&lt;/pre&gt;&lt;pre class="lineno"&gt;14&lt;/pre&gt;&lt;pre class="lineno"&gt;15&lt;/pre&gt;&lt;pre class="lineno"&gt;16&lt;/pre&gt;&lt;pre class="lineno"&gt;17&lt;/pre&gt;&lt;pre class="lineno"&gt;18&lt;/pre&gt;&lt;pre class="lineno"&gt;19&lt;/pre&gt;&lt;pre class="lineno"&gt;20&lt;/pre&gt;&lt;pre class="lineno"&gt;21&lt;/pre&gt;&lt;pre class="lineno"&gt;22&lt;/pre&gt;&lt;pre class="lineno"&gt;23&lt;/pre&gt;&lt;pre class="lineno"&gt;24&lt;/pre&gt;&lt;pre class="lineno"&gt;25&lt;/pre&gt;&lt;pre class="lineno"&gt;26&lt;/pre&gt;&lt;pre class="lineno"&gt;27&lt;/pre&gt;&lt;pre class="lineno"&gt;28&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="c"&gt;#! /bin/sh&lt;/span&gt;
 
 &lt;span class="nv"&gt;password&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;security 2&amp;gt; /dev/null find-generic-password -a login -s decrypt_pdfs -D &lt;span class="s2"&gt;"application password"&lt;/span&gt; -w&lt;span class="k"&gt;)&lt;/span&gt;
 
@@ -195,7 +128,7 @@ done&lt;/span&gt;
     <title>Installing RSpec, FactoryGirl and Capybara with Rails 3.2</title>
     <link rel="alternate" href="http://blog.url.com/2013/01/27/installing-rspec-factorygirl-and-capybara-with-rails-32.html"/>
     <id>http://blog.url.com/2013/01/27/installing-rspec-factorygirl-and-capybara-with-rails-32.html</id>
-    <published>2013-01-27T00:00:00-08:00</published>
+    <published>2013-01-27T08:00:00Z</published>
     <updated>2014-09-17T23:08:54-07:00</updated>
     <author>
       <name>Article Author</name>
@@ -214,19 +147,7 @@ done&lt;/span&gt;
 &lt;p&gt;The first step to installing Rspec with Rails is to have a look at the &lt;a href="https://github.com/rspec/rspec-rails"&gt;documentation&lt;/a&gt;, which states you install it in both the test and development group.&lt;/p&gt;
 
 &lt;p&gt;In your Gemfile, put the following to install &lt;a href="https://github.com/rspec/rspec-rails"&gt;rspec-rails&lt;/a&gt;, &lt;a href="https://github.com/jnicklas/capybara"&gt;Capybara&lt;/a&gt;, and &lt;a href="https://github.com/thoughtbot/factory_girl"&gt;FactoryGirl&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="highlight ruby"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="n"&gt;source&lt;/span&gt; &lt;span class="s1"&gt;'https://rubygems.org'&lt;/span&gt;
+&lt;div class="highlight ruby"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;pre class="lineno"&gt;2&lt;/pre&gt;&lt;pre class="lineno"&gt;3&lt;/pre&gt;&lt;pre class="lineno"&gt;4&lt;/pre&gt;&lt;pre class="lineno"&gt;5&lt;/pre&gt;&lt;pre class="lineno"&gt;6&lt;/pre&gt;&lt;pre class="lineno"&gt;7&lt;/pre&gt;&lt;pre class="lineno"&gt;8&lt;/pre&gt;&lt;pre class="lineno"&gt;9&lt;/pre&gt;&lt;pre class="lineno"&gt;10&lt;/pre&gt;&lt;pre class="lineno"&gt;11&lt;/pre&gt;&lt;pre class="lineno"&gt;12&lt;/pre&gt;&lt;pre class="lineno"&gt;13&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="n"&gt;source&lt;/span&gt; &lt;span class="s1"&gt;'https://rubygems.org'&lt;/span&gt;
 
 &lt;span class="n"&gt;gem&lt;/span&gt; &lt;span class="s1"&gt;'rails'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'~&amp;gt; 3.2.11'&lt;/span&gt;
 
@@ -257,26 +178,7 @@ done&lt;/span&gt;
 &lt;h3&gt;Configure the generators&lt;/h3&gt;
 
 &lt;p&gt;In &lt;code&gt;config/application.rb&lt;/code&gt;, add the following code between the ellipses (surrounding code provided for context)&lt;/p&gt;
-&lt;div class="highlight ruby"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="k"&gt;module&lt;/span&gt; &lt;span class="nn"&gt;MyApp&lt;/span&gt;
+&lt;div class="highlight ruby"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;pre class="lineno"&gt;2&lt;/pre&gt;&lt;pre class="lineno"&gt;3&lt;/pre&gt;&lt;pre class="lineno"&gt;4&lt;/pre&gt;&lt;pre class="lineno"&gt;5&lt;/pre&gt;&lt;pre class="lineno"&gt;6&lt;/pre&gt;&lt;pre class="lineno"&gt;7&lt;/pre&gt;&lt;pre class="lineno"&gt;8&lt;/pre&gt;&lt;pre class="lineno"&gt;9&lt;/pre&gt;&lt;pre class="lineno"&gt;10&lt;/pre&gt;&lt;pre class="lineno"&gt;11&lt;/pre&gt;&lt;pre class="lineno"&gt;12&lt;/pre&gt;&lt;pre class="lineno"&gt;13&lt;/pre&gt;&lt;pre class="lineno"&gt;14&lt;/pre&gt;&lt;pre class="lineno"&gt;15&lt;/pre&gt;&lt;pre class="lineno"&gt;16&lt;/pre&gt;&lt;pre class="lineno"&gt;17&lt;/pre&gt;&lt;pre class="lineno"&gt;18&lt;/pre&gt;&lt;pre class="lineno"&gt;19&lt;/pre&gt;&lt;pre class="lineno"&gt;20&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="k"&gt;module&lt;/span&gt; &lt;span class="nn"&gt;MyApp&lt;/span&gt;
   &lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Application&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="no"&gt;Rails&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;Application&lt;/span&gt;
 
 &lt;span class="c1"&gt;#...&lt;/span&gt;
@@ -304,13 +206,7 @@ done&lt;/span&gt;
 &lt;h3&gt;Using Capybara&lt;/h3&gt;
 
 &lt;p&gt;To use Capybara in your feature specs, all you need to do is require it from &lt;code&gt;spec/spec_helper.rb&lt;/code&gt; (see line 5):&lt;/p&gt;
-&lt;div class="highlight ruby"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="no"&gt;ENV&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"RAILS_ENV"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;||=&lt;/span&gt; &lt;span class="s1"&gt;'test'&lt;/span&gt;
+&lt;div class="highlight ruby"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;pre class="lineno"&gt;2&lt;/pre&gt;&lt;pre class="lineno"&gt;3&lt;/pre&gt;&lt;pre class="lineno"&gt;4&lt;/pre&gt;&lt;pre class="lineno"&gt;5&lt;/pre&gt;&lt;pre class="lineno"&gt;6&lt;/pre&gt;&lt;pre class="lineno"&gt;7&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="no"&gt;ENV&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"RAILS_ENV"&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;||=&lt;/span&gt; &lt;span class="s1"&gt;'test'&lt;/span&gt;
 &lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="no"&gt;File&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;expand_path&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"../../config/environment"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kp"&gt;__FILE__&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="s1"&gt;'rspec/rails'&lt;/span&gt;
 &lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="s1"&gt;'rspec/autorun'&lt;/span&gt;
@@ -336,7 +232,7 @@ done&lt;/span&gt;
     <title>Restoring Archived Files from Amazon Glacier</title>
     <link rel="alternate" href="http://blog.url.com/2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html"/>
     <id>http://blog.url.com/2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html</id>
-    <published>2012-12-16T00:00:00-08:00</published>
+    <published>2012-12-16T08:00:00Z</published>
     <updated>2014-09-17T23:07:45-07:00</updated>
     <author>
       <name>Article Author</name>
@@ -364,8 +260,7 @@ done&lt;/span&gt;
 
 &lt;p&gt;Make a file called &lt;code&gt;files_to_restore.txt&lt;/code&gt; in the same directory as the &lt;code&gt;glacier_restore.rb&lt;/code&gt; file shown in the gist below.
 Add your files in the format (one object per line, no leading slash, no bucket name):&lt;/p&gt;
-&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sub/folder/object_1.ext
+&lt;div class="highlight plaintext"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;pre class="lineno"&gt;2&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;sub/folder/object_1.ext
 another/sub/folder/object_2.ext
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -403,99 +298,7 @@ another/sub/folder/object_2.ext
 &lt;h3&gt;Further Reading:&lt;/h3&gt;
 
 &lt;p&gt;See the &lt;a href="http://docs.amazonwebservices.com/AmazonS3/latest/API/RESTObjectPOSTrestore.html"&gt;RESTObjectPOSTrestore&lt;/a&gt; and &lt;a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/restoring-objects.html"&gt;restoring-objects&lt;/a&gt; for more info.&lt;/p&gt;
-&lt;div class="highlight ruby"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="c1"&gt;#!/usr/bin/env ruby&lt;/span&gt;
+&lt;div class="highlight ruby"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;pre class="lineno"&gt;2&lt;/pre&gt;&lt;pre class="lineno"&gt;3&lt;/pre&gt;&lt;pre class="lineno"&gt;4&lt;/pre&gt;&lt;pre class="lineno"&gt;5&lt;/pre&gt;&lt;pre class="lineno"&gt;6&lt;/pre&gt;&lt;pre class="lineno"&gt;7&lt;/pre&gt;&lt;pre class="lineno"&gt;8&lt;/pre&gt;&lt;pre class="lineno"&gt;9&lt;/pre&gt;&lt;pre class="lineno"&gt;10&lt;/pre&gt;&lt;pre class="lineno"&gt;11&lt;/pre&gt;&lt;pre class="lineno"&gt;12&lt;/pre&gt;&lt;pre class="lineno"&gt;13&lt;/pre&gt;&lt;pre class="lineno"&gt;14&lt;/pre&gt;&lt;pre class="lineno"&gt;15&lt;/pre&gt;&lt;pre class="lineno"&gt;16&lt;/pre&gt;&lt;pre class="lineno"&gt;17&lt;/pre&gt;&lt;pre class="lineno"&gt;18&lt;/pre&gt;&lt;pre class="lineno"&gt;19&lt;/pre&gt;&lt;pre class="lineno"&gt;20&lt;/pre&gt;&lt;pre class="lineno"&gt;21&lt;/pre&gt;&lt;pre class="lineno"&gt;22&lt;/pre&gt;&lt;pre class="lineno"&gt;23&lt;/pre&gt;&lt;pre class="lineno"&gt;24&lt;/pre&gt;&lt;pre class="lineno"&gt;25&lt;/pre&gt;&lt;pre class="lineno"&gt;26&lt;/pre&gt;&lt;pre class="lineno"&gt;27&lt;/pre&gt;&lt;pre class="lineno"&gt;28&lt;/pre&gt;&lt;pre class="lineno"&gt;29&lt;/pre&gt;&lt;pre class="lineno"&gt;30&lt;/pre&gt;&lt;pre class="lineno"&gt;31&lt;/pre&gt;&lt;pre class="lineno"&gt;32&lt;/pre&gt;&lt;pre class="lineno"&gt;33&lt;/pre&gt;&lt;pre class="lineno"&gt;34&lt;/pre&gt;&lt;pre class="lineno"&gt;35&lt;/pre&gt;&lt;pre class="lineno"&gt;36&lt;/pre&gt;&lt;pre class="lineno"&gt;37&lt;/pre&gt;&lt;pre class="lineno"&gt;38&lt;/pre&gt;&lt;pre class="lineno"&gt;39&lt;/pre&gt;&lt;pre class="lineno"&gt;40&lt;/pre&gt;&lt;pre class="lineno"&gt;41&lt;/pre&gt;&lt;pre class="lineno"&gt;42&lt;/pre&gt;&lt;pre class="lineno"&gt;43&lt;/pre&gt;&lt;pre class="lineno"&gt;44&lt;/pre&gt;&lt;pre class="lineno"&gt;45&lt;/pre&gt;&lt;pre class="lineno"&gt;46&lt;/pre&gt;&lt;pre class="lineno"&gt;47&lt;/pre&gt;&lt;pre class="lineno"&gt;48&lt;/pre&gt;&lt;pre class="lineno"&gt;49&lt;/pre&gt;&lt;pre class="lineno"&gt;50&lt;/pre&gt;&lt;pre class="lineno"&gt;51&lt;/pre&gt;&lt;pre class="lineno"&gt;52&lt;/pre&gt;&lt;pre class="lineno"&gt;53&lt;/pre&gt;&lt;pre class="lineno"&gt;54&lt;/pre&gt;&lt;pre class="lineno"&gt;55&lt;/pre&gt;&lt;pre class="lineno"&gt;56&lt;/pre&gt;&lt;pre class="lineno"&gt;57&lt;/pre&gt;&lt;pre class="lineno"&gt;58&lt;/pre&gt;&lt;pre class="lineno"&gt;59&lt;/pre&gt;&lt;pre class="lineno"&gt;60&lt;/pre&gt;&lt;pre class="lineno"&gt;61&lt;/pre&gt;&lt;pre class="lineno"&gt;62&lt;/pre&gt;&lt;pre class="lineno"&gt;63&lt;/pre&gt;&lt;pre class="lineno"&gt;64&lt;/pre&gt;&lt;pre class="lineno"&gt;65&lt;/pre&gt;&lt;pre class="lineno"&gt;66&lt;/pre&gt;&lt;pre class="lineno"&gt;67&lt;/pre&gt;&lt;pre class="lineno"&gt;68&lt;/pre&gt;&lt;pre class="lineno"&gt;69&lt;/pre&gt;&lt;pre class="lineno"&gt;70&lt;/pre&gt;&lt;pre class="lineno"&gt;71&lt;/pre&gt;&lt;pre class="lineno"&gt;72&lt;/pre&gt;&lt;pre class="lineno"&gt;73&lt;/pre&gt;&lt;pre class="lineno"&gt;74&lt;/pre&gt;&lt;pre class="lineno"&gt;75&lt;/pre&gt;&lt;pre class="lineno"&gt;76&lt;/pre&gt;&lt;pre class="lineno"&gt;77&lt;/pre&gt;&lt;pre class="lineno"&gt;78&lt;/pre&gt;&lt;pre class="lineno"&gt;79&lt;/pre&gt;&lt;pre class="lineno"&gt;80&lt;/pre&gt;&lt;pre class="lineno"&gt;81&lt;/pre&gt;&lt;pre class="lineno"&gt;82&lt;/pre&gt;&lt;pre class="lineno"&gt;83&lt;/pre&gt;&lt;pre class="lineno"&gt;84&lt;/pre&gt;&lt;pre class="lineno"&gt;85&lt;/pre&gt;&lt;pre class="lineno"&gt;86&lt;/pre&gt;&lt;pre class="lineno"&gt;87&lt;/pre&gt;&lt;pre class="lineno"&gt;88&lt;/pre&gt;&lt;pre class="lineno"&gt;89&lt;/pre&gt;&lt;pre class="lineno"&gt;90&lt;/pre&gt;&lt;pre class="lineno"&gt;91&lt;/pre&gt;&lt;pre class="lineno"&gt;92&lt;/pre&gt;&lt;pre class="lineno"&gt;93&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="c1"&gt;#!/usr/bin/env ruby&lt;/span&gt;
 &lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="s1"&gt;'base64'&lt;/span&gt;
 &lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="s1"&gt;'openssl'&lt;/span&gt;
 &lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="s1"&gt;'digest/sha1'&lt;/span&gt;
@@ -566,7 +369,7 @@ another/sub/folder/object_2.ext
     &lt;span class="k"&gt;else&lt;/span&gt;
       &lt;span class="vg"&gt;$stderr&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;puts&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;code&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt; &lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;message&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt; &lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;body&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;gsub&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sr"&gt;/&amp;lt;.*?&amp;gt;/&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;' '&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nf"&gt;gsub&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sr"&gt;/ +/&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;' '&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;
     &lt;span class="k"&gt;end&lt;/span&gt;
-    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;202&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;409&lt;/span&gt;&lt;span class="p"&gt;].&lt;/span&gt;&lt;span class="nf"&gt;include?&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;code&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;to_i&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;202&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;409&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;include?&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;code&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;to_i&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
       &lt;span class="vg"&gt;$stdout&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;puts&lt;/span&gt; &lt;span class="n"&gt;file_name&lt;/span&gt;
     &lt;span class="k"&gt;end&lt;/span&gt;
   &lt;span class="k"&gt;end&lt;/span&gt;
