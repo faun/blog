@@ -161,6 +161,6 @@ img {
   }
 
   .print-info {
-    @extend .visible-print-block;
+    @extend .visible-print;
   }
 }
