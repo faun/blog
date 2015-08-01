@@ -9,8 +9,6 @@ title: Resume
 
 <span class="web-info">
   [email](mailto:resume@faun.me)
-  &nbsp;|&nbsp;
-  [phone](tel:+1-415-524-3449)
 </span>
 <span class="print-info">
   Printed from http://resume.faun.me. See website for updated version.
@@ -19,7 +17,7 @@ title: Resume
   Email: resume@faun.me
 <span>
 <span class="print-info phone">
-  Phone: (415) 524-3449
+  Phone: (415) 524-3449. Please do not cold call me.
 </span>
 
 ---
