@@ -19,3 +19,6 @@
 # Pow configuration
 .powenv
 /tmp
+
+# Nodenv version
+/.node-version
