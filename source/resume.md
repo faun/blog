@@ -8,7 +8,7 @@ title: Resume
 ## Experienced Application Engineer
 
 <span class="web-info">
-  [email](mailto:resume@faun.me)
+  Interested in working with me? [Get in touch](http://hydradev.co)
 </span>
 <span class="print-info">
   Printed from http://resume.faun.me. See website for updated version.
