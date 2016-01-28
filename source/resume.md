@@ -60,6 +60,14 @@ Helping to build minimum viable products for startups and helping established bu
 
 #### Select Projects
 
+###### Wootric
+
+Contributed to an existing Net Promoter Score (customer satisfaction metric) application and dashboard built on Rails 4 and Sinatra backed by PostgreSQL and Redis
+
+Lead technical decisions in new product roadmap and decision-making. Mentored other engineers on the team with regards to architectural decisions, code style and best practices. Created automated tools for code correctness and code style. Implemented CI/CD system for range of products using code quality checking tools, security audits and test suites. Improved upon existing infrastructure for high traffic survey sampling server for reliability and stability. Built analytics filtering tool for existing dashboard using best practices. Extracted services into separate applications for ease and pace of development.
+
+Select technologies used: `Ruby on Rails`, `Sinatra`, `Angular.js`, `RSpec`, `Jasmine`, `Karma`, `Gulp`, `Sidekiq`, `PostgreSQL`, `Redis`
+
 ###### Neo
 
 Contributed to next-generation publishing platform for scientific journals. Built on Rails 4 with a JSON API, Ember.js, Server-sent events and service-oriented architecture. Created an external service to convert ePub documents to PDF and deliver them to application users after conversion. Generated Ansible playbook for deploying application to Amazon EC2. Select technologies used: `Ruby on Rails`, `Ember.js`, `Ember Data`, `qUnit`, `Sinon.js`, `RSpec`, `Sidekiq`, `PostgreSQL`, `Bootstrap`
