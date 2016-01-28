@@ -66,7 +66,7 @@ Contributed to an existing Net Promoter Score (customer satisfaction metric) app
 
 Lead technical decisions in new product roadmap and decision-making. Mentored other engineers on the team with regards to architectural decisions, code style and best practices. Created automated tools for code correctness and code style. Implemented CI/CD system for range of products using code quality checking tools, security audits and test suites. Improved upon existing infrastructure for high traffic survey sampling server for reliability and stability. Built analytics filtering tool for existing dashboard using best practices. Extracted services into separate applications for ease and pace of development.
 
-Select technologies used: `Ruby on Rails`, `Sinatra`, `Angular.js`, `RSpec`, `Jasmine`, `Karma`, `Gulp`, `Sidekiq`, `PostgreSQL`, `Redis`
+Select technologies used: `Ruby on Rails`, `Sinatra`, `Angular.js`, `RSpec`, `Jasmine`, `Karma`, `Gulp`, `PostgreSQL`, `Redis`
 
 ###### Neo
 
