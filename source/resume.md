@@ -51,7 +51,7 @@ Interested in building web applications and infrastructure with Ruby, JavaScript
 
 Founder and primary developer at a software consulting company focused on building high-quality, scalable and reliable web applications for companies in the technology industry.
 
-Helping to build minimum viable products for startups and helping established businesses augment their applications to reach the scale of success. Improved the reliability of applications and services for a number of technology startups in San Francisco by increasing test coverage by up to 30% and reducing error rates by an order of magnitude.
+Hydra helps build minimum viable products for startups and help established businesses augment their applications to reach the scale of success.
 
 #### Select Projects
 
