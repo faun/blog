@@ -23,29 +23,24 @@ title: Resume
 ---
 ## Goals
 
-Seeking to build relationships with teams that have a strong vision, and work together for constant improvement on dynamic, ambitious applications in an agile environment utilizing continuous integration, pair programming and test-driven methodologies. Looking to push the edge of possible, building applications that change the way we interact with the world around us.
+Seeking opportunities with teams that have a strong product vision and work together for constant improvement on ambitious applications in an agile environment utilizing continuous integration, pair programming and test-driven methodologies. Considering opportunities in San Francisco or remote. Interested in building applications and supporting infrastructure that change the way we interact with the world around us.
 
 ---
 ## Skills
 
-Faun is an experienced engineer with an emphasis on best practices and team-oriented development. With a strong technical inclination and highly resourceful approach to troubleshooting and problem solving, he is adept in building complex, object-oriented applications with a focus on maintainability and ease of use. Using design patterns and constant refactoring, he is experienced at growing applications that add value over time.
+Experienced engineer with an emphasis on best practices and building performant, sustainable products. Using design patterns and constant refactoring, Faun is experienced at growing applications that add value over time.
 
-He is a craftsman of product, not just of features in a queue. He engages with requirements and asks hard questions about the needs and wants of the customers using the software he builds. He has excellent skills in communication and collaborative teamwork with a dedication to improving process where prudent. In short, he builds software that people love to use.
+## Interests
 
-- Well versed in testing software extensively in a continuous deployment environment, using industry-standard code quality tools to measure and continuously improve software.
+- Functional reactive programming
 
-- Competent at crafting and analyzing user interface designs in coordination with industry-leading designers.
+- Immutable infrastructure with blue/green deploys
 
-- Experienced team lead and manager of engineers including performing weekly one-on-ones and performance evaluations.
+- Service discovery
 
-- Well practiced at interviewing candidates and vetting applicants with coding exercises.
+- Security
 
-- Practiced at building feature backlogs with product owners and developing product strategy & vision.
-
----
-## Primary Technologies
-
-`Ruby`/`Rails`, `CoffeeScript`/`JavaScript`, `Ember.js`/`AngularJS`, `RSpec`/`Jasmine`/`Mocha`, `HTML`/`CSS`, `PostgreSQL`
+Interested in building web applications and infrastructure with Ruby, JavaScript, Golang, relational databases, key/value stores, time series databases, big data and infographics.
 
 ---
 ## Selected Employment
