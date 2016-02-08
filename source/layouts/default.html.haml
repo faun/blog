@@ -25,10 +25,29 @@
         .container
           %h1 Sascha Faun Winter
           %h4 Experienced Web Engineer located in San Francisco
+      .background-poster
+      .row
+        .container
+          .bio
 
     .container{ class: request.path.sub(/\.html$/, '') }
       - if request.path == "index.html"
-        = yield
+        .background-poster
+        .row
+          .container
+            .bio
+              = yield
+            %p
+              See
+              %a{href: "resume.html"} resume
+              for more information.
+          %nav.elsewhere
+            %h3 Elsewhere on the Web
+            %ul
+              - site.external_links.each do |link|
+                %li
+                  = link_to link['name'], link['url'], rel: 'me'
+          = partial :sidebar
       - else
         .row
           .container

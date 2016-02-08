@@ -21,28 +21,6 @@ title: Resume
 </span>
 
 ---
-## Goals
-
-Seeking opportunities with teams that have a strong product vision and work together for constant improvement on ambitious applications in an agile environment utilizing continuous integration, pair programming and test-driven methodologies. Considering opportunities in San Francisco or remote. Interested in building applications and supporting infrastructure that change the way we interact with the world around us.
-
----
-## Skills
-
-Experienced engineer with an emphasis on best practices and building performant, sustainable products. Using design patterns and constant refactoring, Faun is experienced at growing applications that add value over time.
-
-## Interests
-
-- Functional reactive programming
-
-- Immutable infrastructure with blue/green deploys
-
-- Service discovery
-
-- Security
-
-Interested in building web applications and infrastructure with Ruby, JavaScript, Golang, relational databases, key/value stores, time series databases, big data and infographics.
-
----
 ## Selected Employment
 
 ### Owner & CEO
