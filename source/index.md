@@ -20,6 +20,8 @@ Considering opportunities in San Francisco or remote.
 
 Faun is an experienced web application engineer with an emphasis on best practices and building performant, maintainable software that adds value over time.
 
+See [resume](resume.html) for more information.
+
 ## Highly Proficient
 
 - Ruby/Rails
