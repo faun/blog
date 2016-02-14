@@ -144,7 +144,7 @@ An experiment in learning Go, [bitrot](https://github.com/ggilder/bitrot) aims t
 ## Technical Blog Posts
 
 #### Paperclip Extensions
-Wrote a [blog post](http://blog.cloudcity.io/2013/05/07/testing-paperclip-extensions-in-isolation/) for Cloud City about testing a file upload cropper built for a legacy application. [May 2013]
+Wrote a [blog post](http://www.cloudcity.io/blog/2013/05/08/testing-paperclip-extensions-in-isolation) for Cloud City about testing a file upload cropper built for a legacy application. [May 2013]
 
 #### Wordpress and Capistrano
 Wrote a [blog post](http://www.tractionco.com/blog/95-deploying-wordpress-with-capistrano-and-svn) for Traction about deploying a `WordPress` site with `Capistrano` and `Subversion`. [March 2011]
