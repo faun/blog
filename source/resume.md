@@ -33,6 +33,12 @@ Hydra helps build minimum viable products for startups and help established busi
 
 #### Select Projects
 
+###### TaskRabbit
+
+Contributed to core components of the TaskRabbit marketplace. Built new identity verification systems and worked on fraud engine for detecting and preventing fraud on the marketplace platform. Mentored junior engineers on best practices and code style.
+
+Select technologies used: `Ruby on Rails`, `RSpec`, `MySQL`, `Redis`, `Resque`, `Elasticsearch`, `Ansible`
+
 ###### Wootric
 
 Contributed to an existing Net Promoter Score (customer satisfaction metric) application and dashboard built on Rails 4 and Sinatra backed by PostgreSQL and Redis
