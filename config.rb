@@ -116,7 +116,8 @@ set :file_watcher_ignore, [
     /~$/,
     /(^|\/)\.?#/
 ]
-activate :livereload
+
+activate :livereload unless Rack.env == 'test'
 
 set :haml, { :ugly => true, :format => :html5 }
 
