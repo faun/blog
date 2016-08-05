@@ -1,11 +1,12 @@
 CACHE MANIFEST
-# 35e9d3308835ccf924976c76cbc38a1b31b90db34d0545797a7db0f99a6c3429
+# fb4069818acfda5ea090d6f383bfe810839e8ef4c79d8c4c1ae6150b27ffcacb
 https://code.jquery.com/jquery.min.js
 https://html5shim.googlecode.com/svn/trunk/html5.js
 2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html
 2013/01/27/installing-rspec-factorygirl-and-capybara-with-rails-32.html
 2014/04/29/decrypting-pdfs-as-a-service.html
 2015/02/17/cross-compiling-golang-applications-for-synology-1513.html
+404.html
 assets/ico/apple-touch-icon-114x114-precomposed.png
 assets/ico/apple-touch-icon-144x144-precomposed.png
 assets/ico/apple-touch-icon-57x57-precomposed.png
@@ -13,6 +14,7 @@ assets/ico/apple-touch-icon-72x72-precomposed.png
 assets/ico/apple-touch-icon-precomposed.png
 assets/ico/apple-touch-icon.png
 assets/ico/favicon.ico
+assets/images/404.jpg
 CNAME
 contact.html
 feed.xml
