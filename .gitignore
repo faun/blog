@@ -25,3 +25,6 @@
 
 # Nodenv version
 /.node-version
+
+# Ignore the build folder
+/build
