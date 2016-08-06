@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2015/02/17/cross-compiling-golang-applications-for-synology-1513.html"/>
     <id>http://blog.url.com/2015/02/17/cross-compiling-golang-applications-for-synology-1513.html</id>
     <published>2015-02-18T00:10:00Z</published>
-    <updated>2016-08-06T00:20:40+00:00</updated>
+    <updated>2016-08-06T00:28:46+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -39,7 +39,7 @@ GOOS=linux GOARCH=amd64 CGO_ENABLED=0 ./make.bash --no-clean
     <link rel="alternate" href="http://blog.url.com/2014/04/29/decrypting-pdfs-as-a-service.html"/>
     <id>http://blog.url.com/2014/04/29/decrypting-pdfs-as-a-service.html</id>
     <published>2014-04-29T23:08:00Z</published>
-    <updated>2016-08-06T00:20:40+00:00</updated>
+    <updated>2016-08-06T00:28:46+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -129,7 +129,7 @@ done&lt;/span&gt;
     <link rel="alternate" href="http://blog.url.com/2013/01/27/installing-rspec-factorygirl-and-capybara-with-rails-32.html"/>
     <id>http://blog.url.com/2013/01/27/installing-rspec-factorygirl-and-capybara-with-rails-32.html</id>
     <published>2013-01-27T08:00:00Z</published>
-    <updated>2016-08-06T00:20:40+00:00</updated>
+    <updated>2016-08-06T00:28:46+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -233,7 +233,7 @@ done&lt;/span&gt;
     <link rel="alternate" href="http://blog.url.com/2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html"/>
     <id>http://blog.url.com/2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html</id>
     <published>2012-12-16T08:00:00Z</published>
-    <updated>2016-08-06T00:20:40+00:00</updated>
+    <updated>2016-08-06T00:28:46+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
