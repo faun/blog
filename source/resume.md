@@ -23,6 +23,20 @@ title: Resume
 ---
 ## Selected Employment
 
+
+### Lead Engineer
+#### Stitch Fix
+### August 2016 to July 2017
+
+Functioned as team lead for large, sweeping customer-facing projects. Mentored junior developers and fostered team culture by modeling behavior. Helped the team level up by building internal tools to empower a growing team to remain productive.
+
+- Built sustainable products and maintained existing systems.
+- Acted as a mentor for on-call engineers and led performance audits and provided recommendations to the larger team for improvements.
+- Maintained and upgraded critical continuous delivery systems and high-scale production systems.
+- Designed, implemented and maintained distributed, service-oriented applications.
+
+Select technologies used: `Ruby on Rails`, `RabbitMQ`, `PostgreSQL`, `Redis`, `React`
+
 ### Owner & CEO
 #### Hydra Development, Inc., San Francisco, California
 ##### August 2012 to December 2016
