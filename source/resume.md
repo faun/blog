@@ -25,11 +25,11 @@ title: Resume
 
 ### Owner & CEO
 #### Hydra Development, Inc., San Francisco, California
-##### August 2012 to Present
+##### August 2012 to December 2016
 
 Founder and primary developer at a software consulting company focused on building high-quality, scalable and reliable web applications for companies in the technology industry.
 
-Hydra helps build minimum viable products for startups and help established businesses augment their applications to reach the scale of success.
+Hydra development built minimum viable products for startups and helped established businesses augment their applications to reach the scale of success.
 
 #### Select Projects
 
