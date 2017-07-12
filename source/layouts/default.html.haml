@@ -37,13 +37,13 @@
           .container
             .bio
               = yield
-          %nav.elsewhere
-            %h3 Elsewhere on the Web
-            %ul
-              - site.external_links.each do |link|
-                %li
-                  = link_to link['name'], link['url'], rel: 'me'
-          = partial :sidebar
+            %nav.elsewhere
+              %h3 Elsewhere on the Web
+              %ul
+                - site.external_links.each do |link|
+                  %li
+                    = link_to link['name'], link['url'], rel: 'me'
+            = partial :sidebar
       - else
         .row
           .container
