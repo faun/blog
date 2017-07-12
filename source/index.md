@@ -24,23 +24,21 @@ See [resume](resume.html) for more information.
 
 ## Highly Proficient
 
-- Ruby/Rails
+- Ruby/Rails/Golang
 
-- JavaScript/CoffeeScript/ES 2015
+- JavaScript
 
-- AngularJS/Ember.js/Backbone.js
+- React/Ember/Angular/Backbone
 
-- RSpec/Jasmine/Mocha
+- RSpec/Jasmine/Mocha/Jest
 
 - API design
 
 - HTML/CSS
 
-- PostgreSQL/MySQL/Redis
+- Relational/NoSQL databases
 
 ## Interests
-
-- Golang
 
 - Immutable infrastructure with blue/green deploys
 
