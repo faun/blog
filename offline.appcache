@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 0653d839ef76b8c54db3b6b7126573c982c36db7fde0ab6b814464c5830afb62
+# 0ae9f2a8d4569fc3946c461dd2cf7a03c07082cf8931c9dabefa575412fa9310
 https://code.jquery.com/jquery.min.js
 https://html5shim.googlecode.com/svn/trunk/html5.js
 2012/12/16/restoring-archived-files-from-amazon-glacier-using-ruby.html
@@ -16,6 +16,7 @@ assets/ico/apple-touch-icon-precomposed.png
 assets/ico/apple-touch-icon.png
 assets/ico/favicon.ico
 assets/images/404.jpg
+assets/slides/break_glass_in_case_of_emergency.pdf
 contact.html
 feed.xml
 gpg/221244C4.asc
@@ -35,6 +36,7 @@ fonts/bootstrap/glyphicons-halflings-regular.eot
 fonts/bootstrap/glyphicons-halflings-regular.svg
 fonts/bootstrap/glyphicons-halflings-regular.ttf
 fonts/bootstrap/glyphicons-halflings-regular.woff
+fonts/bootstrap/glyphicons-halflings-regular.woff2
 
 NETWORK:
 https://fonts.googleapis.com/*
