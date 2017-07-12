@@ -58,13 +58,15 @@ See [resume](resume.html) for more information.
 
 ## What I've Worked on Recently
 
-[Wootric](https://www.wootric.com)
+- [Stitch Fix](https://www.stitchfix.com)
 
-[PLOS Aperta (FKA Tahi)](http://blogs.plos.org/plos/2015/07/publishing-initiatives-at-plos-a-look-back-and-a-look-ahead/)
+- [Wootric](https://www.wootric.com)
 
-[SeaChange (FKA Timeline Labs)](http://www.schange.com/)
+- [PLOS Aperta (FKA Tahi)](http://blogs.plos.org/plos/2015/07/publishing-initiatives-at-plos-a-look-back-and-a-look-ahead/)
 
-[Afolio](https://www.afolio.com)
+- [SeaChange (FKA Timeline Labs)](http://www.schange.com/)
+
+- [Afolio](https://www.afolio.com)
 
 ## Side Projects
 
