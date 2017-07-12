@@ -70,7 +70,7 @@ See [resume](resume.html) for more information.
 
 ## Side Projects
 
-[Zinedistro](https://github.com/zinedistro/zinedistro)
+- [Zinedistro](https://github.com/zinedistro/zinedistro)
 
-[Bitrot](https://github.com/ggilder/bitrot)
+- [Bitrot](https://github.com/ggilder/bitrot)
 
