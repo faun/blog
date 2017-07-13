@@ -27,11 +27,11 @@ title: Resume
 #### Stitch Fix
 ### August 2016 to July 2017
 
-Functioned as team lead for large customer-facing projects. Mentored junior developers and fostered team culture. Built sustainable products and maintained existing systems. Led performance audits and provided recommendations to the larger team for improvements. Maintained and upgraded critical continuous delivery systems and high-scale production systems. Designed, implemented and maintained distributed, service-oriented applications.
+Functioned as team lead for large customer-facing projects. Mentored junior developers and fostered team culture. Built sustainable products and maintained existing systems. Led performance audits and provided recommendations to the larger team for improvements. Maintained and upgraded critical continuous delivery systems and high-scale production systems. Designed, implemented and maintained distributed, service-oriented applications. Built geolocation microservice application in Golang.
 
 ##### Select technologies used:
 
-`Ruby on Rails`, `PostgreSQL`, `RabbitMQ`, `Redis`, `React`
+`Ruby on Rails`, `PostgreSQL`, `RabbitMQ`, `Redis`, `Golang`, `React`
 
 ---
 
@@ -85,7 +85,7 @@ Responsible for development of email campaigns, web applications, micro-sites an
 [Zinedistro](https://github.com/zinedistro/zinedistro) is a ready-made content management tool for creators of zines to distribute their work. Deployment to Heroku is a just a button push away.
 
 #### Bitrot
-An experiment in learning Go, [bitrot](https://github.com/ggilder/bitrot) aims to fight silent data corruption by generating file checksums and later verifying the checksum value. This tool is meant to be run on a regular basis on a network attached storage device.
+An experiment in learning Golang, [bitrot](https://github.com/ggilder/bitrot) aims to fight silent data corruption by generating file checksums and later verifying the checksum value. This tool is meant to be run on a regular basis on a network attached storage device.
 
 ---
 
