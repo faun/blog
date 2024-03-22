@@ -9,8 +9,7 @@
     %meta{content: "Sascha Faun Winter", name: "author"}/
     = stylesheet_link_tag "application", media: :all
     = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Roboto:400,900", media: :all
-    =surround '<!-- [if lt IE 9] >', '<! [endif] -->' do
-      =javascript_include_tag "html5.js"
+    = javascript_include_tag "html5.js"
     = favicon_tag '/assets/ico/favicon.ico'
     %link{href: "/assets/ico/apple-touch-icon-144x144-precomposed.png", rel: "apple-touch-icon-precomposed", sizes: "144x144"}/
     %link{href: "/assets/ico/apple-touch-icon-114x114-precomposed.png", rel: "apple-touch-icon-precomposed", sizes: "114x114"}/
