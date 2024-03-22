@@ -3,25 +3,32 @@ layout: default
 title: Resume
 ---
 
-# Sascha Faun Winter
+# Sascha "Faun" Winter
 
-## Experienced Application Engineer
-
-<span class="web-info">
-  Interested in working with me? [Get in touch](http://hydradev.co)
-</span>
-<span class="print-info">
-  Printed from http://resume.faun.me. See website for updated version.
-<span>
 <span class="print-info email">
   Email: resume@faun.me
 <span>
 <span class="print-info phone">
-  Phone: (415) 524-3449. Please do not cold call me.
+  Phone: (415) 524-3449
 </span>
 
 ---
-## Selected Employment
+
+## Summary
+
+Highly skilled and experienced technology professional specializing in
+Kubernetes cluster management and MySQL database administration. Proven track
+record of developing performant, maintainable code with expertise in Golang
+services, Kubernetes operators, and Ruby on Rails applications. Demonstrated
+ability to manage complex infrastructure projects with a strong focus on
+reliability and efficiency. Committed to excellence in customer support
+through proactive pager rotations and on-call support services. Seeks to join a
+high-trust, high-autonomy organization that values a strong culture of
+professionalism and self-direction.
+
+---
+
+### Selected Employment
 
 ### Engineer, Orchestration
 #### PlanetScale
@@ -36,20 +43,19 @@ internal CLI tooling to manage database infrastructure.
 
 ##### Select technologies used:
 
-`Golang`, `Ruby on Rails`, `Kubernetes`, `MySQL`, `Vitess`, `Prometheus`, `Grafana`
-
+`Golang`, `Ruby on Rails`, `Kubernetes`, `MySQL`, `Vitess`
 
 ### Senior Software Engineer
 #### Percy.io (acquired by BrowserStack)
 Aug 2017 - Jul 2021 (4 years)
 
 Responsible for architecture and maintenance of the infrastructure for a screenshot capture & diffing
-platform. Worked on a HTTP(S) caching layer in Go & JS, utilizing container-local proxy combined with
+platform. Worked on a HTTP(S) caching layer in Golang & JS, utilizing container-local proxy combined with
 Cloudflare workers. Developed customer-facing functionality in Ember.js and Ruby on Rails.
 
 ##### Select technologies used:
 
-`Ruby on Rails`, `Ember.js`, `Go`, `MySQL`, `Redis`, `Docker`, `Kubernetes`, `Knative`, `Istio`, `Cloudflare Workers`
+`Ruby on Rails`, `Ember.js`, `Golang`, `MySQL`, `Redis`, `Kubernetes`, `Knative`, `Istio`, `Cloudflare Workers`
 
 ---
 
@@ -85,7 +91,7 @@ Engineered web applications for startups in the Bay Area. Wrote robust applicati
 
 ##### Select technologies used:
 
-`Ruby on Rails`, `AngularJS`, `Ember.js`, `Ember Data`, `D3.js`/`Rickshaw`, `RSpec`/`RSpec Mocks`, `Jasmine`/`Sinon.js`, `Pusher`, `Bootstrap`
+`Ruby on Rails`, `AngularJS`, `Ember.js`
 
 ---
 
@@ -97,7 +103,7 @@ Created sophisticated mobile application for a major health insurance company.
 
 ##### Select technologies used:
 
-`Ruby on Rails`, `Test::Unit`, `Capybara`, `Cucumber`, `PhantomJS`, `Backbone.js`, `jQuery`, `QUint`/`Sinon.JS`, `HTML5`/`CSS3`, `PhoneGap`
+`Ruby on Rails`, `Backbone.js`, `HTML5`/`CSS3`, `PhoneGap`
 
 ---
 
@@ -109,28 +115,6 @@ Responsible for development of email campaigns, web applications, micro-sites an
 
 ---
 
-## Recent Projects
-
-#### Zinedistro
-[Zinedistro](https://github.com/zinedistro/zinedistro) is a ready-made content management tool for creators of zines to distribute their work. Deployment to Heroku is a just a button push away.
-
-#### Bitrot
-An experiment in learning Golang, [bitrot](https://github.com/ggilder/bitrot) aims to fight silent data corruption by generating file checksums and later verifying the checksum value. This tool is meant to be run on a regular basis on a network attached storage device.
-
----
-
-## Technical Blog Posts & Talks
-
-#### Break Glass In Case of Emergency
-Lightning talk at Fog City Ruby meetup group about network faults and how to manage failure in a complex web application. Slides available [here](https://speakerdeck.com/faun/break-glass-in-case-of-emergency) [June 2017]
-
-#### Paperclip Extensions
-Wrote a [blog post](http://www.cloudcity.io/blog/2013/05/08/testing-paperclip-extensions-in-isolation) for Cloud City about testing a file upload cropper built for a legacy application. [May 2013]
-
-#### Wordpress and Capistrano
-Wrote a [blog post](http://www.tractionco.com/blog/95-deploying-wordpress-with-capistrano-and-svn) for Traction about deploying a `WordPress` site with `Capistrano` and `Subversion`. [March 2011]
-
----
 ## Education
 
 Cabrillo College, Aptos, California - 2004-2007 - Skills Certificate, Web Programming
