@@ -34,6 +34,8 @@ professionalism and self-direction.
 
 #### PlanetScale
 
+July 2021 - March 2024
+
 Responsible for building and maintaining the orchestration layer for the
 PlanetScale database platform. Managed numerous Kubernetes clusters and oversaw
 the deployment, health, and scaling of many MySQL databases. Responsibilities
@@ -52,7 +54,7 @@ internal CLI tooling to manage database infrastructure.
 
 #### Percy.io (acquired by BrowserStack)
 
-Aug 2017 - Jul 2021 (4 years)
+Aug 2017 - Jul 2021
 
 Responsible for architecture and maintenance of the infrastructure for a screenshot capture & diffing
 platform. Worked on a HTTP(S) caching layer in Golang & JS, utilizing container-local proxy combined with
