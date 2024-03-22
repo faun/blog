@@ -6,7 +6,8 @@ markdown: rdiscount
 
 source: .
 destination: ./_site
-plugins: ./_plugins
+plugins:
+  - ./_plugins
 
 exclude:
   - Rakefile
