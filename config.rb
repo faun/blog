@@ -1,4 +1,3 @@
-
 ###
 # Blog settings
 ###
@@ -10,16 +9,15 @@ Time.zone = 'Pacific Time (US & Canada)'
 ###
 
 set :markdown_engine, :redcarpet
-set :markdown, :fenced_code_blocks => true, :smartypants => true
+set :markdown, fenced_code_blocks: true, smartypants: true
 
 # ###
 # # Code highlighting
 # ###
 
-activate :syntax, :line_numbers => true
+activate :syntax, line_numbers: true
 
 activate :blog do |blog|
-
   # blog.permalink = ':year/:month/:day/:title.html'
   # blog.sources = ':year-:month-:day-:title.html'
   # blog.taglink = 'tags/:tag.html'
@@ -42,7 +40,7 @@ end
 # RSS Feed
 ###
 
-page '/feed.xml', :layout => false
+page '/feed.xml', layout: false
 
 ###
 # Compass
@@ -91,7 +89,7 @@ require 'ostruct'
 require 'yaml'
 
 class SiteSettings < Middleman::Extension
-  def initialize(app, options_hash={}, &block)
+  def initialize(app, options_hash = {}, &block)
     settings = OpenStruct.new YAML::load File.read '_config.yml'
 
     app.set :site, settings
@@ -103,23 +101,23 @@ end
 activate :site_settings
 
 set :file_watcher_ignore, [
-    /^\.idea\//,
-    /^\.bundle\//,
-    /^\.sass-cache\//,
-    /^\.git\//,
-    /^\.gitignore$/,
-    /\.DS_Store/,
-    /^build\//,
-    /^\.rbenv-.*$/,
-    /^Gemfile$/,
-    /^Gemfile\.lock$/,
-    /~$/,
-    /(^|\/)\.?#/
+  %r{^\.idea/},
+  %r{^\.bundle/},
+  %r{^\.sass-cache/},
+  %r{^\.git/},
+  /^\.gitignore$/,
+  /\.DS_Store/,
+  %r{^build/},
+  /^\.rbenv-.*$/,
+  /^Gemfile$/,
+  /^Gemfile\.lock$/,
+  /~$/,
+  %r{(^|/)\.?#}
 ]
 
 activate :livereload unless ENV['RACK_ENV'] == 'test'
 
-set :haml, { :ugly => true, :format => :html5 }
+set :haml, { format: :html5 }
 
 set :css_dir, 'stylesheets'
 
