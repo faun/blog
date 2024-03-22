@@ -1,0 +1,6 @@
+name = "blog"
+main = "src/index.ts"
+compatibility_date = "2024-03-20"
+
+[site]
+bucket = "./build"

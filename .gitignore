@@ -28,3 +28,9 @@
 
 # Ignore the build folder
 /build
+
+# Ignore the node_modules folder
+/node_modules
+
+# Ignore the .wrangler directory
+/.wrangler
