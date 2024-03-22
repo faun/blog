@@ -23,6 +23,36 @@ title: Resume
 ---
 ## Selected Employment
 
+### Engineer, Orchestration
+#### PlanetScale
+
+Responsible for building and maintaining the orchestration layer for the
+PlanetScale database platform. Managed numerous Kubernetes clusters and oversaw
+the deployment, health, and scaling of many MySQL databases.  Responsibilities
+included writing performant, maintainable code for internal Golang services, a
+Kubernetes operator, as well as a Ruby on Rails application.  Held pager
+rotation as well as customer on-call support for database health.  Wrote
+internal CLI tooling to manage database infrastructure.
+
+##### Select technologies used:
+
+`Golang`, `Ruby on Rails`, `Kubernetes`, `MySQL`, `Vitess`, `Prometheus`, `Grafana`
+
+
+### Senior Software Engineer
+#### Percy.io (acquired by BrowserStack)
+Aug 2017 - Jul 2021 (4 years)
+
+Responsible for architecture and maintenance of the infrastructure for a screenshot capture & diffing
+platform. Worked on a HTTP(S) caching layer in Go & JS, utilizing container-local proxy combined with
+Cloudflare workers. Developed customer-facing functionality in Ember.js and Ruby on Rails.
+
+##### Select technologies used:
+
+`Ruby on Rails`, `Ember.js`, `Go`, `MySQL`, `Redis`, `Docker`, `Kubernetes`, `Knative`, `Istio`, `Cloudflare Workers`
+
+---
+
 ### Lead Engineer
 #### Stitch Fix
 ### August 2016 to July 2017
