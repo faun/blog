@@ -2,17 +2,20 @@
 layout: default
 title: Home
 ---
+
 ## Goals
 
 Seeking opportunities with teams that:
 
+- Excel in a high-autonomy, high-trust environment.
+
 - Have a clear product vision and a sense of balance amongst design and engineering disciplines.
 
-- Collaborate daily and run retrospectives regularly.
+- Collaborate daily, communicate effectively and run retrospectives regularly.
 
-- Utilize continuous integration and/or continuous delivery, pair programming and test-driven methodologies.
+- Implement programming best practices.
 
-Considering opportunities in San Francisco or remote. 
+Currently only considering remote opportunities
 
 ---
 
@@ -24,53 +27,12 @@ See [resume](resume.html) for more information.
 
 ## Highly Proficient
 
-- Ruby/Rails/Golang
+- Golang (Services, Kubernetes Operators, CLI)
 
-- JavaScript
+- Ruby on Rails
 
-- React/Ember/Angular/Backbone
+- JavaScript/TypeScript
 
-- RSpec/Jasmine/Mocha/Jest
+- API design, Performance & Scalability
 
-- API design
-
-- HTML/CSS
-
-- Relational/NoSQL databases
-
-## Interests
-
-- Immutable infrastructure with blue/green deploys
-
-- Service discovery and container scheduling
-
-- Functional reactive programming
-
-- Security
-
-- Apache Hadoop/Kafka/Spark/Cassandra
-
-- Time series databases
-
-- Infographics
-
----
-
-## What I've Worked on Recently
-
-- [Stitch Fix](https://www.stitchfix.com)
-
-- [Wootric](https://www.wootric.com)
-
-- [PLOS Aperta (FKA Tahi)](http://blogs.plos.org/plos/2015/07/publishing-initiatives-at-plos-a-look-back-and-a-look-ahead/)
-
-- [SeaChange (FKA Timeline Labs)](http://www.schange.com/)
-
-- [Afolio](https://www.afolio.com)
-
-## Side Projects
-
-- [Zinedistro](https://github.com/zinedistro/zinedistro)
-
-- [Bitrot](https://github.com/ggilder/bitrot)
-
+- Databases
