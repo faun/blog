@@ -48,9 +48,7 @@ Select technologies used included `Golang`, `Ruby on Rails`, `Kubernetes`, `MySQ
 
 Aug 2017 - Jul 2021
 
-Responsible for architecture and maintenance of the infrastructure for a screenshot capture & diffing
-platform. Worked on a HTTP(S) caching layer in Golang & JS, utilizing container-local proxy combined with
-Cloudflare workers. Developed customer-facing functionality in Ember.js and Ruby on Rails.
+Responsible for architecture and maintenance of the infrastructure for a screenshot capture & diffing platform. Worked on an HTTP(S) caching layer in Golang & JS, utilizing container-local proxy combined with Cloudflare workers. Developed customer-facing functionality in Ember.js and Ruby on Rails.
 
 Select technologies used included `Ruby on Rails`, `Ember.js`, `Golang`, `MySQL`, `Redis`, `Kubernetes`, `Knative`, `Istio`, `Cloudflare Workers`
 
@@ -70,7 +68,7 @@ Select technologies used included `Ruby on Rails`, `PostgreSQL`, `RabbitMQ`, `Re
 
 August 2012 to December 2016
 
-Founder and primary developer at a software consulting company focused on building high-quality, scalable and reliable web applications for companies in the technology industry.
+Founder and primary developer at a software consulting company focused on building high-quality, scalable, and reliable web applications for companies in the technology industry.
 
 Select clients included `TaskRabbit`, `Wootric`, `Neo Innovation`, `Timeline Labs`, `Afolio`
 
@@ -80,7 +78,7 @@ Select clients included `TaskRabbit`, `Wootric`, `Neo Innovation`, `Timeline Lab
 
 February 2013 to April 2014
 
-Engineered web applications for startups in the Bay Area. Wrote robust applications for clients utilizing pair programming, behavior-driven development, continuous integration, and code reviews. Managed feature backlog and requirements using Pivotal Tracker and developed software using Extreme Programming techniques. Interviewed, trained and coached numerous coding bootcamp students through a company mentorship program.
+Engineered web applications for startups in the Bay Area. Wrote robust applications for clients utilizing pair programming, behavior-driven development, continuous integration, and code reviews. Managed feature backlog and requirements using Pivotal Tracker and developed software using Extreme Programming techniques. Interviewed, trained, and coached numerous coding bootcamp students through a company mentorship program.
 
 Select technologies used included `Ruby on Rails`, `AngularJS`, `Ember.js`
 
@@ -90,7 +88,7 @@ Select technologies used included `Ruby on Rails`, `AngularJS`, `Ember.js`
 
 April 2012 to July 2012
 
-Created sophisticated mobile application for a major health insurance company.
+Created a sophisticated mobile application for a major health insurance company.
 
 Select technologies used included `Ruby on Rails`, `Backbone.js`, `PhoneGap`
 
@@ -100,7 +98,7 @@ Select technologies used included `Ruby on Rails`, `Backbone.js`, `PhoneGap`
 
 Mar 2008 to April 2012
 
-Responsible for development of email campaigns, web applications, micro-sites and e-commerce solutions for corporate clients on a strict timeframe and with exacting specifications and requirements. Built a Rails application for company blog and portfolio showcase using custom blogging framework and content management system written from scratch. Built custom user interface for website administration by pairing with designers and defining requirements from the ground up. Interviewed and evaluated new candidates for the development team, and helped to train new hires. Responsible for delivering exacting work under tight timelines and demanding expectations.
+Responsible for the development of email campaigns, web applications, micro-sites, and e-commerce solutions for corporate clients on a strict timeframe and with exacting specifications and requirements. Built a Rails application for the company blog and portfolio showcase using a custom blogging framework and content management system written from scratch. Built a custom user interface for website administration by pairing with designers and defining requirements from the ground up. Interviewed and evaluated new candidates for the development team and helped to train new hires. Responsible for delivering exacting work under tight timelines and demanding expectations.
 
 ## Education
 
