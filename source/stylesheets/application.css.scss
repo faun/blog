@@ -62,7 +62,7 @@ body {
     padding-top: 73px;
   }
   ::selection {
-    background-color: #0071A0;
+    background-color: #0071a0;
     color: #ffffff;
   }
 }
@@ -82,7 +82,14 @@ header {
 
 $header-accent: darken($brand-primary, 20%);
 .page-masthead {
-  @include background-image(linear-gradient(135deg, $brand-primary 0, darken($brand-primary, 20%) 80%, darken($brand-primary, 25%) 100%));
+  @include background-image(
+    linear-gradient(
+      135deg,
+      $brand-primary 0,
+      darken($brand-primary, 20%) 80%,
+      darken($brand-primary, 25%) 100%
+    )
+  );
   border-top: 1px solid $header-accent;
   border-bottom: 1px solid $header-accent;
   .container {
@@ -117,7 +124,8 @@ img {
     max-width: 100%;
     width: 100%;
     tr {
-      th, td {
+      th,
+      td {
         width: 50%;
         word-wrap: break-word;
         white-space: normal;
@@ -139,7 +147,7 @@ img {
   @include center-block;
 }
 
- // Gist styles
+// Gist styles
 .gist {
   .gist-meta {
     display: none;
@@ -148,7 +156,6 @@ img {
   .gist-syntax {
     background-color: $pre-bg !important;
   }
-
 }
 
 .resume {
@@ -157,7 +164,7 @@ img {
   }
 
   .web-info {
-    @extend .hidden-print
+    @extend .hidden-print;
   }
 
   .print-info {
