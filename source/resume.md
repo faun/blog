@@ -40,7 +40,7 @@ Kubernetes operator, as well as a Ruby on Rails application. Held pager
 rotation as well as customer on-call support for database health. Wrote
 internal CLI tooling to manage database infrastructure.
 
-Select technologies used included `Golang`, `Ruby on Rails`, `Kubernetes`, `MySQL`, `Vitess`
+Select technologies used included <span class="tech">Golang</span>, <span class="tech">Ruby on Rails</span>, <span class="tech">Kubernetes</span>, <span class="tech">MySQL</span>, <span class="tech">Vitess</span>
 
 ### Senior Software Engineer
 
@@ -50,7 +50,7 @@ Aug 2017 - Jul 2021
 
 Responsible for architecture and maintenance of the infrastructure for a screenshot capture & diffing platform. Worked on an HTTP(S) caching layer in Golang & JS, utilizing container-local proxy combined with Cloudflare workers. Developed customer-facing functionality in Ember.js and Ruby on Rails.
 
-Select technologies used included `Ruby on Rails`, `Ember.js`, `Golang`, `MySQL`, `Redis`, `Kubernetes`, `Knative`, `Istio`, `Cloudflare Workers`
+Select technologies used included <span class="tech">Ruby on Rails</span>, <span class="tech">Ember.js</span>, <span class="tech">Golang</span>, <span class="tech">MySQL</span>, <span class="tech">Redis</span>, <span class="tech">Kubernetes</span>, <span class="tech">Knative</span>, <span class="tech">Istio</span>, <span class="tech">Cloudflare Workers</span>
 
 ### Lead Engineer
 
@@ -60,7 +60,7 @@ August 2016 to July 2017
 
 Functioned as team lead for large customer-facing projects. Mentored junior developers and fostered team culture. Built sustainable products and maintained existing systems. Led performance audits and provided recommendations to the larger team for improvements. Maintained and upgraded critical continuous delivery systems and high-scale production systems. Designed, implemented and maintained distributed, service-oriented applications. Built a geo-location micro-service application in Golang.
 
-Select technologies used included `Ruby on Rails`, `PostgreSQL`, `RabbitMQ`, `Redis`, `Golang`, `React`
+Select technologies used included <span class="tech">Ruby on Rails</span>, <span class="tech">PostgreSQL</span>, <span class="tech">RabbitMQ</span>, <span class="tech">Redis</span>, <span class="tech">Golang</span>, <span class="tech">React</span>
 
 ### Owner & CEO
 
@@ -70,7 +70,7 @@ August 2012 to December 2016
 
 Founder and primary developer at a software consulting company focused on building high-quality, scalable, and reliable web applications for companies in the technology industry.
 
-Select clients included `TaskRabbit`, `Wootric`, `Neo Innovation`, `Timeline Labs`, `Afolio`
+Select clients included <span class="tech">TaskRabbit</span>, <span class="tech">Wootric</span>, <span class="tech">Neo Innovation</span>, <span class="tech">Timeline Labs</span>, <span class="tech">Afolio</span>
 
 ### Senior Developer
 
@@ -80,7 +80,7 @@ February 2013 to April 2014
 
 Engineered web applications for startups in the Bay Area. Wrote robust applications for clients utilizing pair programming, behavior-driven development, continuous integration, and code reviews. Managed feature backlog and requirements using Pivotal Tracker and developed software using Extreme Programming techniques. Interviewed, trained, and coached numerous coding bootcamp students through a company mentorship program.
 
-Select technologies used included `Ruby on Rails`, `AngularJS`, `Ember.js`
+Select technologies used included <span class="tech">Ruby on Rails</span>, <span class="tech">AngularJS</span>, <span class="tech">Ember.js</span>
 
 ### Application Developer
 
@@ -90,7 +90,7 @@ April 2012 to July 2012
 
 Created a sophisticated mobile application for a major health insurance company.
 
-Select technologies used included `Ruby on Rails`, `Backbone.js`, `PhoneGap`
+Select technologies used included <span class="tech">Ruby on Rails</span>, <span class="tech">Backbone.js</span>, <span class="tech">PhoneGap</span>
 
 ### Web/Applications Developer
 

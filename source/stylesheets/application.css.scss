@@ -163,6 +163,12 @@ img {
     white-space: normal;
   }
 
+  .tech {
+    @extend code;
+    padding: 0;
+    white-space: nowrap;
+  }
+
   .web-info {
     @extend .hidden-print;
   }
