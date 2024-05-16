@@ -1,3 +1,7 @@
+.DEFAULT_GOAL := default
+
+default: build
+
 .PHONY: deploy
 
 deploy: build
