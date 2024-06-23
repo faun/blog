@@ -1,0 +1,18 @@
+!!!
+%html{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}/
+    %title
+      = current_page.data.title || site.name
+    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
+    %meta{content: "Personal portfolio and blog of Sascha Faun Winter", name: "description"}/
+    %meta{content: "Sascha Faun Winter", name: "author"}/
+    = stylesheet_link_tag "application", media: :print
+    = favicon_tag '/assets/ico/favicon.ico'
+    %link{href: "/assets/ico/apple-touch-icon-144x144-precomposed.png", rel: "apple-touch-icon-precomposed", sizes: "144x144"}/
+    %link{href: "/assets/ico/apple-touch-icon-114x114-precomposed.png", rel: "apple-touch-icon-precomposed", sizes: "114x114"}/
+    %link{href: "/assets/ico/apple-touch-icon-72x72-precomposed.png", rel: "apple-touch-icon-precomposed", sizes: "72x72"}/
+    %link{href: "/assets/ico/apple-touch-icon-precomposed.png", rel: "apple-touch-icon-precomposed"}/
+
+  %body
+    = yield
