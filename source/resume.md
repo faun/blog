@@ -14,17 +14,19 @@ title: Resume
 
 ## Summary
 
-Highly skilled and experienced technology professional specializing in
-Kubernetes cluster management and MySQL database administration. Proven track
-record of developing performant, maintainable code with expertise in Golang
-services, Kubernetes operators, and Ruby on Rails applications. Demonstrated
-ability to manage complex infrastructure projects with a strong focus on
-reliability and efficiency. Committed to excellence in customer support
-through proactive pager rotations and on-call support services. Seeks to join a
-high-trust, high-autonomy organization that values a strong culture of
-professionalism and self-direction.
+Highly skilled infrastructure engineer specializing in distributed database systems, Kubernetes platform operations, and large-scale data infrastructure. Proven track record designing and operating MySQL, Postgres, Redis, Kafka, and distributed SQL systems (TiDB, Vitess) at scale. Deep expertise in zero-downtime migrations, vertical sharding, and distributed transaction management. Experienced building Golang services, Kubernetes operators, and Ruby on Rails applications. Seeks a high-trust, high-autonomy organization that values professionalism, operational excellence, and self-direction.
 
 ## Selected Employment
+
+### Staff Engineer, Datastores Infrastructure
+
+#### Gusto
+
+August 2024 - Present
+
+Architect, deploy, and operate distributed database systems (TiDB) on Kubernetes at scale, ensuring high availability, data consistency, and operational excellence. Coordinate complex, zero-downtime migrations from monolithic to distributed architectures, including vertical sharding to isolate Product Services. Drive efficiency improvements across storage infrastructure through query optimization, caching strategies, and workload management. Build automation to ensure data consistency, integrity, and security across distributed systems. Partner with product engineering teams to enable rapid and reliable product development. Mentor engineers on best practices for operating complex, self-hosted distributed systems.
+
+Select technologies used included <span class="tech">TiDB</span>, <span class="tech">MySQL</span>, <span class="tech">Postgres</span>, <span class="tech">Redis</span>, <span class="tech">Kafka</span>, <span class="tech">Kubernetes</span>, <span class="tech">AWS</span>, <span class="tech">Golang</span>, <span class="tech">Ruby on Rails</span>
 
 ### Engineer, Orchestration
 
