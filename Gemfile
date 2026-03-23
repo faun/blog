@@ -12,6 +12,7 @@ gem 'middleman-livereload', '~> 3.1.0'
 gem 'middleman-syntax'
 gem 'nokogiri', '1.11.0'
 gem 'redcarpet'
+gem 'eventmachine', '>= 1.2.7'
 
 # For feed.xml.builder
 gem 'builder', '~> 3.0'
