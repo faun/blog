@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Resume
 ---
 
@@ -7,7 +6,7 @@ title: Resume
 
 <span class="print-info email">
   Email: resume@faun.me
-<span>
+</span>
 <span class="print-info phone">
   Phone: (415) 524-3449
 </span>

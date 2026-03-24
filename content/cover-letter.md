@@ -1,6 +1,7 @@
 ---
-layout: bare
 title: Cover Letter
+type: page
+layout: bare
 ---
 
 Dear Hiring Committee,
@@ -39,7 +40,7 @@ Percy.io (acquired by BrowserStack) tasked me with leading the architecture and 
 
 - Crafting browser extensions to enhance snapshot manipulation and request observation, streamlining the product functionality.
 
-#### What I’m Looking for in My Next Role
+#### What I'm Looking for in My Next Role
 
 ##### Customer-centric clarity of focus
 
@@ -47,7 +48,7 @@ I've been focusing on developer tools, which makes customer empathy easy. Noneth
 
 ##### Autonomy & trust
 
-I've been able to set my own milestones and define projects for myself for years, and it’s been truly liberating. It allows me to holistically approach customers’ needs and tackle the necessary infrastructure projects without need of a two-week iteration period. I've been managing a queue of work for myself with little guidance from my manager and have a proven track record of getting work done and doing it well.
+I've been able to set my own milestones and define projects for myself for years, and it's been truly liberating. It allows me to holistically approach customers' needs and tackle the necessary infrastructure projects without need of a two-week iteration period. I've been managing a queue of work for myself with little guidance from my manager and have a proven track record of getting work done and doing it well.
 
 ##### Growth mindset
 

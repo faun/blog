@@ -1,0 +1,25 @@
+{{ define "main" }}
+    <div class="container khmer">
+      <div class="row">
+        <div class="container">
+          {{ range hugo.Data.khmer }}
+          <div class="table-responsive">
+            <table class="table table-striped table-bordered col-lg-12 even_split">
+              <tr>
+                <th class="section_header" colspan="2">{{ .section }}</th>
+              </tr>
+              {{ range .entries }}
+                {{ range $phrase, $translation := . }}
+              <tr>
+                <td>{{ $phrase }}</td>
+                <td>{{ $translation }}</td>
+              </tr>
+                {{ end }}
+              {{ end }}
+            </table>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+{{ end }}

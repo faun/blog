@@ -1,8 +1,0 @@
-%aside
-  %nav.posts
-    %hr
-    %h3.post_title All Posts:
-    %ul.recent
-      - blog.articles.each do |post|
-        %li
-          = link_to post.title, post.url

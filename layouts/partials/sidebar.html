@@ -1,0 +1,13 @@
+<aside>
+  <nav class="posts">
+    <hr>
+    <h3 class="post_title">All Posts:</h3>
+    <ul class="recent">
+      {{ range (where .Site.RegularPages "Section" "posts") }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</aside>

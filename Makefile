@@ -12,13 +12,17 @@ deploy: build
 
 serve:
 	@echo "Starting the development server..."
-	@middleman server
+	@hugo server
 
 .PHONY: build
 
-# Check if the required gems are installed, install any that are missing, then build and deploy the project.
 build:
-	@echo "Checking for bundle dependencies..."
+	@echo "Building the project with Hugo..."
+	@hugo
+
+.PHONY: test
+
+test: build
+	@echo "Running tests..."
 	@bundle check || bundle install
-	@echo "Building the project with Middleman..."
-	@middleman build
+	@bundle exec rspec spec/site_spec.rb

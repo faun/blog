@@ -1,0 +1,24 @@
+{{ define "main" }}
+    <div class="container {{ .File.ContentBaseName }}">
+      <div class="row">
+        <div class="container">
+          <h1 class="page-title">{{ .Title }}</h1>
+          <aside class="attribution">
+            by
+            <a href="https://twitter.com/faunzy" rel="me">Sascha Faun Winter</a>
+          </aside>
+          <div class="section center-block">
+            <article>
+              {{ .Content }}
+            </article>
+          </div>
+          <hr>
+          <aside>
+            <nav>
+              <a class="btn btn-default" href="/">←Back</a>
+            </nav>
+          </aside>
+        </div>
+      </div>
+    </div>
+{{ end }}

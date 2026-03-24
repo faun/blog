@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Contact Info and GPG Key"
 description: "GPG key for Sascha Faun Winter"
 ---

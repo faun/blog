@@ -1,9 +1,13 @@
 ---
 title: Decrypting PDFs as a Service
-date: 2014-04-29 16:08 ICT
+date: 2014-04-29
 description: "This script and service pair allow easy decrypting of encrypted PDFs"
-tags: PDF, security, encryption, services, Mac OS
-
+tags:
+  - PDF
+  - security
+  - encryption
+  - services
+  - Mac OS
 ---
 
 Sometimes, you just need to decrypt encrypted PDFs. A lot of them.

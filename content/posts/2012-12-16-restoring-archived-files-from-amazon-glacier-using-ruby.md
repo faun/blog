@@ -1,9 +1,7 @@
 ---
-
-layout: post
 title: "Restoring Archived Files from Amazon Glacier"
 description: "This script can be used to restore Amazon S3 objects that were archived using the lifecycle feature of Amazon S3."
-
+date: 2012-12-16
 ---
 
 ###The Problem
@@ -16,7 +14,7 @@ Normally you could restore these objects in the AWS console, but being a new ser
 
 ###The Solution
 
-I had two options for writing a script to restore these objects: 
+I had two options for writing a script to restore these objects:
 
 1. Use the Java SDK provided by Amazon
 2. Write something myself since the Amazon Ruby SDKs are out of date and the existing Ruby libraries had not yet been updated to work with S3 archived object and don't offer you a way to make an arbitrary POST request (that I could tell).
@@ -41,7 +39,7 @@ or, to resume a stopped job:
 
 ###tl;dr
 
-This script can be used to restore Amazon S3 objects that were archived using the [lifecycle](http://docs.amazonwebservices.com/AmazonS3/latest/UG/LifecycleConfiguration.html) feature of Amazon S3. 
+This script can be used to restore Amazon S3 objects that were archived using the [lifecycle](http://docs.amazonwebservices.com/AmazonS3/latest/UG/LifecycleConfiguration.html) feature of Amazon S3.
 
 ###Disclaimer
 

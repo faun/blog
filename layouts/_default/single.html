@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <div class="container {{ .File.ContentBaseName }}">
+      <div class="row">
+        <div class="container">
+          {{ if eq .Section "posts" }}
+          <h1 class="page-title">{{ .Title }}</h1>
+          <aside class="attribution">
+            by
+            <a href="https://twitter.com/faunzy" rel="me">Sascha Faun Winter</a>
+          </aside>
+          {{ end }}
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+{{ end }}

@@ -1,0 +1,55 @@
+baseURL = "/"
+languageCode = "en"
+title = "Sascha Faun Winter"
+enableRobotsTXT = false
+disableKinds = ["taxonomy", "term"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+
+[params]
+  description = "Personal portfolio and blog of Sascha Faun Winter"
+  author = "Sascha Faun Winter"
+  subtitle = "Experienced Web Engineer located in San Francisco"
+
+[[params.header_navigation]]
+  name = "Home"
+  url = "/"
+[[params.header_navigation]]
+  name = "Resume"
+  url = "/resume/"
+[[params.header_navigation]]
+  name = "Contact"
+  url = "/contact/"
+
+[[params.external_links]]
+  name = "Personal Photography"
+  url = "http://photos.faun.me"
+[[params.external_links]]
+  name = "Twitter"
+  url = "https://twitter.com/faunzy"
+[[params.external_links]]
+  name = "GitHub"
+  url = "https://github.com/faun"
+[[params.external_links]]
+  name = "LinkedIn"
+  url = "http://www.linkedin.com/in/faunwinter"
+[[params.external_links]]
+  name = "Flickr"
+  url = "http://flickr.com/faunzy"
+[[params.external_links]]
+  name = "Instagram"
+  url = "http://instagram.com/faunzy"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = "application/rss+xml"
+    baseName = "feed"

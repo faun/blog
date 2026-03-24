@@ -1,507 +1,1432 @@
-{
-  "Basics": [
-    { "Good luck" : "sɔm-naang la-ɔɔ" },
-    { "Goodbye (formal)" : "jum-riab-lia" },
-    { "Goodbye (informal)" : "lia-hau̶y" },
-    { "Hello (formal)" : "jum-riab-sua" },
-    { "Hello (informal)" : "sua-sdey" },
-    { "How are you doing?" : "sok-sab-baay dtee?" },
-    { "I don't speak Khmer" : "knom ɔt jeh ni-yiay khmae dtee" },
-    { "I don't understand" : "knom ɔt yul dtee" },
-    { "I'm fine, thanks" : "sok-sab-baay, ɔɔ-gun" },
-    { "I'm sorry" : "som-dtooh" },
-    { "No thank you" : "ɔt-dtee ɔɔ-gun" },
-    { "No" : "ɔt-dtee" },
-    { "See you later" : "tngai-graoy juab knia" },
-    { "What's your name" : "[nek]* chmuah ey?" },
-    { "Yes" : "baa (male speaker)" },
-    { "Yes" : "jaa (female speaker)" },
-    { "a little bit" : "dtech-dtuach, dtic-dtiich or dtic-dtic" },
-    { "it doesn't matter/it's alright/you're welcome" : "mən-ey-dtee" },
-    { "thank you (very much)" : "ɔɔ-gun (jrau̶n)" }
-  ],
-
-  "Directions": [
-    { "Go straight" : "dtoewe dtrɔng" },
-    { "On the left" : "nəu̶ kaang chweeng" },
-    { "On the right" : "nəu̶ kaang sdam" },
-    { "One more street, turn right" : "muay pləu̶ dtiet, bɔt sdam" },
-    { "Stop" : "soom chub" },
-    { "Turn around (turn and go back)" : "bɔt dtəu̶ wiñ" },
-    { "Turn left" : "bɔt chweeng" },
-    { "Turn right" : "bɔt sdam" }
-  ],
-
-  "Nouns": [
-    { "a pair of shoes" : "sbaek-jəəng muay guu" },
-    { "airport" : "bpro-lian yun-hɔh" },
-    { "alphabet" : "ak-sɔɔ" },
-    { "apple" : "bpoom" },
-    { "bag" : "gaa-bobe" },
-    { "banana" : "jeek" },
-    { "bank" : "to-nia-gia" },
-    { "bathroom" : "bɔn-dtub-dtək" },
-    { "bed" : "grɛɛ" },
-    { "bedroom" : "bɔn-dtub-geeng" },
-    { "beef" : "saach goo" },
-    { "bicycle" : "gɔng" },
-    { "book" : "siaw-pəu̶" },
-    { "breakfast" : "aa-haa bpeel prək" },
-    { "brother (older)" : "bɔɔng broh" },
-    { "brother (youger)" : "pa-own broh" },
-    { "bus" : "laan krong" },
-    { "card" : "gaat" },
-    { "chair" : "gau-ey" },
-    { "change" : "luy ab" },
-    { "chicken (meat)" : "saach moan" },
-    { "child (of subject or speaker)" : "koon" },
-    { "clothes" : "kao-aaw" },
-    { "coconut" : "doong" },
-    { "country" : "bpro-dteh" },
-    { "custard apple" : "dtiab" },
-    { "day" : "tngai" },
-    { "dinner" : "baay la-ngiaj or aa-haa bpeel la-ngiaj" },
-    { "dollar" : "dol-laa" },
-    { "dress" : "robe" },
-    { "durian" : "tu-reen" },
-    { "father" : "bpaa" },
-    { "ferry" : "dtuuk dɔɔ" },
-    { "fish" : "trey" },
-    { "food (eaten with rice)" : "ma-ho̅o̅b" },
-    { "food (in general)" : "aa-haa" },
-    { "food (rice)" : "baay" },
-    { "football (soccer)" : "bal-dtoat" },
-    { "free day (weekend)" : "tngai dtum-nee" },
-    { "free" : "dtum-nee" },
-    { "fruit" : "plae-chəə" },
-    { "glasses" : "waen-dtaa" },
-    { "gloves" : "sraom dai" },
-    { "grape" : "dtum-bpang baay juu" },
-    { "here" : "dtii-nih" },
-    { "hotel" : "sɔn-taa-gia/o-dtel" },
-    { "hour" : "maong" },
-    { "house" : "pdtɛah" },
-    { "husband" : "bdey" },
-    { "ice" : "dtək kɔɔk" },
-    { "language" : "pia-saa" },
-    { "longan (fruit)" : "mian" },
-    { "luggage or suitcase" : "vaa-lii" },
-    { "lunch" : "baay tngai or aa-haa bpeel tngai" },
-    { "lychee" : "guu-lɛɛn" },
-    { "mango" : "svaay" },
-    { "market" : "psaa" },
-    { "medium well (cooked)" : "cha'en lo-moom" },
-    { "menu" : "menói" },
-    { "milk fruit" : "plae dtək-doh" },
-    { "milk" : "dtək-doh-goo" },
-    { "minute" : "nia-dtii" },
-    { "money" : "luy" },
-    { "month" : "kae" },
-    { "mother" : "mak" },
-    { "name" : "chmuah" },
-    { "noon" : "bpeel tngai" },
-    { "number" : "leeck" },
-    { "orange (fruit)" : "krooch" },
-    { "pants" : "kao" },
-    { "papaya" : "la'hong" },
-    { "parents" : "mak-bpaa or bpaa-mak" },
-    { "past (location)" : "huah" },
-    { "pen" : "bich" },
-    { "person" : "nek" },
-    { "phone card" : "gaat dto-ro-sab" },
-    { "phone" : "dto-ro-sab" },
-    { "photograph" : "ruub-tɔɔt" },
-    { "pineapple" : "m'noah" },
-    { "police" : "bpo-lis" },
-    { "pomelo" : "krooch tlong" },
-    { "pork" : "saach jruuk" },
-    { "price" : "dom-lai" },
-    { "question" : "sɔm-nua" },
-    { "rambutan" : "saaw-maaw" },
-    { "raw (uncooked)" : "chəu̶" },
-    { "restaurant" : "po-ji-nii-taan" },
-    { "riverfront" : "moat tonle" },
-    { "rose apple" : "jum-bpuu" },
-    { "salad (or lettuce)": "salat" },
-    { "school" : "saa-laa(-rian)" },
-    { "shirt" : "aaw" },
-    { "shoes" : "sbaek-jeeng" },
-    { "siblings" : "bɔɔng pa-own" },
-    { "sir/madam" : "look" },
-    { "sister (older)" : "bɔɔng srey" },
-    { "sister (younger)" : "pa-own srey" },
-    { "skirt" : "sɔm-bput" },
-    { "socks" : "sraom-jəəng" },
-    { "song" : "jɔm-riang" },
-    { "soursop" : "dtieb ba-rang" },
-    { "state" : "roat" },
-    { "shop" : "hang" },
-    { "sweet (taste)" : "pa-aem" },
-    { "t-shirt" : "aaw-ju̶u̶t" },
-    { "table" : "dtok" },
-    { "tamarind" : "ɔm-bpəl" },
-    { "television" : "tii-vii OR dtu-ro-dtuah" },
-    { "things" : "ey-van" },
-    { "time" : "bpeel" },
-    { "tofu" : "tao who" },
-    { "water" : "dtək" },
-    { "week" : "aa-dtət" },
-    { "weekend" : "jong aa-dtət" },
-    { "well done (cooked)" : "(cha'en) cha-en" },
-    { "wife" : "brɔɔ-bpun" },
-    { "work" : "gaa-ngia" },
-    { "workplace" : "gɔn-laeng twəə-gaa" },
-    { "year" : "chnam" }
-  ],
-
-  "Verbs": [
-    { "bargain" : "dtor tlai" },
-    { "buy" : "dtiñ" },
-    { "come back" : "mook wiñ" },
-    { "come from" : "mook-bpii" },
-    { "cut vigorously (like with a machete)" : "gab" },
-    { "cut" : "gat" },
-    { "depart" : "jeeñ-dam-nəu̶" },
-    { "discount" : "joh tlai" },
-    { "do" : "twəə" },
-    { "drive" : "bau̶k" },
-    { "eat" : "ñam" },
-    { "end" : "jong" },
-    { "excercise" : "hat-braan" },
-    { "final price" : "dach hau̶y" },
-    { "get up (from sleep)" : "graok-bpii-geeng" },
-    { "go shopping" : "dtəu̶-psaa" },
-    { "go" : "dtəu̶" },
-    { "happy (celebration)" : "riik-riay" },
-    { "happy (feeling)" : "sab-baay-jet" },
-    { "joke" : "ni-yiaj leeng" },
-    { "laugh" : "saoch" },
-    { "learn" : "rian" },
-    { "learn/to study" : "rian" },
-    { "leave from": "(jaak) jeeñ bpii" },
-    { "leave" : "jeeñ dtəu̶" },
-    { "like" : "jool-jet" },
-    { "listen" : "sdab" },
-    { "live (in)" : "ruah-nəu̶̶" },
-    { "make change" : "ab luy" },
-    { "meet (intransitive)" : "juab knia" },
-    { "meet (transitive)" : "juab" },
-    { "plastic bag" : "tɔng" },
-    { "play sports" : "leeng gey-lay" },
-    { "play" : "leeng" },
-    { "put (place)" : "dak" },
-    { "put" : "jrɔɔk" },
-    { "rain" : "pliang" },
-    { "read" : "aan" },
-    { "reply/answer" : "chlauy" },
-    { "ride" : "jih" },
-    { "run" : "rut" },
-    { "sell" : "luak" },
-    { "sit" : "ɔng-guy" },
-    { "sleep (go to)" : "jool geeng" },
-    { "sleep" : "geeng" },
-    { "speak" : "ni-yiay" },
-    { "stand" : "ch`oh" },
-    { "start" : "jab-pdau̶m" },
-    { "stay" : "snat-nəu̶" },
-    { "swim" : "hael-dtək" },
-    { "take a bath/shower" : "muj dtək" },
-    { "take someone somewhere" : "juun + [person] + dtəu̶" },
-    { "take" : "yook" },
-    { "understand" : "yul" },
-    { "walk (to)" : "dau (dtəu̶)" },
-    { "walk (go for a)" : "dau dtəu̶ ling" },
-    { "want (something)" : "jɔng-baan" },
-    { "want (to do something)" : "jɔng" },
-    { "watch TV" : "məəl dtuh(-ro)-dtuah" },
-    { "watch/look" : "məəl" },
-    { "work" : "twəə-gaa" },
-    { "write" : "sɔɔ-see" }
-  ],
-
-  "Adjectives": [
-    { "bad" : "aa-grɔk" },
-    { "beautiful" : "sa-at" },
-    { "big" : "tum" },
-    { "certain" : "ch'bah́" },
-    { "cold" : "trɔɔ-jeak" },
-    { "difficult" : "bpi-baak" },
-    { "easy" : "srual" },
-    { "fast/early" : "lu̶an" },
-    { "fresh or pure (water)" : "(dtək) sot" },
-    { "full" : "cha-aet" },
-    { "good" : "la-ɔɔ" },
-    { "hot" : "gdəu̶" },
-    { "hungry" : "klian" },
-    { "last (previous)" : "mun" },
-    { "next" : "graoy" },
-    { "same" : "doach knia" },
-    { "short (distance)" : "kley" },
-    { "short (height)" : "dtia/b" },
-    { "slow/late" : "yu̶u̶t" },
-    { "small" : "dtooch" },
-    { "tall" : "kpuah" },
-    { "tasty" : "chingañ" },
-    { "tired" : "ɔh-gom laang" },
-    { "wet" : "dtəu̶-dtek or səum" }
-  ],
-
-  "Conjunctions": [
-    { "and" : "nəng" },
-    { "but" : "bpon-dtae" },
-    { "if" : "bau̶" }
-  ],
-
-  "Question Words": [
-    { "how many" : "bpon-maan" },
-    { "how much (quantity)" : "bpon-maan" },
-    { "how much (price)" : "tlai bpon-maan" },
-    { "how old" : "ayu bpon-maan" },
-    { "how (do)" : "yaang-meij" },
-    { "what <sup>1</sup>" : "ey" },
-    { "what time" : "maong (bpon)-maan" },
-    { "when" : "bpeel-naa" },
-    { "where <sup>2</sup>" : "nəu̶-naa/naa" },
-    { "which (one)" : "muay-naa" },
-    { "whom" : "nek-naa" },
-    { "whose" : "roo-bɔh-nek-naa" },
-    { "who" : "nek-naa" },
-    { "why <sup>3</sup>" : "haet-ey" }
-  ],
-
-  "Subject Pronouns": [
-    { "I" : "kñom" },
-    { "you (written only)" : "[nek]*" },
-    { "you (older or similar age as speaker)" : "bɔng" },
-    { "you (younger than speaker, written)" : "pa-own" },
-    { "you (younger than speaker, spoken)" : "own" },
-    { "we" : "yəəng" },
-    { "he/she" : "goat" },
-    { "it" : "wia" },
-    { "they (people)" : "bpuak-goat" },
-    { "they (non-human things)" : "bpuak-wia" }
-  ],
-
-  "Determiners": [
-    { "both" : "dtang bpii" },
-    { "half" : "ga-lah" },
-    { "not many" : "mən-siaw" },
-    { "not much" : "mən-siaw" },
-    { "some" : "klah" },
-    { "that one" : "ah-muay nuh" },
-    { "this one" : "ah-muay nih" }
-  ],
-
-  "Prepositions": [
-    { "after" : "hauy" },
-    { "at" : "nəu̶ (ae)" },
-    { "about (something)" : "ɔm-bpii" },
-    { "because" : "bpii-pruah" },
-    { "before" : "mun bpeel" },
-    { "behind" : "nəu̶-kraoy" },
-    { "between" : "jɔn-loh" },
-    { "for" : "aoy" },
-    { "from" : "bpii" },
-    { "in front of" : "nəu̶-muk" },
-    { "in" : "nəu̶" },
-    { "in/inside" : "nəu̶-knong" },
-    { "left (direction)" : "chweeng" },
-    { "on/up/above" : "nəu̶-ləə" },
-    { "out/outside" : "nəu̶-grau" },
-    { "right (direction)" : "sdam" },
-    { "straight" : "trɔng" },
-    { "that" : "nuh" },
-    { "this" : "nih" },
-    { "under/below" : "nəu̶-graom" },
-    { "until" : "ro-hot-dol" },
-    { "with" : "jia-muay" }
-  ],
-
-  "Numbers" : [
-    { "0" : "soon" },
-    { "1" : "muay" },
-    { "2" : "bpii" },
-    { "3" : "bey" },
-    { "4" : "buan" },
-    { "5" : "bpram" },
-    { "6" : "bram muay" },
-    { "7" : "bram bpii" },
-    { "8" : "bram bey" },
-    { "9" : "bram buan" },
-    { "10" : "dop" },
-    { "11" : "dop muay" },
-    { "12" : "dop bpii" },
-    { "13" : "dop bey" },
-    { "14" : "dop buan" },
-    { "15" : "dop bram" },
-    { "16" : "dop bram muay" },
-    { "20" : "ma-pei" },
-    { "20" : "ma-pei muay" },
-    { "30" : "sam seb" },
-    { "40" : "sae-seb" },
-    { "50" : "haa-seb" },
-    { "60" : "hok-seb" },
-    { "70" : "jet-seb" },
-    { "80" : "bpaet-seb" },
-    { "90" : "gau-seb" },
-    { "100" : "muay-rooy" },
-    { "1,000" : "muay bpoan" },
-    { "10,000" : "muay mu̶u̶n" },
-    { "100,000" : "muay saen" },
-    { "1,000,000" : "muay lian" },
-    { "1,000,000,000" : "muay bpoan lian" }
-  ],
-
-  "Colors": [
-   { "black" : "kməu̶" },
-   { "blue" : "kiew" },
-   { "brown" : "tnaot" },
-   { "green" : "bai-dtɔɔng" },
-   { "grey" : "brɔɔ-peh" },
-   { "orange" : "bpoah dtək krooch" },
-   { "purple" : "svaay" },
-   { "red" : "krɔɔ-hɔɔm" },
-   { "white" : "sɔɔ" },
-   { "yellow" : "luang" }
-  ],
-
-  "Days of the Week": [
-    { "Monday" : "tngai jan" },
-    { "Tuesday" : "tngai ɔng-gia" },
-    { "Wednesday" : "tngai bput" },
-    { "Thursday" : "tngai pro-hoah" },
-    { "Friday" : "tngai sok" },
-    { "Saturday" : "tngai sau" },
-    { "Sunday" : "tngai aa-dtət" }
-  ],
-
-  "Months": [
-    { "January" : "kae muay" },
-    { "February" : "kae bpii" },
-    { "March" : "kae bey" },
-    { "April" : "kae buan" },
-    { "May" : "kae bpram" },
-    { "June" : "kae bpram muay" },
-    { "July" : "kae bpram bpii" },
-    { "August" : "kae bpram bey" },
-    { "September" : "kae bpram buan" },
-    { "October" : "kae dop" },
-    { "November" : "kae dop muay" },
-    { "December" : "kae dop bpii" }
-  ],
-
-  "Adverbs": [
-    { "a lot" : "charan" },
-    { "about" : "brɔɔ-hael" },
-    { "after" : "bpon dtoab bpii" },
-    { "again" : "mdɔɔng dtiet" },
-    { "already" : "hau̶y" },
-    { "also" : "gɔɔ … dae" },
-    { "approximately" : "brɔɔ-hael" },
-    { "around" : "brɔɔ-hael" },
-    { "at home" : "nəu̶ pdteah" },
-    { "back" : "wiñ" },
-    { "far" : "cha-ng-aay" },
-    { "maybe" : "brɔɔ-hael" },
-    { "near" : "jet" },
-    { "only" : "dtae … dtee" },
-    { "perhaps" : "brɔɔ-hael" },
-    { "slowly" : "yu̶u̶t yu̶u̶t" },
-    { "then" : "bɔn-dtoap mook" },
-    { "together" : "jia muay knia" },
-    { "until" : "ro-hoat dɔl" },
-    { "very" : "nah" }
-  ],
-
-  "Adverbs of Time": [
-    { "afternoon" : "bpeel ro-sial" },
-    { "evening" : "bpeel la-ngaik" },
-    { "morning" : "bpeel-bprək" },
-    { "night" : "bpeel yub" },
-    { "not yet": "mən dtoan" },
-    { "now (nowadays)" : "bpeel nih" },
-    { "now (this moment)" : "bpeel nih" },
-    { "today" : "tngai-nih" },
-    { "tomorrow" : "sa-aek" },
-    { "tonight" : "yub nih" },
-    { "yesterday" : "ma-sel-minh" }
-  ],
-
-  "Phrases of Time": [
-    { "at a time (one o'clock)" : "maong + number (maong muay)" },
-    { "good morning" : "a'ru̅n sua-sday" },
-    { "good night" : "ria-trey sua-sday" },
-    { "how many hours?" : "bpon-maan maan?" },
-    { "in one hour" : "muay maong dtiet" },
-    { "last Saturday" : "tngai sau mun" },
-    { "last week" : "aa-dtət mun" },
-    { "next Saturday" : "tngai sau graoy" },
-    { "next week" : "aa-dtət grəu̶y" },
-    { "what time?" : "maong bpon-maan?" }
-  ],
-
-  "Adverbs of Frequency": [
-    { "always" : "dtaeng (dtae)" },
-    { "ever" : "tloab" },
-    { "every": "roal" },
-    { "never" : "mən dael (…dtee)" },
-    { "occasionally" : "mdɔɔng mkaal" },
-    { "often" : "nək ñoab" },
-    { "rarely" : "kɔm-rɔɔ" },
-    { "sometimes" : "bpeel klah" },
-    { "sometimes" : "juan gaal" },
-    { "usually" : "taam toama-daa" }
-  ],
-
-  "Proper Nouns" : [
-    { "Independance Monument" : "vimean aek-ka-reach (or eegreiak)" },
-    { "Central Market" : "psaa tmey" },
-    { "Kandal market" : "psaa jah" },
-    { "Russian market" : "toul tom pong" }
-  ],
-
-  "Phrases" : [
-    { "Can [subject] … ?" : "[subject] (aach) … baan dtee?" },
-    { "Come in" : "Jool-mook" },
-    { "Do not put milk": "ɔt dak dtək-doh-goo" },
-    { "From … to …" : "bpii … dol …" },
-    { "Have you _____ already?" : "[Nek]* _____ hau̶y (ru̶u̶) nəu̶?" },
-    { "How about you?" : "Joh [nek]* win?" },
-    { "How do you say _____ in Khmer?" : "_____ pia-saa khmai taa-mech?" },
-    { "How old are you?" : "[Nek]* mien aju bpon-maan?" },
-    { "I do not want a tuk tuk": "Kñom ɔt jɔng-baan tuk tuk dtee" },
-    { "I will arrive…" : "Kñom dtəu̶ dol …" },
-    { "I'm from San Francisco" : "Kñom mook bpii San Francisco" },
-    { "Is this/that ok?" : "Aa-nih/Aa-nuh baan ɔt?" },
-    { "Let me see first": "Sɔm məəl sen" },
-    { "May I  … ?" : "Kñom som … baan dtee?" },
-    { "May I take your photograph?" : "Kñom som tɔɔt [nek]* baan dtee?" },
-    { "No problem" : "ɔt paña-haa" },
-    { "One more" : "muay dtiet" },
-    { "Please wait a moment" : "Som jam muay pleat" },
-    { "See you later" : "Dtich dtiet juab knia" },
-    { "That is all" : "Ɔh-həuy" },
-    { "What are you doing?" : "[Nek]* kompong twəə-ey?" },
-    { "What is the wifi password": "leek koot [nek]* ey klah?" },
-    { "What is your name?" : "[nek]* chmuah ey?" },
-    { "Where do you live": "[Nek]* ruah-nəu̶ naa" },
-    { "Would you like anything else?" : "[Nek]* jong baan ay dtiet ɔt?" },
-    { "… right?" : "… mɛɛn-dtee?" }
-  ],
-
-  "Grammar Rules" : [
-    { "Afirmative" : "Subject + verb + object + …" },
-    { "To be + noun" : "Subject + jia + noun" },
-    { "Negative sentence" : "Subject + ɔt/mən + verb + … + dtee" },
-    { "Noun + adjective" : "If you need to use an adjective, make sure the noun goes before the adjective" },
-    { "Verb + adjective" : "The verb 'to be' is dropped when used with an adjective" },
-    { "Asking a question with a question word" : "To make a question, put the question word as the end of the sentence (except 'why' and 'who', which function as a subject)" }
-  ],
-
-  "Footnotes" : [
-    { "*[nek]" : "Nek is a written representation of the word 'you' without regard for age or status. Wherever you see [nek], it should be replaced with one of the following: bɔɔng, own, or the person's name (see subject pronouns section for more information)" },
-    { "<sup>1</sup>" : "Goes at the end of a sentence" },
-    { "<sup>2</sup>" : "When where is used with go or come: naa. When used with a word that already has the sound 'nəu̶': naa. Any other time: nəu̶-naa. Goes at the end of a sentence" },
-    { "<sup>3</sup>" : "Goes at the beginning of a sentence" }
-  ]
-}
+[
+  {
+    "section": "Basics",
+    "entries": [
+      {
+        "Good luck": "sɔm-naang la-ɔɔ"
+      },
+      {
+        "Goodbye (formal)": "jum-riab-lia"
+      },
+      {
+        "Goodbye (informal)": "lia-hau̶y"
+      },
+      {
+        "Hello (formal)": "jum-riab-sua"
+      },
+      {
+        "Hello (informal)": "sua-sdey"
+      },
+      {
+        "How are you doing?": "sok-sab-baay dtee?"
+      },
+      {
+        "I don't speak Khmer": "knom ɔt jeh ni-yiay khmae dtee"
+      },
+      {
+        "I don't understand": "knom ɔt yul dtee"
+      },
+      {
+        "I'm fine, thanks": "sok-sab-baay, ɔɔ-gun"
+      },
+      {
+        "I'm sorry": "som-dtooh"
+      },
+      {
+        "No thank you": "ɔt-dtee ɔɔ-gun"
+      },
+      {
+        "No": "ɔt-dtee"
+      },
+      {
+        "See you later": "tngai-graoy juab knia"
+      },
+      {
+        "What's your name": "[nek]* chmuah ey?"
+      },
+      {
+        "Yes": "baa (male speaker)"
+      },
+      {
+        "Yes": "jaa (female speaker)"
+      },
+      {
+        "a little bit": "dtech-dtuach, dtic-dtiich or dtic-dtic"
+      },
+      {
+        "it doesn't matter/it's alright/you're welcome": "mən-ey-dtee"
+      },
+      {
+        "thank you (very much)": "ɔɔ-gun (jrau̶n)"
+      }
+    ]
+  },
+  {
+    "section": "Directions",
+    "entries": [
+      {
+        "Go straight": "dtoewe dtrɔng"
+      },
+      {
+        "On the left": "nəu̶ kaang chweeng"
+      },
+      {
+        "On the right": "nəu̶ kaang sdam"
+      },
+      {
+        "One more street, turn right": "muay pləu̶ dtiet, bɔt sdam"
+      },
+      {
+        "Stop": "soom chub"
+      },
+      {
+        "Turn around (turn and go back)": "bɔt dtəu̶ wiñ"
+      },
+      {
+        "Turn left": "bɔt chweeng"
+      },
+      {
+        "Turn right": "bɔt sdam"
+      }
+    ]
+  },
+  {
+    "section": "Nouns",
+    "entries": [
+      {
+        "a pair of shoes": "sbaek-jəəng muay guu"
+      },
+      {
+        "airport": "bpro-lian yun-hɔh"
+      },
+      {
+        "alphabet": "ak-sɔɔ"
+      },
+      {
+        "apple": "bpoom"
+      },
+      {
+        "bag": "gaa-bobe"
+      },
+      {
+        "banana": "jeek"
+      },
+      {
+        "bank": "to-nia-gia"
+      },
+      {
+        "bathroom": "bɔn-dtub-dtək"
+      },
+      {
+        "bed": "grɛɛ"
+      },
+      {
+        "bedroom": "bɔn-dtub-geeng"
+      },
+      {
+        "beef": "saach goo"
+      },
+      {
+        "bicycle": "gɔng"
+      },
+      {
+        "book": "siaw-pəu̶"
+      },
+      {
+        "breakfast": "aa-haa bpeel prək"
+      },
+      {
+        "brother (older)": "bɔɔng broh"
+      },
+      {
+        "brother (youger)": "pa-own broh"
+      },
+      {
+        "bus": "laan krong"
+      },
+      {
+        "card": "gaat"
+      },
+      {
+        "chair": "gau-ey"
+      },
+      {
+        "change": "luy ab"
+      },
+      {
+        "chicken (meat)": "saach moan"
+      },
+      {
+        "child (of subject or speaker)": "koon"
+      },
+      {
+        "clothes": "kao-aaw"
+      },
+      {
+        "coconut": "doong"
+      },
+      {
+        "country": "bpro-dteh"
+      },
+      {
+        "custard apple": "dtiab"
+      },
+      {
+        "day": "tngai"
+      },
+      {
+        "dinner": "baay la-ngiaj or aa-haa bpeel la-ngiaj"
+      },
+      {
+        "dollar": "dol-laa"
+      },
+      {
+        "dress": "robe"
+      },
+      {
+        "durian": "tu-reen"
+      },
+      {
+        "father": "bpaa"
+      },
+      {
+        "ferry": "dtuuk dɔɔ"
+      },
+      {
+        "fish": "trey"
+      },
+      {
+        "food (eaten with rice)": "ma-ho̅o̅b"
+      },
+      {
+        "food (in general)": "aa-haa"
+      },
+      {
+        "food (rice)": "baay"
+      },
+      {
+        "football (soccer)": "bal-dtoat"
+      },
+      {
+        "free day (weekend)": "tngai dtum-nee"
+      },
+      {
+        "free": "dtum-nee"
+      },
+      {
+        "fruit": "plae-chəə"
+      },
+      {
+        "glasses": "waen-dtaa"
+      },
+      {
+        "gloves": "sraom dai"
+      },
+      {
+        "grape": "dtum-bpang baay juu"
+      },
+      {
+        "here": "dtii-nih"
+      },
+      {
+        "hotel": "sɔn-taa-gia/o-dtel"
+      },
+      {
+        "hour": "maong"
+      },
+      {
+        "house": "pdtɛah"
+      },
+      {
+        "husband": "bdey"
+      },
+      {
+        "ice": "dtək kɔɔk"
+      },
+      {
+        "language": "pia-saa"
+      },
+      {
+        "longan (fruit)": "mian"
+      },
+      {
+        "luggage or suitcase": "vaa-lii"
+      },
+      {
+        "lunch": "baay tngai or aa-haa bpeel tngai"
+      },
+      {
+        "lychee": "guu-lɛɛn"
+      },
+      {
+        "mango": "svaay"
+      },
+      {
+        "market": "psaa"
+      },
+      {
+        "medium well (cooked)": "cha'en lo-moom"
+      },
+      {
+        "menu": "menói"
+      },
+      {
+        "milk fruit": "plae dtək-doh"
+      },
+      {
+        "milk": "dtək-doh-goo"
+      },
+      {
+        "minute": "nia-dtii"
+      },
+      {
+        "money": "luy"
+      },
+      {
+        "month": "kae"
+      },
+      {
+        "mother": "mak"
+      },
+      {
+        "name": "chmuah"
+      },
+      {
+        "noon": "bpeel tngai"
+      },
+      {
+        "number": "leeck"
+      },
+      {
+        "orange (fruit)": "krooch"
+      },
+      {
+        "pants": "kao"
+      },
+      {
+        "papaya": "la'hong"
+      },
+      {
+        "parents": "mak-bpaa or bpaa-mak"
+      },
+      {
+        "past (location)": "huah"
+      },
+      {
+        "pen": "bich"
+      },
+      {
+        "person": "nek"
+      },
+      {
+        "phone card": "gaat dto-ro-sab"
+      },
+      {
+        "phone": "dto-ro-sab"
+      },
+      {
+        "photograph": "ruub-tɔɔt"
+      },
+      {
+        "pineapple": "m'noah"
+      },
+      {
+        "police": "bpo-lis"
+      },
+      {
+        "pomelo": "krooch tlong"
+      },
+      {
+        "pork": "saach jruuk"
+      },
+      {
+        "price": "dom-lai"
+      },
+      {
+        "question": "sɔm-nua"
+      },
+      {
+        "rambutan": "saaw-maaw"
+      },
+      {
+        "raw (uncooked)": "chəu̶"
+      },
+      {
+        "restaurant": "po-ji-nii-taan"
+      },
+      {
+        "riverfront": "moat tonle"
+      },
+      {
+        "rose apple": "jum-bpuu"
+      },
+      {
+        "salad (or lettuce)": "salat"
+      },
+      {
+        "school": "saa-laa(-rian)"
+      },
+      {
+        "shirt": "aaw"
+      },
+      {
+        "shoes": "sbaek-jeeng"
+      },
+      {
+        "siblings": "bɔɔng pa-own"
+      },
+      {
+        "sir/madam": "look"
+      },
+      {
+        "sister (older)": "bɔɔng srey"
+      },
+      {
+        "sister (younger)": "pa-own srey"
+      },
+      {
+        "skirt": "sɔm-bput"
+      },
+      {
+        "socks": "sraom-jəəng"
+      },
+      {
+        "song": "jɔm-riang"
+      },
+      {
+        "soursop": "dtieb ba-rang"
+      },
+      {
+        "state": "roat"
+      },
+      {
+        "shop": "hang"
+      },
+      {
+        "sweet (taste)": "pa-aem"
+      },
+      {
+        "t-shirt": "aaw-ju̶u̶t"
+      },
+      {
+        "table": "dtok"
+      },
+      {
+        "tamarind": "ɔm-bpəl"
+      },
+      {
+        "television": "tii-vii OR dtu-ro-dtuah"
+      },
+      {
+        "things": "ey-van"
+      },
+      {
+        "time": "bpeel"
+      },
+      {
+        "tofu": "tao who"
+      },
+      {
+        "water": "dtək"
+      },
+      {
+        "week": "aa-dtət"
+      },
+      {
+        "weekend": "jong aa-dtət"
+      },
+      {
+        "well done (cooked)": "(cha'en) cha-en"
+      },
+      {
+        "wife": "brɔɔ-bpun"
+      },
+      {
+        "work": "gaa-ngia"
+      },
+      {
+        "workplace": "gɔn-laeng twəə-gaa"
+      },
+      {
+        "year": "chnam"
+      }
+    ]
+  },
+  {
+    "section": "Verbs",
+    "entries": [
+      {
+        "bargain": "dtor tlai"
+      },
+      {
+        "buy": "dtiñ"
+      },
+      {
+        "come back": "mook wiñ"
+      },
+      {
+        "come from": "mook-bpii"
+      },
+      {
+        "cut vigorously (like with a machete)": "gab"
+      },
+      {
+        "cut": "gat"
+      },
+      {
+        "depart": "jeeñ-dam-nəu̶"
+      },
+      {
+        "discount": "joh tlai"
+      },
+      {
+        "do": "twəə"
+      },
+      {
+        "drive": "bau̶k"
+      },
+      {
+        "eat": "ñam"
+      },
+      {
+        "end": "jong"
+      },
+      {
+        "excercise": "hat-braan"
+      },
+      {
+        "final price": "dach hau̶y"
+      },
+      {
+        "get up (from sleep)": "graok-bpii-geeng"
+      },
+      {
+        "go shopping": "dtəu̶-psaa"
+      },
+      {
+        "go": "dtəu̶"
+      },
+      {
+        "happy (celebration)": "riik-riay"
+      },
+      {
+        "happy (feeling)": "sab-baay-jet"
+      },
+      {
+        "joke": "ni-yiaj leeng"
+      },
+      {
+        "laugh": "saoch"
+      },
+      {
+        "learn": "rian"
+      },
+      {
+        "learn/to study": "rian"
+      },
+      {
+        "leave from": "(jaak) jeeñ bpii"
+      },
+      {
+        "leave": "jeeñ dtəu̶"
+      },
+      {
+        "like": "jool-jet"
+      },
+      {
+        "listen": "sdab"
+      },
+      {
+        "live (in)": "ruah-nəu̶̶"
+      },
+      {
+        "make change": "ab luy"
+      },
+      {
+        "meet (intransitive)": "juab knia"
+      },
+      {
+        "meet (transitive)": "juab"
+      },
+      {
+        "plastic bag": "tɔng"
+      },
+      {
+        "play sports": "leeng gey-lay"
+      },
+      {
+        "play": "leeng"
+      },
+      {
+        "put (place)": "dak"
+      },
+      {
+        "put": "jrɔɔk"
+      },
+      {
+        "rain": "pliang"
+      },
+      {
+        "read": "aan"
+      },
+      {
+        "reply/answer": "chlauy"
+      },
+      {
+        "ride": "jih"
+      },
+      {
+        "run": "rut"
+      },
+      {
+        "sell": "luak"
+      },
+      {
+        "sit": "ɔng-guy"
+      },
+      {
+        "sleep (go to)": "jool geeng"
+      },
+      {
+        "sleep": "geeng"
+      },
+      {
+        "speak": "ni-yiay"
+      },
+      {
+        "stand": "ch`oh"
+      },
+      {
+        "start": "jab-pdau̶m"
+      },
+      {
+        "stay": "snat-nəu̶"
+      },
+      {
+        "swim": "hael-dtək"
+      },
+      {
+        "take a bath/shower": "muj dtək"
+      },
+      {
+        "take someone somewhere": "juun + [person] + dtəu̶"
+      },
+      {
+        "take": "yook"
+      },
+      {
+        "understand": "yul"
+      },
+      {
+        "walk (to)": "dau (dtəu̶)"
+      },
+      {
+        "walk (go for a)": "dau dtəu̶ ling"
+      },
+      {
+        "want (something)": "jɔng-baan"
+      },
+      {
+        "want (to do something)": "jɔng"
+      },
+      {
+        "watch TV": "məəl dtuh(-ro)-dtuah"
+      },
+      {
+        "watch/look": "məəl"
+      },
+      {
+        "work": "twəə-gaa"
+      },
+      {
+        "write": "sɔɔ-see"
+      }
+    ]
+  },
+  {
+    "section": "Adjectives",
+    "entries": [
+      {
+        "bad": "aa-grɔk"
+      },
+      {
+        "beautiful": "sa-at"
+      },
+      {
+        "big": "tum"
+      },
+      {
+        "certain": "ch'bah́"
+      },
+      {
+        "cold": "trɔɔ-jeak"
+      },
+      {
+        "difficult": "bpi-baak"
+      },
+      {
+        "easy": "srual"
+      },
+      {
+        "fast/early": "lu̶an"
+      },
+      {
+        "fresh or pure (water)": "(dtək) sot"
+      },
+      {
+        "full": "cha-aet"
+      },
+      {
+        "good": "la-ɔɔ"
+      },
+      {
+        "hot": "gdəu̶"
+      },
+      {
+        "hungry": "klian"
+      },
+      {
+        "last (previous)": "mun"
+      },
+      {
+        "next": "graoy"
+      },
+      {
+        "same": "doach knia"
+      },
+      {
+        "short (distance)": "kley"
+      },
+      {
+        "short (height)": "dtia/b"
+      },
+      {
+        "slow/late": "yu̶u̶t"
+      },
+      {
+        "small": "dtooch"
+      },
+      {
+        "tall": "kpuah"
+      },
+      {
+        "tasty": "chingañ"
+      },
+      {
+        "tired": "ɔh-gom laang"
+      },
+      {
+        "wet": "dtəu̶-dtek or səum"
+      }
+    ]
+  },
+  {
+    "section": "Conjunctions",
+    "entries": [
+      {
+        "and": "nəng"
+      },
+      {
+        "but": "bpon-dtae"
+      },
+      {
+        "if": "bau̶"
+      }
+    ]
+  },
+  {
+    "section": "Question Words",
+    "entries": [
+      {
+        "how many": "bpon-maan"
+      },
+      {
+        "how much (quantity)": "bpon-maan"
+      },
+      {
+        "how much (price)": "tlai bpon-maan"
+      },
+      {
+        "how old": "ayu bpon-maan"
+      },
+      {
+        "how (do)": "yaang-meij"
+      },
+      {
+        "what <sup>1</sup>": "ey"
+      },
+      {
+        "what time": "maong (bpon)-maan"
+      },
+      {
+        "when": "bpeel-naa"
+      },
+      {
+        "where <sup>2</sup>": "nəu̶-naa/naa"
+      },
+      {
+        "which (one)": "muay-naa"
+      },
+      {
+        "whom": "nek-naa"
+      },
+      {
+        "whose": "roo-bɔh-nek-naa"
+      },
+      {
+        "who": "nek-naa"
+      },
+      {
+        "why <sup>3</sup>": "haet-ey"
+      }
+    ]
+  },
+  {
+    "section": "Subject Pronouns",
+    "entries": [
+      {
+        "I": "kñom"
+      },
+      {
+        "you (written only)": "[nek]*"
+      },
+      {
+        "you (older or similar age as speaker)": "bɔng"
+      },
+      {
+        "you (younger than speaker, written)": "pa-own"
+      },
+      {
+        "you (younger than speaker, spoken)": "own"
+      },
+      {
+        "we": "yəəng"
+      },
+      {
+        "he/she": "goat"
+      },
+      {
+        "it": "wia"
+      },
+      {
+        "they (people)": "bpuak-goat"
+      },
+      {
+        "they (non-human things)": "bpuak-wia"
+      }
+    ]
+  },
+  {
+    "section": "Determiners",
+    "entries": [
+      {
+        "both": "dtang bpii"
+      },
+      {
+        "half": "ga-lah"
+      },
+      {
+        "not many": "mən-siaw"
+      },
+      {
+        "not much": "mən-siaw"
+      },
+      {
+        "some": "klah"
+      },
+      {
+        "that one": "ah-muay nuh"
+      },
+      {
+        "this one": "ah-muay nih"
+      }
+    ]
+  },
+  {
+    "section": "Prepositions",
+    "entries": [
+      {
+        "after": "hauy"
+      },
+      {
+        "at": "nəu̶ (ae)"
+      },
+      {
+        "about (something)": "ɔm-bpii"
+      },
+      {
+        "because": "bpii-pruah"
+      },
+      {
+        "before": "mun bpeel"
+      },
+      {
+        "behind": "nəu̶-kraoy"
+      },
+      {
+        "between": "jɔn-loh"
+      },
+      {
+        "for": "aoy"
+      },
+      {
+        "from": "bpii"
+      },
+      {
+        "in front of": "nəu̶-muk"
+      },
+      {
+        "in": "nəu̶"
+      },
+      {
+        "in/inside": "nəu̶-knong"
+      },
+      {
+        "left (direction)": "chweeng"
+      },
+      {
+        "on/up/above": "nəu̶-ləə"
+      },
+      {
+        "out/outside": "nəu̶-grau"
+      },
+      {
+        "right (direction)": "sdam"
+      },
+      {
+        "straight": "trɔng"
+      },
+      {
+        "that": "nuh"
+      },
+      {
+        "this": "nih"
+      },
+      {
+        "under/below": "nəu̶-graom"
+      },
+      {
+        "until": "ro-hot-dol"
+      },
+      {
+        "with": "jia-muay"
+      }
+    ]
+  },
+  {
+    "section": "Numbers",
+    "entries": [
+      {
+        "0": "soon"
+      },
+      {
+        "1": "muay"
+      },
+      {
+        "2": "bpii"
+      },
+      {
+        "3": "bey"
+      },
+      {
+        "4": "buan"
+      },
+      {
+        "5": "bpram"
+      },
+      {
+        "6": "bram muay"
+      },
+      {
+        "7": "bram bpii"
+      },
+      {
+        "8": "bram bey"
+      },
+      {
+        "9": "bram buan"
+      },
+      {
+        "10": "dop"
+      },
+      {
+        "11": "dop muay"
+      },
+      {
+        "12": "dop bpii"
+      },
+      {
+        "13": "dop bey"
+      },
+      {
+        "14": "dop buan"
+      },
+      {
+        "15": "dop bram"
+      },
+      {
+        "16": "dop bram muay"
+      },
+      {
+        "20": "ma-pei"
+      },
+      {
+        "20": "ma-pei muay"
+      },
+      {
+        "30": "sam seb"
+      },
+      {
+        "40": "sae-seb"
+      },
+      {
+        "50": "haa-seb"
+      },
+      {
+        "60": "hok-seb"
+      },
+      {
+        "70": "jet-seb"
+      },
+      {
+        "80": "bpaet-seb"
+      },
+      {
+        "90": "gau-seb"
+      },
+      {
+        "100": "muay-rooy"
+      },
+      {
+        "1,000": "muay bpoan"
+      },
+      {
+        "10,000": "muay mu̶u̶n"
+      },
+      {
+        "100,000": "muay saen"
+      },
+      {
+        "1,000,000": "muay lian"
+      },
+      {
+        "1,000,000,000": "muay bpoan lian"
+      }
+    ]
+  },
+  {
+    "section": "Colors",
+    "entries": [
+      {
+        "black": "kməu̶"
+      },
+      {
+        "blue": "kiew"
+      },
+      {
+        "brown": "tnaot"
+      },
+      {
+        "green": "bai-dtɔɔng"
+      },
+      {
+        "grey": "brɔɔ-peh"
+      },
+      {
+        "orange": "bpoah dtək krooch"
+      },
+      {
+        "purple": "svaay"
+      },
+      {
+        "red": "krɔɔ-hɔɔm"
+      },
+      {
+        "white": "sɔɔ"
+      },
+      {
+        "yellow": "luang"
+      }
+    ]
+  },
+  {
+    "section": "Days of the Week",
+    "entries": [
+      {
+        "Monday": "tngai jan"
+      },
+      {
+        "Tuesday": "tngai ɔng-gia"
+      },
+      {
+        "Wednesday": "tngai bput"
+      },
+      {
+        "Thursday": "tngai pro-hoah"
+      },
+      {
+        "Friday": "tngai sok"
+      },
+      {
+        "Saturday": "tngai sau"
+      },
+      {
+        "Sunday": "tngai aa-dtət"
+      }
+    ]
+  },
+  {
+    "section": "Months",
+    "entries": [
+      {
+        "January": "kae muay"
+      },
+      {
+        "February": "kae bpii"
+      },
+      {
+        "March": "kae bey"
+      },
+      {
+        "April": "kae buan"
+      },
+      {
+        "May": "kae bpram"
+      },
+      {
+        "June": "kae bpram muay"
+      },
+      {
+        "July": "kae bpram bpii"
+      },
+      {
+        "August": "kae bpram bey"
+      },
+      {
+        "September": "kae bpram buan"
+      },
+      {
+        "October": "kae dop"
+      },
+      {
+        "November": "kae dop muay"
+      },
+      {
+        "December": "kae dop bpii"
+      }
+    ]
+  },
+  {
+    "section": "Adverbs",
+    "entries": [
+      {
+        "a lot": "charan"
+      },
+      {
+        "about": "brɔɔ-hael"
+      },
+      {
+        "after": "bpon dtoab bpii"
+      },
+      {
+        "again": "mdɔɔng dtiet"
+      },
+      {
+        "already": "hau̶y"
+      },
+      {
+        "also": "gɔɔ … dae"
+      },
+      {
+        "approximately": "brɔɔ-hael"
+      },
+      {
+        "around": "brɔɔ-hael"
+      },
+      {
+        "at home": "nəu̶ pdteah"
+      },
+      {
+        "back": "wiñ"
+      },
+      {
+        "far": "cha-ng-aay"
+      },
+      {
+        "maybe": "brɔɔ-hael"
+      },
+      {
+        "near": "jet"
+      },
+      {
+        "only": "dtae … dtee"
+      },
+      {
+        "perhaps": "brɔɔ-hael"
+      },
+      {
+        "slowly": "yu̶u̶t yu̶u̶t"
+      },
+      {
+        "then": "bɔn-dtoap mook"
+      },
+      {
+        "together": "jia muay knia"
+      },
+      {
+        "until": "ro-hoat dɔl"
+      },
+      {
+        "very": "nah"
+      }
+    ]
+  },
+  {
+    "section": "Adverbs of Time",
+    "entries": [
+      {
+        "afternoon": "bpeel ro-sial"
+      },
+      {
+        "evening": "bpeel la-ngaik"
+      },
+      {
+        "morning": "bpeel-bprək"
+      },
+      {
+        "night": "bpeel yub"
+      },
+      {
+        "not yet": "mən dtoan"
+      },
+      {
+        "now (nowadays)": "bpeel nih"
+      },
+      {
+        "now (this moment)": "bpeel nih"
+      },
+      {
+        "today": "tngai-nih"
+      },
+      {
+        "tomorrow": "sa-aek"
+      },
+      {
+        "tonight": "yub nih"
+      },
+      {
+        "yesterday": "ma-sel-minh"
+      }
+    ]
+  },
+  {
+    "section": "Phrases of Time",
+    "entries": [
+      {
+        "at a time (one o'clock)": "maong + number (maong muay)"
+      },
+      {
+        "good morning": "a'ru̅n sua-sday"
+      },
+      {
+        "good night": "ria-trey sua-sday"
+      },
+      {
+        "how many hours?": "bpon-maan maan?"
+      },
+      {
+        "in one hour": "muay maong dtiet"
+      },
+      {
+        "last Saturday": "tngai sau mun"
+      },
+      {
+        "last week": "aa-dtət mun"
+      },
+      {
+        "next Saturday": "tngai sau graoy"
+      },
+      {
+        "next week": "aa-dtət grəu̶y"
+      },
+      {
+        "what time?": "maong bpon-maan?"
+      }
+    ]
+  },
+  {
+    "section": "Adverbs of Frequency",
+    "entries": [
+      {
+        "always": "dtaeng (dtae)"
+      },
+      {
+        "ever": "tloab"
+      },
+      {
+        "every": "roal"
+      },
+      {
+        "never": "mən dael (…dtee)"
+      },
+      {
+        "occasionally": "mdɔɔng mkaal"
+      },
+      {
+        "often": "nək ñoab"
+      },
+      {
+        "rarely": "kɔm-rɔɔ"
+      },
+      {
+        "sometimes": "bpeel klah"
+      },
+      {
+        "sometimes": "juan gaal"
+      },
+      {
+        "usually": "taam toama-daa"
+      }
+    ]
+  },
+  {
+    "section": "Proper Nouns",
+    "entries": [
+      {
+        "Independance Monument": "vimean aek-ka-reach (or eegreiak)"
+      },
+      {
+        "Central Market": "psaa tmey"
+      },
+      {
+        "Kandal market": "psaa jah"
+      },
+      {
+        "Russian market": "toul tom pong"
+      }
+    ]
+  },
+  {
+    "section": "Phrases",
+    "entries": [
+      {
+        "Can [subject] … ?": "[subject] (aach) … baan dtee?"
+      },
+      {
+        "Come in": "Jool-mook"
+      },
+      {
+        "Do not put milk": "ɔt dak dtək-doh-goo"
+      },
+      {
+        "From … to …": "bpii … dol …"
+      },
+      {
+        "Have you _____ already?": "[Nek]* _____ hau̶y (ru̶u̶) nəu̶?"
+      },
+      {
+        "How about you?": "Joh [nek]* win?"
+      },
+      {
+        "How do you say _____ in Khmer?": "_____ pia-saa khmai taa-mech?"
+      },
+      {
+        "How old are you?": "[Nek]* mien aju bpon-maan?"
+      },
+      {
+        "I do not want a tuk tuk": "Kñom ɔt jɔng-baan tuk tuk dtee"
+      },
+      {
+        "I will arrive…": "Kñom dtəu̶ dol …"
+      },
+      {
+        "I'm from San Francisco": "Kñom mook bpii San Francisco"
+      },
+      {
+        "Is this/that ok?": "Aa-nih/Aa-nuh baan ɔt?"
+      },
+      {
+        "Let me see first": "Sɔm məəl sen"
+      },
+      {
+        "May I  … ?": "Kñom som … baan dtee?"
+      },
+      {
+        "May I take your photograph?": "Kñom som tɔɔt [nek]* baan dtee?"
+      },
+      {
+        "No problem": "ɔt paña-haa"
+      },
+      {
+        "One more": "muay dtiet"
+      },
+      {
+        "Please wait a moment": "Som jam muay pleat"
+      },
+      {
+        "See you later": "Dtich dtiet juab knia"
+      },
+      {
+        "That is all": "Ɔh-həuy"
+      },
+      {
+        "What are you doing?": "[Nek]* kompong twəə-ey?"
+      },
+      {
+        "What is the wifi password": "leek koot [nek]* ey klah?"
+      },
+      {
+        "What is your name?": "[nek]* chmuah ey?"
+      },
+      {
+        "Where do you live": "[Nek]* ruah-nəu̶ naa"
+      },
+      {
+        "Would you like anything else?": "[Nek]* jong baan ay dtiet ɔt?"
+      },
+      {
+        "… right?": "… mɛɛn-dtee?"
+      }
+    ]
+  },
+  {
+    "section": "Grammar Rules",
+    "entries": [
+      {
+        "Afirmative": "Subject + verb + object + …"
+      },
+      {
+        "To be + noun": "Subject + jia + noun"
+      },
+      {
+        "Negative sentence": "Subject + ɔt/mən + verb + … + dtee"
+      },
+      {
+        "Noun + adjective": "If you need to use an adjective, make sure the noun goes before the adjective"
+      },
+      {
+        "Verb + adjective": "The verb 'to be' is dropped when used with an adjective"
+      },
+      {
+        "Asking a question with a question word": "To make a question, put the question word as the end of the sentence (except 'why' and 'who', which function as a subject)"
+      }
+    ]
+  },
+  {
+    "section": "Footnotes",
+    "entries": [
+      {
+        "*[nek]": "Nek is a written representation of the word 'you' without regard for age or status. Wherever you see [nek], it should be replaced with one of the following: bɔɔng, own, or the person's name (see subject pronouns section for more information)"
+      },
+      {
+        "<sup>1</sup>": "Goes at the end of a sentence"
+      },
+      {
+        "<sup>2</sup>": "When where is used with go or come: naa. When used with a word that already has the sound 'nəu̶': naa. Any other time: nəu̶-naa. Goes at the end of a sentence"
+      },
+      {
+        "<sup>3</sup>": "Goes at the beginning of a sentence"
+      }
+    ]
+  }
+]

@@ -34,3 +34,7 @@
 
 # Ignore the .wrangler directory
 /.wrangler
+
+# Hugo
+/public
+.hugo_build.lock

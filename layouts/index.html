@@ -1,0 +1,36 @@
+{{ define "main" }}
+    <div class="page-masthead">
+      <div class="container">
+        <h1>Sascha Faun Winter</h1>
+        <h4>{{ .Site.Params.subtitle }}</h4>
+      </div>
+    </div>
+    <div class="background-poster"></div>
+    <div class="row">
+      <div class="container">
+        <div class="bio"></div>
+      </div>
+    </div>
+
+    <div class="container index">
+      <div class="background-poster"></div>
+      <div class="row">
+        <div class="container">
+          <div class="bio">
+            {{ .Content }}
+          </div>
+          <nav class="elsewhere">
+            <h3>Elsewhere on the Web</h3>
+            <ul>
+              {{ range .Site.Params.external_links }}
+              <li>
+                <a href="{{ .url }}" rel="me">{{ .name }}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </nav>
+          {{ partial "sidebar.html" . }}
+        </div>
+      </div>
+    </div>
+{{ end }}

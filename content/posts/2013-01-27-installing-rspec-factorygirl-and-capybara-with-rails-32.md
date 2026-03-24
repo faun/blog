@@ -1,9 +1,7 @@
 ---
-
-layout: post
 title: "Installing RSpec, FactoryGirl and Capybara with Rails 3.2"
 description: "Instructions to install RSpec, FactoryGirl and Capybara as the default testing mechanism in Rails 3"
-
+date: 2013-01-27
 ---
 
 ### Generating a new Rails app without Test::Unit
